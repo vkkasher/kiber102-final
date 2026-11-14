@@ -1,0 +1,248 @@
+{
+  "url": "http://127.0.0.1:3001",
+  "requested_duration_seconds": 300,
+  "capture_target_seconds": 305,
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "kind": "actual-browser-read-only",
+  "telegram": "not recorded",
+  "started_at": "2026-11-14T16:04:06.564Z",
+  "steps": [
+    {
+      "step": 1,
+      "label": "Главная: настоящие опубликованные сеансы",
+      "elapsed_seconds": 1.795,
+      "url": "http://127.0.0.1:3001/"
+    },
+    {
+      "step": 2,
+      "label": "Каталог и статусы проверенных источников",
+      "elapsed_seconds": 15.401,
+      "url": "http://127.0.0.1:3001/"
+    },
+    {
+      "step": 3,
+      "label": "Выбор Стерлитамака",
+      "elapsed_seconds": 30.889,
+      "url": "http://127.0.0.1:3001/?city=%D0%A1%D1%82%D0%B5%D1%80%D0%BB%D0%B8%D1%82%D0%B0%D0%BC%D0%B0%D0%BA"
+    },
+    {
+      "step": 4,
+      "label": "Спектакли: комбинированные фильтры",
+      "elapsed_seconds": 46.014,
+      "url": "http://127.0.0.1:3001/?city=%D0%A1%D1%82%D0%B5%D1%80%D0%BB%D0%B8%D1%82%D0%B0%D0%BC%D0%B0%D0%BA&category=%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B0%D0%BA%D0%BB%D1%8C"
+    },
+    {
+      "step": 5,
+      "label": "Дата 22 ноября и ссылка с фильтрами",
+      "elapsed_seconds": 61.168,
+      "url": "http://127.0.0.1:3001/?city=%D0%A1%D1%82%D0%B5%D1%80%D0%BB%D0%B8%D1%82%D0%B0%D0%BC%D0%B0%D0%BA&category=%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B0%D0%BA%D0%BB%D1%8C&date_from=2026-11-22&date_to=2026-11-22"
+    },
+    {
+      "step": 6,
+      "label": "Реальные диапазоны опубликованных цен",
+      "elapsed_seconds": 76.268,
+      "url": "http://127.0.0.1:3001/?city=%D0%A1%D1%82%D0%B5%D1%80%D0%BB%D0%B8%D1%82%D0%B0%D0%BC%D0%B0%D0%BA&category=%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B0%D0%BA%D0%BB%D1%8C&date_from=2026-11-22&date_to=2026-11-22"
+    },
+    {
+      "step": 7,
+      "label": "Постоянная карточка Мухи-Цокотухи",
+      "elapsed_seconds": 92.234,
+      "url": "http://127.0.0.1:3001/events/12640ac4-edb3-4340-a824-5bdb8adf5e70"
+    },
+    {
+      "step": 8,
+      "label": "Основание цены: опубликованный тариф и первоисточник",
+      "elapsed_seconds": 106.836,
+      "url": "http://127.0.0.1:3001/events/12640ac4-edb3-4340-a824-5bdb8adf5e70"
+    },
+    {
+      "step": 9,
+      "label": "Настоящий семантический запрос к настроенной языковой модели",
+      "elapsed_seconds": 125.597,
+      "url": "http://127.0.0.1:3001/agent"
+    },
+    {
+      "step": 10,
+      "label": "Ответ модели и объяснения из каталога",
+      "elapsed_seconds": 137.297,
+      "url": "http://127.0.0.1:3001/agent"
+    },
+    {
+      "step": 11,
+      "label": "Семейный план: двое взрослых и дети 6 и 10 лет",
+      "elapsed_seconds": 152.808,
+      "url": "http://127.0.0.1:3001/agent"
+    },
+    {
+      "step": 12,
+      "label": "План с подтверждённым диапазоном 3400–6400 ₽ на всю семью",
+      "elapsed_seconds": 167.829,
+      "url": "http://127.0.0.1:3001/agent"
+    },
+    {
+      "step": 13,
+      "label": "Два события на одной площадке: без выдуманного переезда",
+      "elapsed_seconds": 183.014,
+      "url": "http://127.0.0.1:3001/agent"
+    },
+    {
+      "step": 14,
+      "label": "Явный поиск без модели: бесплатные спектакли",
+      "elapsed_seconds": 198.437,
+      "url": "http://127.0.0.1:3001/agent"
+    },
+    {
+      "step": 15,
+      "label": "Недоступный бюджет: честный отказ и минимальное изменение",
+      "elapsed_seconds": 213.567,
+      "url": "http://127.0.0.1:3001/agent"
+    },
+    {
+      "step": 16,
+      "label": "Конструктор iframe: город, категория, период, высота",
+      "elapsed_seconds": 229.227,
+      "url": "http://127.0.0.1:3001/embed"
+    },
+    {
+      "step": 17,
+      "label": "Действующий виджет с теми же реальными данными",
+      "elapsed_seconds": 244.059,
+      "url": "http://127.0.0.1:3001/embed"
+    },
+    {
+      "step": 18,
+      "label": "Локальная документация API с заблокированными внешними запросами",
+      "elapsed_seconds": 260.278,
+      "url": "http://127.0.0.1:3001/api/docs"
+    },
+    {
+      "step": 19,
+      "label": "Настоящий GET событий из локального Swagger UI",
+      "elapsed_seconds": 276.488,
+      "url": "http://127.0.0.1:3001/api/docs"
+    },
+    {
+      "step": 20,
+      "label": "Возвращение к настоящей афише",
+      "elapsed_seconds": 290.044,
+      "url": "http://127.0.0.1:3001/"
+    }
+  ],
+  "status": "recorded",
+  "plan_input": {
+    "city": "Стерлитамак",
+    "date": "2026-11-22",
+    "window_start": "10:00",
+    "window_end": "21:00",
+    "budget": 6400,
+    "adults": 2,
+    "children_ages": [
+      6,
+      10
+    ],
+    "max_travel_minutes": 20,
+    "event_count": 2
+  },
+  "catalog_total": 73,
+  "event_id": "12640ac4-edb3-4340-a824-5bdb8adf5e70",
+  "event_source": "https://rusdramteatr.ru/afisha",
+  "semantic_query": {
+    "message": "Хочу в театр в Стерлитамаке 22 ноября",
+    "mode": "llm",
+    "trace_id": "9e307a30-fabd-4623-8d77-b72a8743fc34",
+    "event_ids": [
+      "12640ac4-edb3-4340-a824-5bdb8adf5e70",
+      "c19f3e1c-f170-4e9c-a5d8-0654e8c37001"
+    ],
+    "text": "Нашёл подтверждённые варианты по вашим условиям. Данные и ссылки указаны в карточках.",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "actual_api_cost": 3.2968e-05
+  },
+  "family_plan": {
+    "feasible": true,
+    "total_min": 3400,
+    "total_max": 6400,
+    "travel_status": "same_venue",
+    "event_ids": [
+      "12640ac4-edb3-4340-a824-5bdb8adf5e70",
+      "c19f3e1c-f170-4e9c-a5d8-0654e8c37001"
+    ],
+    "titles": [
+      "Муха - Цокотуха",
+      "Руслан и Людмила"
+    ],
+    "price_basis_note": "Подобрал события без пересечений. Стоимость рассчитана по верхней и нижней границам опубликованных цен на всю группу. Цену конкретного сеанса и льготы уточняйте у организатора."
+  },
+  "fallback": {
+    "mode": "fallback",
+    "text": "События нашлись, но у них нет полной цены. Поэтому я не могу проверить лимит 0 ₽ на всю группу. Увеличение бюджета не решит эту проблему. Напишите «без ограничений по бюджету», и я покажу эти события. Стоимость нужно будет уточнить у организатора.",
+    "event_ids": []
+  },
+  "unavailable_plan": {
+    "feasible": false,
+    "text": "Бюджета не хватает. Для 2 событий с остальными условиями увеличьте бюджет до 6400 ₽ на всю группу, на 6399 ₽.",
+    "minimal_change": {
+      "field": "budget",
+      "value": 6400,
+      "delta": 6399,
+      "evidence_event_ids": [
+        "12640ac4-edb3-4340-a824-5bdb8adf5e70",
+        "c19f3e1c-f170-4e9c-a5d8-0654e8c37001"
+      ],
+      "evidence_source_urls": [
+        "https://rusdramteatr.ru/afisha"
+      ]
+    }
+  },
+  "docs_external_requests": [],
+  "docs_offline_assets_verified": true,
+  "recording_wall_seconds": 305.012,
+  "media_duration_seconds": 304.08,
+  "media_dimensions": {
+    "width": 1280,
+    "height": 800
+  },
+  "duration_verified": true,
+  "review_frames": [
+    {
+      "label": "source",
+      "seconds": 108.836,
+      "path": "screenshots/demo-20261115.frame-source.png"
+    },
+    {
+      "label": "llm",
+      "seconds": 127.597,
+      "path": "screenshots/demo-20261115.frame-llm.png"
+    },
+    {
+      "label": "plan",
+      "seconds": 169.829,
+      "path": "screenshots/demo-20261115.frame-plan.png"
+    },
+    {
+      "label": "fallback",
+      "seconds": 200.437,
+      "path": "screenshots/demo-20261115.frame-fallback.png"
+    },
+    {
+      "label": "unavailable-plan",
+      "seconds": 215.567,
+      "path": "screenshots/demo-20261115.frame-unavailable-plan.png"
+    },
+    {
+      "label": "widget",
+      "seconds": 246.059,
+      "path": "screenshots/demo-20261115.frame-widget.png"
+    },
+    {
+      "label": "local-docs",
+      "seconds": 278.488,
+      "path": "screenshots/demo-20261115.frame-local-docs.png"
+    }
+  ],
+  "output": "demo-5min.webm",
+  "finished_at": "2026-11-14T16:09:18.104Z"
+}

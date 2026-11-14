@@ -1,0 +1,493 @@
+{
+  "results": [
+    {
+      "query": "Что посмотреть в Уфе?",
+      "mode": "llm",
+      "cards": 5,
+      "filters": {
+        "city": "Уфа",
+        "date_from": "2026-11-14",
+        "age_pending": false,
+        "group_size": 1,
+        "group_size_known": false,
+        "needs_group_size": false,
+        "origin_pending": false,
+        "proximity_requested": false,
+        "sort": "date",
+        "exclude_ids": []
+      },
+      "trace_id": "b8057a33-90f2-4b57-bc82-e8750eb83cf0",
+      "latency_s": 6.998,
+      "text": "Нашёл подтверждённые варианты по вашим условиям. Данные и ссылки указаны в карточках."
+    },
+    {
+      "query": "А в Стерлитамаке?",
+      "mode": "llm",
+      "cards": 5,
+      "filters": {
+        "city": "Стерлитамак",
+        "date_from": "2026-11-14",
+        "age_pending": false,
+        "group_size": 1,
+        "group_size_known": false,
+        "needs_group_size": false,
+        "origin_pending": false,
+        "proximity_requested": false,
+        "sort": "date",
+        "exclude_ids": []
+      },
+      "trace_id": "99fd2646-495c-4fbb-a972-6c3b2b6381a6",
+      "latency_s": 4.416,
+      "text": "Нашёл подтверждённые варианты по вашим условиям. Данные и ссылки указаны в карточках."
+    },
+    {
+      "query": "Только спектакли",
+      "mode": "llm",
+      "cards": 5,
+      "filters": {
+        "city": "Стерлитамак",
+        "category": "спектакль",
+        "date_from": "2026-11-14",
+        "age_pending": false,
+        "group_size": 1,
+        "group_size_known": false,
+        "needs_group_size": false,
+        "origin_pending": false,
+        "proximity_requested": false,
+        "sort": "date",
+        "exclude_ids": []
+      },
+      "trace_id": "dc62fd75-417e-47d8-8b05-bd58cfa91f86",
+      "latency_s": 4.302,
+      "text": "Нашёл подтверждённые варианты по вашим условиям. Данные и ссылки указаны в карточках."
+    },
+    {
+      "query": "Вернёмся в Уфу",
+      "mode": "llm",
+      "cards": 5,
+      "filters": {
+        "city": "Уфа",
+        "category": "спектакль",
+        "date_from": "2026-11-14",
+        "age_pending": false,
+        "group_size": 1,
+        "group_size_known": false,
+        "needs_group_size": false,
+        "origin_pending": false,
+        "proximity_requested": false,
+        "sort": "date",
+        "exclude_ids": []
+      },
+      "trace_id": "d16fe26b-d49c-4712-bf40-fae0953fec39",
+      "latency_s": 4.268,
+      "text": "Нашёл подтверждённые варианты по вашим условиям. Данные и ссылки указаны в карточках."
+    },
+    {
+      "query": "Без ограничений по бюджету",
+      "mode": "llm",
+      "cards": 5,
+      "filters": {
+        "city": "Уфа",
+        "category": "спектакль",
+        "date_from": "2026-11-14",
+        "age_pending": false,
+        "group_size": 1,
+        "group_size_known": false,
+        "needs_group_size": false,
+        "origin_pending": false,
+        "proximity_requested": false,
+        "sort": "date",
+        "exclude_ids": []
+      },
+      "trace_id": "65633367-cf35-498e-96db-e422d602a62b",
+      "latency_s": 5.016,
+      "text": "Нашёл подтверждённые варианты по вашим условиям. Данные и ссылки указаны в карточках."
+    }
+  ],
+  "traces": [
+    {
+      "trace_id": "b8057a33-90f2-4b57-bc82-e8750eb83cf0",
+      "request_id": "b8057a33-90f2-4b57-bc82-e8750eb83cf0",
+      "query": "Что посмотреть в Уфе?",
+      "plan": "intent → typed tool → deterministic validation → catalog cards",
+      "tool_calls": [
+        {
+          "name": "reference_cities",
+          "arguments": {}
+        },
+        {
+          "name": "search_events",
+          "arguments": {
+            "city": "Уфа",
+            "date_from": "2026-11-14",
+            "age_pending": false,
+            "group_size": 1,
+            "group_size_known": false,
+            "needs_group_size": false,
+            "origin_pending": false,
+            "proximity_requested": false,
+            "sort": "date",
+            "exclude_ids": []
+          }
+        }
+      ],
+      "event_ids": [
+        "8eb4ae71-d918-4a93-8845-df1c672e54de",
+        "1335ca00-6b68-474c-bd62-b6226460d09d",
+        "f08e733c-9b23-41e7-a99a-74ddd5798fe0",
+        "905697be-9ddc-45da-9952-115eb80e36d2",
+        "5605cad9-df9c-4f3c-8b65-9037a362876a"
+      ],
+      "source_ids": [
+        "https://rusdram.ru/afisha.html",
+        "https://www.bashopera.ru/affiche/noyabr-2026/"
+      ],
+      "validation": "passed",
+      "latency_ms": 6300.67,
+      "prompt_version": "grounded-executor-3",
+      "mode": "llm",
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "served_model": "deepseek/deepseek-v4.1-flash-1017",
+      "system_fingerprint": null,
+      "tokens": {
+        "prompt_tokens": 214,
+        "completion_tokens": 135,
+        "total_tokens": 349,
+        "cost": 8.034e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.034e-05,
+          "upstream_inference_prompt_cost": 1.284e-05,
+          "upstream_inference_completions_cost": 6.75e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "estimated_cost": 8.89e-05,
+      "actual_api_cost": 8.034e-05,
+      "reserved_cost": 0.0006144000000000001,
+      "currency": "USD",
+      "provider": "remote",
+      "status": "completed",
+      "cost_note": "Оценка по потолку тарифов. Фактическая стоимость только из usage.cost провайдера."
+    },
+    {
+      "trace_id": "99fd2646-495c-4fbb-a972-6c3b2b6381a6",
+      "request_id": "99fd2646-495c-4fbb-a972-6c3b2b6381a6",
+      "query": "А в Стерлитамаке?",
+      "plan": "intent → typed tool → deterministic validation → catalog cards",
+      "tool_calls": [
+        {
+          "name": "reference_cities",
+          "arguments": {}
+        },
+        {
+          "name": "search_events",
+          "arguments": {
+            "city": "Стерлитамак",
+            "date_from": "2026-11-14",
+            "age_pending": false,
+            "group_size": 1,
+            "group_size_known": false,
+            "needs_group_size": false,
+            "origin_pending": false,
+            "proximity_requested": false,
+            "sort": "date",
+            "exclude_ids": []
+          }
+        }
+      ],
+      "event_ids": [
+        "2fc7dd70-7070-417d-8582-347dd3e16790",
+        "ff9e535e-bfdf-4f4d-a6ca-d90cf418d57f",
+        "fb580f7e-af8c-4f49-a6da-f174fa3f17f0",
+        "1eaabbdf-ea76-4de5-bdc1-ea95d72edb97",
+        "12640ac4-edb3-4340-a824-5bdb8adf5e70"
+      ],
+      "source_ids": [
+        "https://rusdramteatr.ru/afisha"
+      ],
+      "validation": "passed",
+      "latency_ms": 4347.38,
+      "prompt_version": "grounded-executor-3",
+      "mode": "llm",
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "served_model": "deepseek/deepseek-v4.1-flash-1017",
+      "system_fingerprint": null,
+      "tokens": {
+        "prompt_tokens": 220,
+        "completion_tokens": 139,
+        "total_tokens": 359,
+        "cost": 8.27e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.27e-05,
+          "upstream_inference_prompt_cost": 1.32e-05,
+          "upstream_inference_completions_cost": 6.95e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "estimated_cost": 9.15e-05,
+      "actual_api_cost": 8.27e-05,
+      "reserved_cost": 0.0006152999999999999,
+      "currency": "USD",
+      "provider": "remote",
+      "status": "completed",
+      "cost_note": "Оценка по потолку тарифов. Фактическая стоимость только из usage.cost провайдера."
+    },
+    {
+      "trace_id": "dc62fd75-417e-47d8-8b05-bd58cfa91f86",
+      "request_id": "dc62fd75-417e-47d8-8b05-bd58cfa91f86",
+      "query": "Только спектакли",
+      "plan": "intent → typed tool → deterministic validation → catalog cards",
+      "tool_calls": [
+        {
+          "name": "reference_cities",
+          "arguments": {}
+        },
+        {
+          "name": "search_events",
+          "arguments": {
+            "city": "Стерлитамак",
+            "category": "спектакль",
+            "date_from": "2026-11-14",
+            "age_pending": false,
+            "group_size": 1,
+            "group_size_known": false,
+            "needs_group_size": false,
+            "origin_pending": false,
+            "proximity_requested": false,
+            "sort": "date",
+            "exclude_ids": []
+          }
+        }
+      ],
+      "event_ids": [
+        "2fc7dd70-7070-417d-8582-347dd3e16790",
+        "ff9e535e-bfdf-4f4d-a6ca-d90cf418d57f",
+        "fb580f7e-af8c-4f49-a6da-f174fa3f17f0",
+        "1eaabbdf-ea76-4de5-bdc1-ea95d72edb97",
+        "12640ac4-edb3-4340-a824-5bdb8adf5e70"
+      ],
+      "source_ids": [
+        "https://rusdramteatr.ru/afisha"
+      ],
+      "validation": "passed",
+      "latency_ms": 4235.77,
+      "prompt_version": "grounded-executor-3",
+      "mode": "llm",
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "served_model": "deepseek/deepseek-v4.1-flash-1017",
+      "system_fingerprint": null,
+      "tokens": {
+        "prompt_tokens": 219,
+        "completion_tokens": 142,
+        "total_tokens": 361,
+        "cost": 8.414e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.414e-05,
+          "upstream_inference_prompt_cost": 1.314e-05,
+          "upstream_inference_completions_cost": 7.1e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "estimated_cost": 9.290000000000001e-05,
+      "actual_api_cost": 8.414e-05,
+      "reserved_cost": 0.0006171,
+      "currency": "USD",
+      "provider": "remote",
+      "status": "completed",
+      "cost_note": "Оценка по потолку тарифов. Фактическая стоимость только из usage.cost провайдера."
+    },
+    {
+      "trace_id": "d16fe26b-d49c-4712-bf40-fae0953fec39",
+      "request_id": "d16fe26b-d49c-4712-bf40-fae0953fec39",
+      "query": "Вернёмся в Уфу",
+      "plan": "intent → typed tool → deterministic validation → catalog cards",
+      "tool_calls": [
+        {
+          "name": "reference_cities",
+          "arguments": {}
+        },
+        {
+          "name": "search_events",
+          "arguments": {
+            "city": "Уфа",
+            "category": "спектакль",
+            "date_from": "2026-11-14",
+            "age_pending": false,
+            "group_size": 1,
+            "group_size_known": false,
+            "needs_group_size": false,
+            "origin_pending": false,
+            "proximity_requested": false,
+            "sort": "date",
+            "exclude_ids": []
+          }
+        }
+      ],
+      "event_ids": [
+        "8eb4ae71-d918-4a93-8845-df1c672e54de",
+        "1335ca00-6b68-474c-bd62-b6226460d09d",
+        "f08e733c-9b23-41e7-a99a-74ddd5798fe0",
+        "905697be-9ddc-45da-9952-115eb80e36d2",
+        "5605cad9-df9c-4f3c-8b65-9037a362876a"
+      ],
+      "source_ids": [
+        "https://rusdram.ru/afisha.html",
+        "https://www.bashopera.ru/affiche/noyabr-2026/"
+      ],
+      "validation": "passed",
+      "latency_ms": 4201.81,
+      "prompt_version": "grounded-executor-3",
+      "mode": "llm",
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "served_model": "deepseek/deepseek-v4.1-flash-1017",
+      "system_fingerprint": null,
+      "tokens": {
+        "prompt_tokens": 219,
+        "completion_tokens": 138,
+        "total_tokens": 357,
+        "cost": 8.214e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.214e-05,
+          "upstream_inference_prompt_cost": 1.314e-05,
+          "upstream_inference_completions_cost": 6.9e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "estimated_cost": 9.09e-05,
+      "actual_api_cost": 8.214e-05,
+      "reserved_cost": 0.000615,
+      "currency": "USD",
+      "provider": "remote",
+      "status": "completed",
+      "cost_note": "Оценка по потолку тарифов. Фактическая стоимость только из usage.cost провайдера."
+    },
+    {
+      "trace_id": "65633367-cf35-498e-96db-e422d602a62b",
+      "request_id": "65633367-cf35-498e-96db-e422d602a62b",
+      "query": "Без ограничений по бюджету",
+      "plan": "intent → typed tool → deterministic validation → catalog cards",
+      "tool_calls": [
+        {
+          "name": "reference_cities",
+          "arguments": {}
+        },
+        {
+          "name": "search_events",
+          "arguments": {
+            "city": "Уфа",
+            "category": "спектакль",
+            "date_from": "2026-11-14",
+            "age_pending": false,
+            "group_size": 1,
+            "group_size_known": false,
+            "needs_group_size": false,
+            "origin_pending": false,
+            "proximity_requested": false,
+            "sort": "date",
+            "exclude_ids": []
+          }
+        }
+      ],
+      "event_ids": [
+        "8eb4ae71-d918-4a93-8845-df1c672e54de",
+        "1335ca00-6b68-474c-bd62-b6226460d09d",
+        "f08e733c-9b23-41e7-a99a-74ddd5798fe0",
+        "905697be-9ddc-45da-9952-115eb80e36d2",
+        "5605cad9-df9c-4f3c-8b65-9037a362876a"
+      ],
+      "source_ids": [
+        "https://rusdram.ru/afisha.html",
+        "https://www.bashopera.ru/affiche/noyabr-2026/"
+      ],
+      "validation": "passed",
+      "latency_ms": 4949.53,
+      "prompt_version": "grounded-executor-3",
+      "mode": "llm",
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "served_model": "deepseek/deepseek-v4.1-flash-1017",
+      "system_fingerprint": null,
+      "tokens": {
+        "prompt_tokens": 218,
+        "completion_tokens": 138,
+        "total_tokens": 356,
+        "cost": 8.208e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.208e-05,
+          "upstream_inference_prompt_cost": 1.308e-05,
+          "upstream_inference_completions_cost": 6.9e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "estimated_cost": 9.08e-05,
+      "actual_api_cost": 8.208e-05,
+      "reserved_cost": 0.0006173,
+      "currency": "USD",
+      "provider": "remote",
+      "status": "completed",
+      "cost_note": "Оценка по потолку тарифов. Фактическая стоимость только из usage.cost провайдера."
+    }
+  ],
+  "dialog_cost_usd": 0.0004114,
+  "dialog_cost_rub": 0.03379716824,
+  "fallback": {
+    "mode": "fallback",
+    "cards": 5,
+    "text": "Нашёл подтверждённые варианты по вашим условиям. Данные и ссылки указаны в карточках.\nМодель не использовалась. Ответ построен по данным каталога."
+  },
+  "scope": "BotService + real provider + isolated catalog copy. No Telegram messages sent."
+}

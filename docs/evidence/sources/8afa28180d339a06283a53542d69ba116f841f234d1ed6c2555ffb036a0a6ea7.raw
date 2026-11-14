@@ -1,0 +1,670 @@
+
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Заказ билетов - Государственный русский драматический театр г. Стерлитамак</title>
+	<link href="/media/system/images/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+
+    <link href="/media/tabsaccordions/css/style.min.css?b1abcc" rel="stylesheet">
+	<link href="/media/tabsaccordions/css/theme-neutral.min.css?b1abcc" rel="stylesheet">
+	<link href="/media/vendor/joomla-custom-elements/css/joomla-alert.min.css?0.4.1" rel="stylesheet">
+	<link href="/media/com_rsform/css/front.css?b1abcc" rel="stylesheet">
+
+    <link href="/media/templates/site/jd_templates/css/cssreset.css?" rel="stylesheet" />
+    <link href="/media/templates/site/jd_templates/css/owl.carousel.css?20261113144322" rel="stylesheet" />
+    <link href="/media/templates/site/jd_templates/css/style.css?20261113144322" rel="stylesheet" />
+    
+    
+    <script src="/media/tabsaccordions/js/script.min.js?b1abcc" type="module"></script>
+	<script type="application/json" class="joomla-script-options new">{"joomla.jtext":{"RLTA_BUTTON_SCROLL_LEFT":"Scroll buttons to the left","RLTA_BUTTON_SCROLL_RIGHT":"Scroll buttons to the right","ERROR":"Ошибка","MESSAGE":"Сообщение","NOTICE":"Внимание","WARNING":"Предупреждение","SUCCESS":"Success","JCLOSE":"Закрыть","JOK":"Ок","JOPEN":"Открыть"},"system.paths":{"root":"","rootFull":"https:\/\/rusdramteatr.ru\/","base":"","baseFull":"https:\/\/rusdramteatr.ru\/"},"csrf.token":"bb72c1587927192b3aaa926e6a0b9b85","system.keepalive":{"interval":3600000,"uri":"\/component\/ajax\/?format=json"}}</script>
+	<script src="/media/system/js/core.min.js?a3d8f8"></script>
+	<script src="/media/system/js/keepalive.min.js?08e025" type="module"></script>
+	<script src="/media/mod_menu/js/menu.min.js?b1abcc" type="module"></script>
+	<script src="/media/system/js/messages.min.js?9a4811" type="module"></script>
+	<script src="/media/com_rsform/js/script.js?b1abcc"></script>
+	<script>rltaSettings = {"switchToAccordions":true,"switchBreakPoint":576,"buttonScrollSpeed":5,"addHashToUrls":true,"rememberActive":false,"wrapButtons":false}</script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://rusdramteatr.ru/#/schema/BreadcrumbList/17","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://rusdramteatr.ru/","name":"Главная"}},{"@type":"ListItem","position":2,"item":{"@id":"https://rusdramteatr.ru/bilety","name":"Билеты"}}]}</script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://rusdramteatr.ru/#/schema/Organization/base","name":"Государственный русский драматический театр г. Стерлитамак","url":"https://rusdramteatr.ru/"},{"@type":"WebSite","@id":"https://rusdramteatr.ru/#/schema/WebSite/base","url":"https://rusdramteatr.ru/","name":"Государственный русский драматический театр г. Стерлитамак","publisher":{"@id":"https://rusdramteatr.ru/#/schema/Organization/base"}},{"@type":"WebPage","@id":"https://rusdramteatr.ru/#/schema/WebPage/base","url":"https://rusdramteatr.ru/bilety","name":"Заказ билетов - Государственный русский драматический театр г. Стерлитамак","isPartOf":{"@id":"https://rusdramteatr.ru/#/schema/WebSite/base"},"about":{"@id":"https://rusdramteatr.ru/#/schema/Organization/base"},"inLanguage":"ru-RU","breadcrumb":{"@id":"https://rusdramteatr.ru/#/schema/BreadcrumbList/17"}},{"@type":"Article","@id":"https://rusdramteatr.ru/#/schema/com_content/article/35","name":"Заказ билетов","headline":"Заказ билетов","inLanguage":"ru-RU","isPartOf":{"@id":"https://rusdramteatr.ru/#/schema/WebPage/base"}}]}</script>
+	<script>RSFormProUtils.addEvent(window, 'load', function(){
+	RSFormPro.setHTML5Validation('3', false, {"parent":"","field":"rsform-error"}, 0);  
+});</script>
+
+    
+    <script src="/media/templates/site/jd_templates/js/jquery.min.js"></script> 
+
+ 
+<link rel="stylesheet" href="/media/templates/site/jd_templates/css/v_normal.css?20261113144322" rel="stylesheet" />
+
+
+<!-- ПРОКУЛЬТУРА -->
+<script type="text/javascript" src="https://pro.culture.ru/scripts/widgets/api.js?5889"></script>
+
+</head>
+
+<body class="site  wrapper-static view- no-layout no-task">
+    <div id="system-message-container" aria-live="polite"></div>
+
+
+
+<link type="text/css" rel="stylesheet" href="//cdn.kassy.ru/widget/wrap_widget.css?ver=3" />
+<script src="//cdn.kassy.ru/widget/wrap_widget.js?ver=3"></script>
+
+<header id="header" class="header container-header full-width">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.topmenu');
+    const menu = document.querySelector('.mod-menu');
+
+    menuToggle.addEventListener('click', function() {
+        menu.classList.toggle('active');
+    });
+});
+        
+    </script>
+    
+    <script>
+    
+    window.addEventListener('scroll', function() {
+    const header = document.getElementById('header');
+    const logo = document.getElementById('logo');
+
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition > 100) {
+        header.classList.add('shrink');
+    } else {
+        header.classList.remove('shrink');
+    }
+});
+</script>
+    
+
+
+                
+        
+        <div class="header_top">
+
+                                    <div class="moduletable logo">
+        
+<div id="mod-custom113" class="mod-custom custom">
+    <p><a href="/"><img src="/images/style/logo-w.png" alt="Театр г. Стерлитамак" /></a></p></div>
+</div>
+<nav class="moduletable menu" aria-labelledby="mod-1">
+            <h3 class="topmenu" id="mod-1">☰</h3>        <ul class="mod-menu mod-list nav ">
+<li class="nav-item item-132"><a href="/afisha" >Афиша</a></li><li class="nav-item item-133 deeper parent"><a href="/repertuar" >Репертуар</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-172"><a href="/repertuar/repertuar-osnovnoy" >Основной репертуар</a></li><li class="nav-item item-173"><a href="/repertuar/detskij-repertuar" >Детский репертуар</a></li><li class="nav-item item-183"><a href="/repertuar/gastrolnye-spektakli" >Гастрольные спектакли</a></li><li class="nav-item item-174"><a href="/repertuar/arkhiv" >Архив</a></li></ul></li><li class="nav-item item-117"><a href="/novosti" >Новости</a></li><li class="nav-item item-131 default"><a href="/" class="link_logo"><img src="/images/style/logo-w.png" alt="" width="1166" height="1723" loading="lazy"><span class="image-title">Главная</span></a></li><li class="nav-item item-134 deeper parent"><a href="/teatr/o-teatre" >Театр</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-171"><a href="/teatr/o-teatre" >О театре</a></li><li class="nav-item item-170"><a href="/teatr/dokumenty" >Документы</a></li><li class="nav-item item-128"><a href="/teatr/kontakty" >Контакты</a></li><li class="nav-item item-175"><a href="/teatr/partnjory" >Партнёры</a></li><li class="nav-item item-176"><a href="/teatr/poleznye-ssylki" >Полезные ссылки</a></li><li class="nav-item item-189"><a href="/teatr/god-edinstva-narodov-rossii" >Год единства народов России</a></li></ul></li><li class="nav-item item-129 deeper parent"><a href="/lyudi-teatra/artisty" >Люди театра</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-137"><a href="/lyudi-teatra/administratsiya" >Администрация</a></li><li class="nav-item item-130"><a href="/lyudi-teatra/artisty" >Артисты</a></li><li class="nav-item item-180"><a href="/lyudi-teatra/administratsiya-2" >Художественно-постановочная часть</a></li></ul></li><li class="nav-item item-169 current active deeper parent"><a href="/bilety" aria-current="page">Билеты</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-178"><a href="/bilety/lgoty-i-skidki" >Льготы и скидки</a></li><li class="nav-item item-179"><a href="/bilety/pushkinskaya-karta" >Пушкинская карта</a></li><li class="nav-item item-177"><a href="https://sterlitamak.kassy.ru/shows/teatr/2-1954/" target="_blank" rel="noopener noreferrer">Подарочный сертификат</a></li><li class="nav-item item-181"><a href="/bilety/podderzhka-uchastnikov-svo" >Поддержка участникам СВО и их семьям</a></li></ul></li><li class="nav-item item-167"><a href="/?vi=1" >Версия для слабовидящих</a></li><li class="nav-item item-168"><a href="/?vi=0" >Основная версия</a></li></ul>
+</nav>
+
+                  
+            
+                <div class="header_sc">
+            
+                                    <div class="moduletable soc">
+        
+<div id="mod-custom147" class="mod-custom custom">
+    <p><a href="https://vk.com/rusdramteatrstr" target="_blank" rel="noopener" class="vk">vk</a> <a href="https://t.me/rusdramteatrstr" target="_blank" rel="noopener" class="tg">tg</a></p></div>
+</div>
+
+                                
+                
+                <div class="header-version">
+                                                
+                <a href="https://rusdramteatr.ru/bilety?vi=1" class="version">Версия для <br>слабовидящих</a>
+                <a href="https://rusdramteatr.ru/bilety?vi=0" class="version">Основная <br>версия</a>    
+                </div>
+                     
+              
+            
+        
+                        
+        </div>        
+    </header>
+    
+    
+    
+    
+                    <div>
+                <div class="moduletable navigation">
+        <nav class="mod-breadcrumbs__wrapper" aria-label="Навигация [На всех страницах сайта кроме главной и афиши] ВВЕРХУ">
+    <ol class="mod-breadcrumbs breadcrumb px-3 py-2">
+                    <li class="mod-breadcrumbs__divider float-start">
+                <span class="divider icon-location icon-fw" aria-hidden="true"></span>
+            </li>
+        
+        <li class="mod-breadcrumbs__item breadcrumb-item"><a href="/" class="pathway"><span>Главная</span></a></li><li class="mod-breadcrumbs__item breadcrumb-item active"><span>Билеты</span></li>    </ol>
+    </nav>
+</div>
+
+            </div>
+            <main>
+                    <div class="com-content-article item-page">
+    <meta itemprop="inLanguage" content="ru-RU">
+    
+    
+        
+        <h1>
+            Заказ билетов        </h1>
+                            
+        
+        
+    
+    
+        
+                                                
+        <h2>Режим работы кассы:</h2>
+<ul>
+<li>пн с 12:00 до 20:00</li>
+<li>вт с 12:00 до 20:00</li>
+<li>ср с 12:00 до 20:00</li>
+<li>чт с 12:00 до 20:00</li>
+<li>пт с 12:00 до 20:00</li>
+<li>сб с 12:00 до 20:00</li>
+<li>вс с 10:00 до 20:00</li>
+</ul>
+<h2>Без перерыва и выходных.</h2>
+<p>Билеты можно купить на сайтах:<br />Официальный сайт - <a href="/rusdramteatr.ru">rusdramteatr.ru</a><br />Касса.ру - <a href="/sterlitamak.kassy.ru">sterlitamak.kassy.ru</a><br />Городской сайт -<a href="/%20cityopen.ru"> cityopen.ru</a><br />Через <a href="https://vk.ru/app7770803_-16325064#page=main">виджет "Афиша"</a> в нашей <a href="https://vk.ru/rusdramteatrstr">группе "В контакте"</a></p>
+<p>Заказ и доставка билетов по телефону:<br />+7 (3473) 25-55-67; +7(917)045-55-67.<br />25-73-01; (администраторы)</p>
+<p>Билеты в кассе театра можно оплатить наличными и банковской картой (MasterCard; Maestro;Visa;Visa Electron; МИР).</p>
+<p>Льгота 100% на любые свободные места зрительного зала при их наличии в момент обращения:</p>
+<ul>
+<li>инвалиды всех групп - при предъявлении справки об инвалидности, либо удостоверения с отметкой об инвалидности;</li>
+<li>дети-инвалиды - при предъявлении&nbsp;справки об инвалидности, либо удостоверения с отметкой об инвалидности;</li>
+<li>дети-сироты, дети из детских домов - при предъявлении любого документа, подтверждающего статус ребенка;</li>
+<li>наставники и подопечные 9дети) Проекта "Наставничество" Благотворительного Фонда помощи детям и семьям "Наши дети" - при предъявлении документа, удостоверяющего личность;</li>
+<li>ветераны и участники ВОВ, ветераны боевых действий в Афганистане и Чечне, граждане, принимающие участие в СВО - при предъявлении удостоверения ветерана или участника ВОВ, боевых действий в Афганистанеи Чечне, справки от военного комиссариата;</li>
+<li>дети до 3-х лет на детские спектакли - при предъявлении свидетельства о рождении;</li>
+<li>члены семьи участника СВО: супруг (супруга), родители (усыновители), дедушка, бабушка, отчим, мачеха нетрудоспособного возраста, несовершеннолетние дети, а также детив возрасте до 23 лет, обучающиеся в образовательных организациях - при предъявлении удостоверения (справки) участника боевых действий из военного комиссариата;</li>
+<li>вынужденные переселенцы, прибывшие с территорий Луганской и Донецкой народных республик - при предъявлении любого документа, подтверждающего статус.</li>
+</ul>
+<p>Льгота 50% с 10 по 18 ряд и балкон:</p>
+<ul>
+<li>студенты высших учебных заведений и образовательных учреждений среднего профессионального образования (очная форма обучения), учащиеся начального профессионального образования - при предъявлении студенческого билета, билета учащегося;</li>
+<li>пенсионеры по старости на вечерние спектакли (на детские спектакли скидка не распространяется) - при предъявлении пенсионного удостоверения;</li>
+<li>военнослужащие, проходящие военную службу по призыву - при предъявлении военного билета;</li>
+<li>курсанты военных образовательных учреждений среднего и высшего профессиоанльного образования - при предъявлении военного билета;</li>
+</ul>
+<p>Льгота 25% с 10 по 18 ряд и балкон:</p>
+<ul>
+<li>дети из многодетных и малообеспеченных семей на детские спектакли (на вечерние спектакли скидка не распространяется, за исключением спектакля "Руслан и Людмила") - при предъявлении удостоверения многодетного родителя, справка о составе семьи, свидетельства о рождении ребенка.</li>
+</ul>
+<p>Льготы не распространяются:</p>
+<ul>
+<li>На цены билетов партера, на 19 и 20 ряды амфитеатра (за исключением льготы по справке об инвалидности);</li>
+<li>На цены премьерных спектаклей, "Горгоны", "Лето человеческое", "Дядя Ваня", "Волшебное Рождество в театре", "Театральный "Огонёк", "Портрет", (за исключением льготы по справке об инвалидности);</li>
+<li>На детские спектакли по пенсионным удостоверениям;</li>
+<li>На цены билетов спектаклей экспериментальной сцены и малой формы: "Ганди молчал по субботам", "Ассоль", "Это любовь?", "Оберег", "Это всё она", на мероприятия в рамках проекта «ДРАМ.ПЛОЩАДКА».</li>
+</ul>
+<p>В продаже имеются подарочные сертификаты и конверты.</p>     
+
+        
+                                        </div>
+        
+                    <div>
+                <div class="moduletable stoimost">
+            <h3 >Цены на билеты</h3>        
+<div id="mod-custom154" class="mod-custom custom">
+    <!-- START: Tabs & Accordions --><div data-rlta-element="container" data-rlta-state="initial" data-rlta-id="1" data-rlta-type="accordions" data-rlta-title-tag="h3" data-rlta-orientation="vertical" data-rlta-wrap-buttons="false" data-rlta-remember-active="false" data-rlta-theme="neutral" data-rlta-color-panels="false" data-rlta-positioning="top" data-rlta-alignment="justify" data-rlta-has-button-scroller="false">
+<div id="rlta-spektakl-maskarad" role="button" aria-controls="rlta-panel-spektakl-maskarad" aria-expanded="false" tabindex="0" data-rlta-alias="spektakl-maskarad" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакль «Маскарад»</h3>
+</div>
+<div id="rlta-panel-spektakl-maskarad" aria-labelledby="rlta-spektakl-maskarad" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 4 ряды - 2000 руб.</li>
+<li>5 - 9 ряды - 1800 руб.</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>10 - 11 ряды - 1500 руб.</li>
+<li>12 ряд - 1200 руб.</li>
+<li>13 ряд - 1000 руб.</li>
+<li>14 - 15 ряды - 900 руб.</li>
+<li>16 - 17 ряды - 800 руб.</li>
+<li>18 - 20 ряды (12-15 места) - 700 руб.</li>
+<li>18 ряд (10 - 11 места); 19 ряд (9 - 11 места); 20 ряд (1-11 места) - 900 руб.</li>
+<li>18 - 20 ряды (16-20 места) - 600 руб.</li>
+</ul>
+<p><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 800 руб.</li>
+<li>3 - 4 ряды - 700 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-spektakl-dyadya-vanya" role="button" aria-controls="rlta-panel-spektakl-dyadya-vanya" aria-expanded="false" tabindex="0" data-rlta-alias="spektakl-dyadya-vanya" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакль «Дядя Ваня»</h3>
+</div>
+<div id="rlta-panel-spektakl-dyadya-vanya" aria-labelledby="rlta-spektakl-dyadya-vanya" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 4 ряды - 1800 руб.</li>
+<li>5 - 9 ряды - 1500 руб.</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>10 - 11 ряды - 1200 руб.</li>
+<li>12 ряд - 1000 руб.</li>
+<li>13 - 14; 20 ряды (1 - 8 места) - 900 руб.</li>
+<li>15 - 16 ряды - 800 руб.</li>
+<li>17 - 18 ряды (12-15 места), 19 ряд&nbsp; (9 - 15 места), 20 ряд (1 - 15 места) - 700 руб.</li>
+<li>18 ряд (10 - 11 места) - 900 руб.</li>
+<li>18 - 20 ряды (16-20 места) - 550 руб.</li>
+</ul>
+<p><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 700 руб.</li>
+<li>3 - 4 ряды - 600 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-spektakli-gorgony-zhizn-prekrasna-portret-groza" role="button" aria-controls="rlta-panel-spektakli-gorgony-zhizn-prekrasna-portret-groza" aria-expanded="false" tabindex="0" data-rlta-alias="spektakli-gorgony-zhizn-prekrasna-portret-groza" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакли «Горгоны», «Жизнь прекрасна», «Портрет», «Гроза»</h3>
+</div>
+<div id="rlta-panel-spektakli-gorgony-zhizn-prekrasna-portret-groza" aria-labelledby="rlta-spektakli-gorgony-zhizn-prekrasna-portret-groza" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 4 ряды - 1500 руб.</li>
+<li>5 - 9 ряды - 1200 руб.</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>10 - 11 ряды - 1000 руб.</li>
+<li>12 ряд - 800 руб.</li>
+<li>13 - 14 ряды - 700 руб.</li>
+<li>15 - 17; 18 ряды (12-15 места), 19 ряд&nbsp; (9 - 15 места), 20 ряд (1 - 15 места) - 600 руб.</li>
+<li>18 ряд (10 - 11 места) - 700 руб.</li>
+<li>18 - 20 ряды (16-20 места) - 500 руб.</li>
+</ul>
+<p><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 600 руб.</li>
+<li>3 - 4 ряды - 550 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-spektakli-dokhodnoe-mesto-to-samoe-kak-vazhno-byt-serjoznym-zhizel-botanicheskaya-uzhin-s-durakom-strana-ajgul" role="button" aria-controls="rlta-panel-spektakli-dokhodnoe-mesto-to-samoe-kak-vazhno-byt-serjoznym-zhizel-botanicheskaya-uzhin-s-durakom-strana-ajgul" aria-expanded="false" tabindex="0" data-rlta-alias="spektakli-dokhodnoe-mesto-to-samoe-kak-vazhno-byt-serjoznym-zhizel-botanicheskaya-uzhin-s-durakom-strana-ajgul" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакли «Доходное место»; «То самое»;&nbsp;«Как важно быть серьёзным»;&nbsp;«Жизель Ботаническая»;&nbsp;«Ужин с дураком»;&nbsp;«Страна Айгуль»</h3>
+</div>
+<div id="rlta-panel-spektakli-dokhodnoe-mesto-to-samoe-kak-vazhno-byt-serjoznym-zhizel-botanicheskaya-uzhin-s-durakom-strana-ajgul" aria-labelledby="rlta-spektakli-dokhodnoe-mesto-to-samoe-kak-vazhno-byt-serjoznym-zhizel-botanicheskaya-uzhin-s-durakom-strana-ajgul" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 9 ряды - 1200 руб..</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>10 - 11 ряды - 1000 руб.</li>
+<li>12 ряд - 800 руб.</li>
+<li>13 - 14 ряды - 700 руб.</li>
+<li>15 - 17; 18 ряды (12-15 места), 19 ряд&nbsp; (9 - 15 места), 20 ряд (1 - 15 места) - 600 руб.</li>
+<li>18 ряд (10 - 11 места) - 700 руб.</li>
+<li>18 - 20 ряды (16-20 места) - 500 руб.</li>
+</ul>
+<p><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 600 руб.</li>
+<li>3 - 4 ряды - 550 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-spektakli-rasskazy-makbet-nedorosl-ruslan-i-lyudmila-belye-nochi-ochen-prostaya-istoriya" role="button" aria-controls="rlta-panel-spektakli-rasskazy-makbet-nedorosl-ruslan-i-lyudmila-belye-nochi-ochen-prostaya-istoriya" aria-expanded="false" tabindex="0" data-rlta-alias="spektakli-rasskazy-makbet-nedorosl-ruslan-i-lyudmila-belye-nochi-ochen-prostaya-istoriya" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакли «Рассказы»; «Макбет»; «Недоросль»; «Руслан и Людмила»; «Белые ночи»; «Очень простая история»</h3>
+</div>
+<div id="rlta-panel-spektakli-rasskazy-makbet-nedorosl-ruslan-i-lyudmila-belye-nochi-ochen-prostaya-istoriya" aria-labelledby="rlta-spektakli-rasskazy-makbet-nedorosl-ruslan-i-lyudmila-belye-nochi-ochen-prostaya-istoriya" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 — 9 ряды - 1000 руб.</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>10 — 11 ряды - 800 руб.</li>
+<li>12 — 13 ряды - 700 руб.</li>
+<li>14 - 15 ряды - 600 руб.</li>
+<li>16 - 18 ряды, 19 - 20 ряды&nbsp; (16 - 20 места)- 500 руб.</li>
+<li>18 ряд&nbsp; (10 - 11 места)&nbsp;- 700 руб.</li>
+<li>19 ряд (9 - 15 места), 20 ряд (1 - 15 места) - 600 руб.</li>
+</ul>
+<p><br /><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 550 руб.</li>
+<li>3 - 4 ряды - 500 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-spektakl-leto-chelovecheskoe" role="button" aria-controls="rlta-panel-spektakl-leto-chelovecheskoe" aria-expanded="false" tabindex="0" data-rlta-alias="spektakl-leto-chelovecheskoe" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакль «Лето человеческое»</h3>
+</div>
+<div id="rlta-panel-spektakl-leto-chelovecheskoe" aria-labelledby="rlta-spektakl-leto-chelovecheskoe" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 4 ряды - 1200 руб.</li>
+<li>5 -&nbsp; 9 ряды - 1000 руб.&nbsp;</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>10 — 12 ряды - 800 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-spektakl-eto-vsjo-ona" role="button" aria-controls="rlta-panel-spektakl-eto-vsjo-ona" aria-expanded="false" tabindex="0" data-rlta-alias="spektakl-eto-vsjo-ona" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакль «Это всё она»</h3>
+</div>
+<div id="rlta-panel-spektakl-eto-vsjo-ona" aria-labelledby="rlta-spektakl-eto-vsjo-ona" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 4 ряды - 1500 руб.</li>
+<li>5 - 9 ряды - 1200 руб.</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>10 — 11 ряды - 1000 руб.</li>
+<li>12 ряд - 800 руб.</li>
+</ul>
+<p><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 700 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-spektakl-gandi-molchal-po-subbotam" role="button" aria-controls="rlta-panel-spektakl-gandi-molchal-po-subbotam" aria-expanded="false" tabindex="0" data-rlta-alias="spektakl-gandi-molchal-po-subbotam" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакль «Ганди молчал по субботам»</h3>
+</div>
+<div id="rlta-panel-spektakl-gandi-molchal-po-subbotam" aria-labelledby="rlta-spektakl-gandi-molchal-po-subbotam" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p>Единая цена - 2000 руб</p>
+</div>
+</div>
+<div id="rlta-spektakl-eto-lyubov" role="button" aria-controls="rlta-panel-spektakl-eto-lyubov" aria-expanded="false" tabindex="0" data-rlta-alias="spektakl-eto-lyubov" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакль «Это любовь?»</h3>
+</div>
+<div id="rlta-panel-spektakl-eto-lyubov" aria-labelledby="rlta-spektakl-eto-lyubov" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p>Единая цена - 1800 руб</p>
+</div>
+</div>
+<div id="rlta-spektakl-assol" role="button" aria-controls="rlta-panel-spektakl-assol" aria-expanded="false" tabindex="0" data-rlta-alias="spektakl-assol" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Спектакль «Ассоль»</h3>
+</div>
+<div id="rlta-panel-spektakl-assol" aria-labelledby="rlta-spektakl-assol" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p>Единая цена - 1500 руб.</p>
+</div>
+</div>
+<div id="rlta-detskie-spektakli-letuchij-korabl-den-chudes-po-shchuchemu-velenyu-gospozha-metelitsa" role="button" aria-controls="rlta-panel-detskie-spektakli-letuchij-korabl-den-chudes-po-shchuchemu-velenyu-gospozha-metelitsa" aria-expanded="false" tabindex="0" data-rlta-alias="detskie-spektakli-letuchij-korabl-den-chudes-po-shchuchemu-velenyu-gospozha-metelitsa" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Детские спектакли: «Летучий корабль», «День чудес»; «По щучьему веленью»; «Госпожа Метелица»</h3>
+</div>
+<div id="rlta-panel-detskie-spektakli-letuchij-korabl-den-chudes-po-shchuchemu-velenyu-gospozha-metelitsa" aria-labelledby="rlta-detskie-spektakli-letuchij-korabl-den-chudes-po-shchuchemu-velenyu-gospozha-metelitsa" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 4 ряды - 650 руб.</li>
+<li>5 - 11 ряды - 600 руб.</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>12 - 13 ряды; 18 ряд (10 - 11 места) - 550 руб..</li>
+<li>14 - 15 ряды - 500 руб.</li>
+<li>16 - 18 ряды - 450 руб.</li>
+<li>17 - 18 ряд&nbsp; - 550 руб</li>
+<li>19 ряд (9 - 11 места), 20 ряд (1 - 11 места) - 500 руб.</li>
+<li>19 - 20 ряды (12-20 места) - 450 руб.</li>
+</ul>
+<p><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 500 руб.</li>
+<li>3 - 4 ряды - 450 руб.</li>
+</ul>
+</div>
+</div>
+<div id="rlta-detskie-spektakli-koshkin-dom-tsarevna-lyagushka-mukha-tsokotukha-internet-v-lesu" role="button" aria-controls="rlta-panel-detskie-spektakli-koshkin-dom-tsarevna-lyagushka-mukha-tsokotukha-internet-v-lesu" aria-expanded="false" tabindex="0" data-rlta-alias="detskie-spektakli-koshkin-dom-tsarevna-lyagushka-mukha-tsokotukha-internet-v-lesu" data-rlta-element="button" data-rlta-state="closed">
+    <h3 data-rlta-element="heading">
+    Детские спектакли: «Кошкин дом»; «Царевна - Лягушка»; «Муха - Цокотуха»; «Интернет в лесу»</h3>
+</div>
+<div id="rlta-panel-detskie-spektakli-koshkin-dom-tsarevna-lyagushka-mukha-tsokotukha-internet-v-lesu" aria-labelledby="rlta-detskie-spektakli-koshkin-dom-tsarevna-lyagushka-mukha-tsokotukha-internet-v-lesu" tabindex="-1" hidden="true" data-rlta-element="panel" data-rlta-state="closed" data-rlta-color="false">
+    <div data-rlta-element="panel-content">
+
+<p><strong>Партер</strong></p>
+<ul>
+<li>1 - 4 ряды - 600 руб.</li>
+<li>5 - 11 ряды - 550 руб.</li>
+</ul>
+<p><strong>Амфитеатр</strong></p>
+<ul>
+<li>12 - 13 ряды; 18 ряд (10 - 11 места) - 450 руб..</li>
+<li>14 - 15 ряды - 400 руб.</li>
+<li>16 - 18 ряды - 350 руб.</li>
+<li>19 ряд (9 - 11 места), 20 ряд (1 - 11 места) - 450 руб.</li>
+<li>19 - 20 ряды (12&nbsp; - 20 места) - 350 руб.</li>
+</ul>
+<p><strong>Балкон</strong></p>
+<ul>
+<li>1 - 2 ряды - 500 руб.</li>
+<li>3 - 4 ряды - 450 руб.</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- END: Tabs & Accordions --></div>
+</div>
+
+            </div>
+                
+                <div class="moduletable navigation">
+        <nav class="mod-breadcrumbs__wrapper" aria-label="Навигация [На всех страницах сайта кроме главной и афиши] ВНИЗУ">
+    <ol class="mod-breadcrumbs breadcrumb px-3 py-2">
+                    <li class="mod-breadcrumbs__divider float-start">
+                <span class="divider icon-location icon-fw" aria-hidden="true"></span>
+            </li>
+        
+        <li class="mod-breadcrumbs__item breadcrumb-item"><a href="/" class="pathway"><span>Главная</span></a></li><li class="mod-breadcrumbs__item breadcrumb-item active"><span>Билеты</span></li>    </ol>
+    </nav>
+</div>
+                
+        
+        
+        
+    </main>
+            
+    <footer>
+        <div class="footer-top">
+                   
+                <div class="moduletable podpiska">
+        <div class="rsformpodpiska">
+	<form method="post"  id="userForm" class="formResponsive" action="https://rusdramteatr.ru/bilety"><h2>Подпишитесь и будьте в курсе событий</h2>
+
+<!-- Do not remove this ID, it is used to identify the page so that the pagination script can work correctly -->
+<fieldset class="formContainer formHorizontal" id="rsform_3_page_0">
+	<div class="formRow">
+		<div class="formSpan12">
+			<div class="rsform-block rsform-block-fname">
+				<label class="formControlLabel" for="fname"></label>
+				<div class="formControls">
+					<div class="formBody">
+						<input type="text" value="" size="20" placeholder="Имя" name="form[fname]" id="fname" class="rsform-input-box" aria-required="true" />
+						<span class="formValidation"><span id="component23" class="formNoError"></span></span>
+						<p class="formDescription"></p>
+					</div>
+				</div>
+			</div>
+			<div class="rsform-block rsform-block-femail">
+				<label class="formControlLabel" for="femail"></label>
+				<div class="formControls">
+					<div class="formBody">
+						<input type="text" value="" size="20" placeholder="E-mail" name="form[femail]" id="femail" class="rsform-input-box" aria-required="true" />
+						<span class="formValidation"><span id="component24" class="formNoError"></span></span>
+						<p class="formDescription"></p>
+					</div>
+				</div>
+			</div>
+			<div class="rsform-block rsform-block-fenter">
+				<label class="formControlLabel"></label>
+				<div class="formControls">
+					<div class="formBody">
+						<button type="submit" name="form[fenter]" id="fenter" class="rsform-submit-button" >Подписаться</button>
+						<span class="formValidation"></span>
+						<p class="formDescription"></p>
+					</div>
+				</div>
+			</div>
+			<div class="rsform-block rsform-block-ftext">
+					<p>Нажимая на кнопку «Отправить», я даю согласие на <a href="/images/docs/PK.pdf" target="_blank">обработку персональных данных</a></p>
+			</div>
+		</div>
+	</div>
+</fieldset><input type="hidden" name="form[formId]" value="3"/><input type="hidden" name="bb72c1587927192b3aaa926e6a0b9b85" value="1"></form></div></div>
+<div class="moduletable n-menu">
+            <h3 >Посетителям</h3>        
+<div id="mod-custom152" class="mod-custom custom">
+    <p><a href="/?option=com_content&amp;view=article&amp;id=41:pravila-poseshcheniya-teatra&amp;catid=14:posetitelyam">Правила посещения театра</a></p>
+<p><a href="/bilety/lgoty-i-skidki">Льготы и скидки</a></p>
+<p><a href="/bilety/pushkinskaya-karta">Пушкинская карта</a></p>
+<p><a href="https://sterlitamak.kassy.ru/shows/teatr/2-1954/" target="_blank" rel="noopener">Подарочный сертификат</a></p>
+<p><a href="/teatr/poleznye-ssylki">Полезные ссылки</a></p>
+<p><a href="https://forms.mkrf.ru/e/2579/xTPLeBU7/?ap_orgcode=047948" target="_blank" rel="nofollow noopener">Оценка удовлетворенности граждан</a></p>
+<p><a href="/bilety?view=article&amp;id=290:protivodejstvie-korruptsii&amp;catid=14:posetitelyam">Противодействие коррупции</a></p></div>
+</div>
+<div class="moduletable f-contact">
+        
+<div id="mod-custom121" class="mod-custom custom">
+    <p>Государственный русский драматический <br />театр г. Стерлитамак</p>
+<p>453124, РБ, Стерлитамак, <br />ул. Худайбердина, 18</p>
+<p><a href="tel:+73473255567">8 (3473) 25-55-67</a>, <a href="/+79170455567">+7 (917) 045-55-67</a></p>
+<p><strong>Режим работы кассы:</strong></p>
+<ul>
+<li>пн с 12:00 до 20:00</li>
+<li>вт с 12:00 до 20:00</li>
+<li>ср с 12:00 до 20:00</li>
+<li>чт с 12:00 до 20:00</li>
+<li>пт с 12:00 до 20:00</li>
+<li>сб с 12:00 до 20:00</li>
+<li>вс с 10:00 до 20:00</li>
+</ul>
+<p><strong>Без перерыва и выходных</strong></p>
+<p>Театр в соц. сетях:</p>
+<p><a href="https://t.me/rusdramteatrstr" target="_blank" rel="noopener" class="tg">tg</a> <a href="https://vk.com/rusdramteatrstr" target="_blank" rel="noopener" class="vk">vk</a></p></div>
+</div>
+
+           
+                </div>
+        <div class="footer-bottom">
+        <div>
+            © 2026, ГБУКиИ РБ Государственный русский драматический театр г. Стерлитамак<br>
+            <a href="/images/docs/PK.pdf" target="_blank">Политика конфиденциальности </a>
+            <a href="/images/docs/PS.pdf" target="_blank">Пользовательское соглашение </a>
+            
+        </div>
+        <div>Разработка сайта:<br>
+        <a href="https://sistematik.ru" target="_blank">Sistematik.Ru</a></div>
+        </div>
+            
+    </footer>
+    
+    <div id="toTop"></div>
+    <script src="/media/templates/site/jd_templates/js/toTop.js"></script>
+    
+    <noindex>
+<div class="cookie" id="cookie-agreement" style="display:none;">
+    <div class="container">
+        <p>Наш сайт использует файлы cookie для улучшения работы.</p>
+        <p>Продолжая им пользоваться, вы соглашаетесь на обработку персональных данных в соответствии с <a href="/images/docs/PK.pdf">политикой конфиденциальности</a>.</p>
+        <a href="#" id="cookie-agreement-button">Принять</a>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    if (document.cookie.indexOf('cookie_agreement=true') == -1) {
+        $('#cookie-agreement').show();
+    }
+});
+$('#cookie-agreement-button').click(function() {
+    document.cookie = 'cookie_agreement=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+    $('#cookie-agreement').hide();
+    return false;
+});
+</script>
+</noindex>
+
+<script>
+$(document).ready(function(){
+  $('.nspInfo').each(function(){
+    var title = $(this);
+    // Объединяем оба replace в цепочку
+    title.html(
+      title.text()
+        .replace(/(^\w+)/g, '<span>$1</span>') // Сначала оборачиваем первое слово
+        .replace(/,/g, '<br>') // Затем заменяем все запятые на <br>
+    );
+  });
+});   
+</script>
+
+<script>
+$(document).ready(function(){
+  $('.item-pagegl time').each(function(){
+    var title = $(this);
+    title.html(
+      title.text()
+        // Заменяем каждое слово на <span>слово</span>
+        .replace(/(\w+)/g, '<span>$1</span>')
+        // Затем заменяем запятые на <br>
+        .replace(/,/g, '<br>')
+    );
+  });
+});
+</script>
+
+<script>
+jQuery(function($){
+   $("#ffphone").mask("+7(999)999-99-99");
+   $("#ffphone2").mask("+7(999)999-99-99");
+   });
+</script>
+
+<script type="text/javascript" src='/media/templates/site/jd_templates/js/jquery.min_slider.js'></script>
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/owl.carousel.min.js"></script>
+
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/slider-carousel-actors.js"></script>
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/slider-carousel-video.js"></script>
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/jquery.maskedinput.min.js"></script>
+
+<!-- ПРОКУЛЬТУРА -->
+<script type="text/javascript" src="https://pro.culture.ru/scripts/widgets/api.js?5889"></script>
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92836869, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/92836869" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+</body>
+
+</html>

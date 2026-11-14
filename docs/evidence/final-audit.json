@@ -1,0 +1,836 @@
+{
+  "checked_at": "2026-11-14T18:16:55.382514+00:00",
+  "owner_date": "2026-11-15",
+  "specification": "docs/specification.pdf, 12 pages, cumulative level 4",
+  "base_commit": "c4731bf63c8a1488b1e81718a7ba8c641286ca03",
+  "working_tree_changes_included": true,
+  "scope": "Final source cleanup and functional/security audit, isolated mutation tests, actual temporary deployment. No GitHub publication.",
+  "checks": {
+    "ruff": "passed: apps tests scripts",
+    "pytest": {
+      "passed": 312,
+      "skipped": 5,
+      "seconds": 107.71,
+      "skip_reason": "Separate POSTGRES_TEST_URL not supplied in local full suite",
+      "warnings": [
+        "Existing Starlette TestClient/httpx deprecation"
+      ]
+    },
+    "postgres": {
+      "passed": 5,
+      "seconds": 4.99,
+      "major_version": 18,
+      "isolated_cluster": true,
+      "cluster_stopped_and_data_removed": true,
+      "limits": "Compose pins PostgreSQL 17; cold Docker start not measured"
+    },
+    "concurrency_regressions": {
+      "query_requests": 20,
+      "plan_requests": 20,
+      "all_http_200": true,
+      "batch_deadline_seconds": 6,
+      "test_pool_size": 2,
+      "max_overflow": 0,
+      "production_pool_unchanged": true
+    },
+    "openapi_types": "current",
+    "typescript": "passed",
+    "eslint": "passed",
+    "web_build": "production standalone built locally and on Linux; static images, styles and fonts copied and served",
+    "npm_clean_install": "Linux npm ci passed after repairing optional dependency lock; Windows npm ci --dry-run passed",
+    "node_tests": 5,
+    "vitest_tests": 9,
+    "browser": {
+      "distinct_latest_passed": 43,
+      "failed": 0,
+      "isolated_data": true,
+      "full_run": {
+        "startTime": "2026-11-14T17:52:42.742Z",
+        "duration": 431181.75299999997,
+        "expected": 42,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "focused_recheck": {
+        "startTime": "2026-11-14T18:00:54.725Z",
+        "duration": 11371.036,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "recheck_reason": "Full run retained one obsolete CSS selector after embed redesign. Replaced with accessible region locator; both widget cases passed on recheck.",
+      "production_build": true,
+      "public_widths": [
+        360,
+        390,
+        768,
+        1280,
+        1440
+      ],
+      "public_axe_paths": [
+        "/",
+        "/events",
+        "/planner",
+        "/agent",
+        "/feedback",
+        "/embed",
+        "/widget",
+        "/credits",
+        "/events/{id}",
+        "/events/nonexistent",
+        "/admin",
+        "/api/docs"
+      ],
+      "admin_panels": [
+        "events",
+        "import",
+        "sources",
+        "feedback",
+        "audit",
+        "traces",
+        "metrics"
+      ],
+      "cases": {
+        "accessibility.spec.ts::public accessibility, contrast and layout at 360px": "passed",
+        "accessibility.spec.ts::public accessibility, contrast and layout at 390px": "passed",
+        "accessibility.spec.ts::public accessibility, contrast and layout at 768px": "passed",
+        "accessibility.spec.ts::public accessibility, contrast and layout at 1280px": "passed",
+        "accessibility.spec.ts::mobile navigation opens into its links and Escape restores the trigger": "passed",
+        "accessibility.spec.ts::reduced motion disables scripted smooth scrolling and keyboard focus stays visible": "passed",
+        "accessibility.spec.ts::widget works on an isolated host without cookies and preserves host styles": "passed",
+        "accessibility.spec.ts::docs retain a usable keyboard-operated read-only request after accessibility fixes": "passed",
+        "accessibility.spec.ts::docs load and execute using only local assets when external requests are blocked": "passed",
+        "admin-accessibility.spec.ts::admin tabs support arrows/Home/End and viewer cannot inherit a privileged panel": "passed",
+        "admin-accessibility.spec.ts::all seven admin panels and manual form accessibility at 360px": "passed",
+        "admin-accessibility.spec.ts::all seven admin panels and manual form accessibility at 390px": "passed",
+        "admin-accessibility.spec.ts::all seven admin panels and manual form accessibility at 768px": "passed",
+        "admin-accessibility.spec.ts::all seven admin panels and manual form accessibility at 1280px": "passed",
+        "embed.spec.ts::widget configurator keeps code, preview, dates and height consistent and explains clipboard denial": "passed",
+        "feedback-resilience.spec.ts::feedback retry after lost success creates one moderator queue item": "passed",
+        "import-file.spec.ts::Russian Excel upload preserves quotes, stays a draft and repeated import has no duplicate": "passed",
+        "isolated-flows.spec.ts::admin pagination reaches beyond100 and search opens an old draft": "passed",
+        "isolated-flows.spec.ts::manual creation verifies and publishes then preserves cancelled permanent card": "passed",
+        "isolated-flows.spec.ts::import textarea reports new draft and feedback reaches moderator queue": "passed",
+        "isolated-flows.spec.ts::agent mutation requires explicit confirmation and retains deletion capability": "passed",
+        "planner-form.spec.ts::planner form sends interests/count and shows a factual two-event group total": "passed",
+        "product.spec.ts::subscription retry through the web proxy preserves its deletion capability": "passed",
+        "product.spec.ts::event metadata describes the actual public event": "passed",
+        "product.spec.ts::catalog recovers from a failed API request without fabricated results": "passed",
+        "product.spec.ts::empty search explains recovery and reset restores actual catalog": "passed",
+        "product.spec.ts::catalog renders without overflow at shipping widths and exposes honest result state": "passed",
+        "product.spec.ts::combined filters persist in URL and browser back restores query": "passed",
+        "product.spec.ts::real agent API answers a request without inventing client cards": "passed",
+        "product.spec.ts::iframe uses live catalog and has no horizontal overflow": "passed",
+        "product.spec.ts::admin rejects invalid password and has no indexing permission": "passed",
+        "product.spec.ts::keyboard skip link goes directly to content": "passed",
+        "product.spec.ts::real event card exposes source links without technical timestamps": "passed",
+        "product.spec.ts::admin can inspect real events, audit and traces with configured credentials": "passed",
+        "regressions.spec.ts::missing event is HTTP404 and never shows a retryable network card": "passed",
+        "regressions.spec.ts::Sunday weekend filter includes today in UTC+5": "passed",
+        "regressions.spec.ts::subscription form recovers a lost success across reload with the same key": "passed",
+        "regressions.spec.ts::widget constructor uses selected dates and clamps iframe height": "passed",
+        "regressions.spec.ts::catalog free text opens the actual agent and shows its grounded result": "passed",
+        "security.spec.ts::web identities are HttpOnly, stable across refresh, and distinct between visitors": "passed",
+        "security.spec.ts::web proxy strips spoofed identity and uses complete Russian error format": "passed",
+        "security.spec.ts::technical SEO uses public origin and sitemap contains only published events": "passed",
+        "security.spec.ts::same-origin browser POST works with standalone loopback hostname aliases": "passed"
+      },
+      "limits": "Automated accessibility checks do not certify full WCAG compliance."
+    },
+    "live_browser": [
+      {
+        "width": 360,
+        "overflow": false,
+        "fields": [
+          {
+            "height": 52,
+            "fontSize": "16px"
+          },
+          {
+            "height": 52,
+            "fontSize": "16px"
+          },
+          {
+            "height": 52,
+            "fontSize": "16px"
+          },
+          {
+            "height": 53.59375,
+            "fontSize": "16px"
+          },
+          {
+            "height": 53.59375,
+            "fontSize": "16px"
+          },
+          {
+            "height": 52,
+            "fontSize": "16px"
+          }
+        ],
+        "codeVisible": "rgb(32, 34, 31)",
+        "iframe": "https://kiber102.vkkasher.ru/widget?city=%D0%A3%D1%84%D0%B0&date_from=2026-11-20&date_to=2026-11-30",
+        "errors": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "fields": [
+          {
+            "height": 52,
+            "fontSize": "16px"
+          },
+          {
+            "height": 52,
+            "fontSize": "16px"
+          },
+          {
+            "height": 52,
+            "fontSize": "16px"
+          },
+          {
+            "height": 53.59375,
+            "fontSize": "16px"
+          },
+          {
+            "height": 53.59375,
+            "fontSize": "16px"
+          },
+          {
+            "height": 52,
+            "fontSize": "16px"
+          }
+        ],
+        "codeVisible": "rgb(32, 34, 31)",
+        "iframe": "https://kiber102.vkkasher.ru/widget?city=%D0%A3%D1%84%D0%B0&date_from=2026-11-20&date_to=2026-11-30",
+        "errors": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "fields": [
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          }
+        ],
+        "codeVisible": "rgb(32, 34, 31)",
+        "iframe": "https://kiber102.vkkasher.ru/widget?city=%D0%A3%D1%84%D0%B0&date_from=2026-11-20&date_to=2026-11-30",
+        "errors": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "fields": [
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          },
+          {
+            "height": 52,
+            "fontSize": "15px"
+          }
+        ],
+        "codeVisible": "rgb(32, 34, 31)",
+        "iframe": "https://kiber102.vkkasher.ru/widget?city=%D0%A3%D1%84%D0%B0&date_from=2026-11-20&date_to=2026-11-30",
+        "errors": []
+      }
+    ],
+    "live_http": {
+      "checked_at": "2026-11-14T18:10:51.933887+00:00",
+      "base_url": "https://kiber102.vkkasher.ru",
+      "pages": {
+        "/": 200,
+        "/events": 200,
+        "/agent": 200,
+        "/planner": 200,
+        "/feedback": 200,
+        "/embed": 200,
+        "/widget": 200,
+        "/credits": 200,
+        "/admin": 200,
+        "/api/docs": 200,
+        "/api/openapi.json": 200,
+        "/api/v1/health": 200,
+        "/robots.txt": 200,
+        "/sitemap.xml": 200
+      },
+      "catalogue": {
+        "total": 71,
+        "inspected": 71,
+        "with_session_image": 50
+      },
+      "withdrawn": {
+        "5605cad9-df9c-4f3c-8b65-9037a362876a": {
+          "detail_status": 200,
+          "availability": "sold_out",
+          "purchase_links": 0,
+          "excluded": true
+        },
+        "9b25b716-66d5-4245-8e33-ceb4f961a5a1": {
+          "detail_status": 200,
+          "availability": "sold_out",
+          "purchase_links": 0,
+          "excluded": true
+        }
+      },
+      "event_detail_status": 200,
+      "missing_event_status": 404,
+      "admin_unauthorized": 401,
+      "invalid_budget_status": 422,
+      "repeated_request_id": {
+        "statuses": [
+          200,
+          200
+        ],
+        "unique_trace_ids": 2
+      },
+      "concurrent_offline_agent": {
+        "requests": 20,
+        "http_200": 20,
+        "errors_5xx": 0,
+        "all_grounded": true,
+        "results": [
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 410.13,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2298.57,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2941.55,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2696.08,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2602.57,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2223.62,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2264.58,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2268.92,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2638.57,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2899.11,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2522.12,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2521.41,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2220.27,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2360.79,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2936.92,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2312.47,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2534.16,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2232.58,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2802.59,
+            "grounded": true
+          },
+          {
+            "status": 200,
+            "mode": "fallback",
+            "latency_ms": 2519.9,
+            "grounded": true
+          }
+        ],
+        "scope": "Actual HTTPS instance, offline=true; not a full LLM benchmark"
+      },
+      "model_smoke": {
+        "status": 200,
+        "mode": "llm",
+        "cards": 5,
+        "grounded": true
+      },
+      "plan_smoke": {
+        "status": 200,
+        "feasible": false,
+        "response_fields": [
+          "text",
+          "events",
+          "total_min",
+          "total_max",
+          "travel_status",
+          "travel_mode",
+          "budget_scope",
+          "travel_cost_status",
+          "travel_legs",
+          "feasible",
+          "minimal_change"
+        ]
+      }
+    },
+    "server": {
+      "checked_at": "2026-11-14T18:16:31.203862+00:00",
+      "services": {
+        "api": "active",
+        "web": "active",
+        "bot": "active",
+        "worker": "active",
+        "proxy": "active"
+      },
+      "sqlite_integrity": "ok",
+      "migration_head": "d7f3198a624e",
+      "stored_events": 78,
+      "ticket_observations": 52,
+      "normalized_ticket_endings": 52,
+      "telegram": {
+        "get_me_ok": true,
+        "username": "kiber102rfbot",
+        "webhook_configured": false,
+        "messages_sent": 0
+      },
+      "worker_report_mtime": "2026-11-14T18:16:18.571095+00:00",
+      "worker_sources": [
+        {
+          "id": "bashopera",
+          "status": "fetched",
+          "error_type": null
+        },
+        {
+          "id": "bashopera",
+          "status": "fetched",
+          "error_type": null
+        },
+        {
+          "id": "rusdram",
+          "status": "error",
+          "error_type": "ConnectError"
+        },
+        {
+          "id": "timepad",
+          "status": "disabled",
+          "error_type": null
+        },
+        {
+          "id": "proculture",
+          "status": "waiting_for_partner_key",
+          "error_type": null
+        },
+        {
+          "id": "sterlitamak",
+          "status": "fetched",
+          "error_type": null
+        }
+      ],
+      "ticket_pass": {
+        "checked": 99,
+        "matched": 52,
+        "unavailable": 2,
+        "errors": 2,
+        "venues": [
+          {
+            "url": "https://ufa.kassy.ru/venue/gbukii-russkijj-dramaticheskijj-teatr-rb-18/",
+            "status": "fetched"
+          },
+          {
+            "url": "https://ufa.kassy.ru/venue/bashkirskijj-gosudarstvennyjj-teatr-opery-i-baleta-5/",
+            "status": "fetched"
+          },
+          {
+            "url": "https://sterlitamak.kassy.ru/venue/sterlitamakskijj-russkijj-dramaticheskijj-teatr-490/",
+            "status": "fetched"
+          }
+        ]
+      }
+    },
+    "security": {
+      "project_secrets_and_common_token_patterns": {
+        "checked_at": "2026-11-14T18:14:31.696696+00:00",
+        "working_files": 228,
+        "history_blobs": 448,
+        "findings": []
+      },
+      "python_osv": {
+        "checked_at": "2026-11-14T18:14:33.514261+00:00",
+        "source": "https://api.osv.dev/v1/querybatch",
+        "packages": 49,
+        "findings": [],
+        "pagination_pending": false
+      },
+      "npm_audit": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 0,
+          "critical": 0,
+          "total": 0
+        },
+        "dependencies": {
+          "prod": 23,
+          "dev": 368,
+          "optional": 70,
+          "peer": 49,
+          "peerOptional": 0,
+          "total": 427
+        }
+      },
+      "pip_check": "No broken requirements found",
+      "swagger_ui": {
+        "version": "5.35.0",
+        "local_sha256_files_valid": 6,
+        "osv_advisories": 0
+      },
+      "limits": "Pattern and current-value scan covers deliverable and all reachable Git blobs; not a proof that every possible unknown credential can be recognized."
+    },
+    "internal_evaluation": {
+      "mode": "offline fallback",
+      "main": {
+        "passed": 60,
+        "cases": 60
+      },
+      "holdout": {
+        "passed": 10,
+        "cases": 10
+      },
+      "honest_refusal_proxy": {
+        "main": {
+          "numerator": 11,
+          "denominator": 12,
+          "rate": 0.9166666666666666,
+          "case_ids": [
+            "m02",
+            "m06",
+            "m08",
+            "m09",
+            "n01",
+            "n02",
+            "n03",
+            "n04",
+            "n05",
+            "r01",
+            "r02",
+            "r03"
+          ]
+        },
+        "holdout": {
+          "numerator": 2,
+          "denominator": 3,
+          "rate": 0.6666666666666666,
+          "case_ids": [
+            "h06",
+            "h09",
+            "h10"
+          ]
+        }
+      },
+      "limits": "Internal synthetic contracts, not independent external acceptance. Lexical refusal labels do not recognize current unknown-price wording in n02/h06; these proxy values are retained rather than relabelled to claim 100%."
+    }
+  },
+  "fixes": [
+    "Calendar hydration no longer loses first date-filter click across server/client day changes.",
+    "Ticket observations are invalidated when session identity changes, preserving raw/audit history.",
+    "Fresh incomplete prices cannot inherit a stale free-entry claim.",
+    "Fresh session endings govern public expiry; historical endings backfilled by revision d7f3198a624e and SQLite startup.",
+    "Independent planner traces include validated constraints and current ticket provenance without address/coordinate extras.",
+    "Unique trace IDs prevent repeated X-Request-ID from causing duplicate-key failures.",
+    "Telegram renders session availability and uses authoritative safe purchase links.",
+    "IPv4 is preferred on hosts without IPv6 while DNS fail-closed checks, pinning and TLS validation remain enabled.",
+    "Docker public origin is available during prerendering; fresh local allowlist includes Kassy sources.",
+    "Native SQLite migration reconciles only an exactly verified existing schema; direct CLI imports work.",
+    "Blocking durable DB callbacks run in worker threads so pooled connections cannot block async agent execution.",
+    "Worker retries a failed whole sync after 60 seconds, then resumes the hourly successful schedule.",
+    "Widget constructor has responsive styled fields, readable HTML, accurate clamped preview height and clipboard-denial feedback.",
+    "Removed unused CategoryArt SVG, removed-logo styles, unused artwork props and obsolete caption styles.",
+    "Updated vulnerable minimatch tooling dependency and repaired cross-platform optional dependency lock."
+  ],
+  "cleanup": {
+    "ai_service_documents_in_current_source": false,
+    "historical_git_content_preserved": true,
+    "tool_checkpoint_refs_in_history_bundle": false,
+    "temporary_items_removed_from_project": [
+      ".local/kassy-inspection",
+      ".local/migration-ticket-check.db",
+      "apps/web/.next-audit",
+      "apps/web/test-results",
+      "apps/web/tsconfig.tsbuildinfo",
+      ".local/final-audit-20261115",
+      ".pytest_cache",
+      ".ruff_cache"
+    ],
+    "method": "Disposable audit material moved outside source tree to owner archive; operational databases, raw sources, env, dependencies and active local build preserved."
+  },
+  "visual_proofs": [
+    "screenshots/embed-desktop.png",
+    "screenshots/embed-mobile.png"
+  ],
+  "remaining_acceptance_conditions": [
+    "Independent 10-query holdout and statement-level factual audit, human-labelled 50-card collection sample, complete model latency/cost benchmark.",
+    "Cold Docker/Compose PostgreSQL17 start within 10 minutes and tested data migration from the temporary SQLite instance.",
+    "Explicitly agreed live Telegram notification delivery; audit sent no messages and notifications remain disabled.",
+    "Webfont TT Knickerbockers licence evidence and rights/terms for production image reuse and collection.",
+    "rusdram.ru still refuses source connection from this server; data are retained without fabricated freshness. Sterlitamak direct fetch recovered.",
+    "Configuration enables supported source adapters; an arbitrary new source format still needs an adapter implementation.",
+    "Domain registration shown as expiring 2026-11-17; owner renewal required for later demonstration."
+  ],
+  "code_sha256": {
+    "apps/bot/main.py": "cd8449fda51295dee9760b0247e7f69eedd347dd9b6ec6536aa04d9f259ff772",
+    "apps/bot/notifications.py": "76d845093411142f00a6e779cb14592af1eab71abca9a2df6b3bc3273d9f0df4",
+    "apps/bot/service.py": "f0c824161ac40061fd6046048af28e673c2a763ce4cb7c92d9cbc6cc1492f9b8",
+    "apps/web/next-env.d.ts": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+    "apps/web/next.config.ts": "03df356496b1d198934456e3eb0832449ed2af7de5df0708a0066d8cb9ff5f80",
+    "apps/web/package-lock.json": "bbeaf750c37431dbd676e0108e871d83e0262f5e25bd935d59f06dcd86d75aaa",
+    "apps/web/package.json": "6aa5ea69a7b65e94dbb60bb3fb11e62110cb21328660018ae6732eba1278a64a",
+    "apps/web/playwright.config.ts": "788fbdf0d6fa560492f86eff75768321f101cea30880da9fceaa7a39e3ef872c",
+    "apps/web/tsconfig.json": "a2d3fb3b2f47178e474d6c9ab17b6fd8bb93cf3dea9d3b4a3bb1ea7bd1041836",
+    "apps/web/vitest.config.ts": "9c4004af9da27f2ada878620000cf42075c16264bde3daf7b6e8c5191cf510fe",
+    "apps/worker/evidence.py": "89126ddc52508b5fc9dcb553edf2afb17e23d26cbc965e606f39780263c423c1",
+    "apps/worker/kassy.py": "9b20a4df18eac191d5d3eb786f99566d5900eef3f33d8ed2d90706714bd41afb",
+    "apps/worker/main.py": "e4b500096fe45b77a1185d5d2a20b86d79e5e57bdc3f96963d7f8b65bcc1ba7b",
+    "apps/worker/moderate.py": "ca211d73cd033135c05a0c16d177d2dd4c839ee218dc77ba3a85a4ad6ab538c5",
+    "apps/worker/pagination.py": "b81ff6f200b82e4f41ba665f11c1a2735b4141a51d13a2011eadd5bc57c049fd",
+    "apps/worker/proculture.py": "43b53b976de704544ea70dcfbb66c96a5d7663fbf12d1546e0e9a819c2d75cf6",
+    "apps/worker/sources.json": "ea74003e7176ee74714d60e83a8964352c5dc7a17bcf1e5cf6a8f3032fd292c9",
+    "apps/worker/sources.py": "e93fcc9f3c3fe7b7636f2c468b1ada31127049bf9d72c09458745b39c1398e05",
+    "apps/worker/sterlitamak.py": "d90c55135e80bbdf2c8272f930e6d1c22c86fe83821c020f245ca6db3c81f8e5",
+    "apps/worker/__init__.py": "b4445cc5939c735e3e69c5ef542a18241be108f682104a086a3bdd4ead7e6be1",
+    "apps/api/app/agent.py": "0bebf0844586983c9f19c4300e03cc727529dc08472cec9b8f87149dc26f7a01",
+    "apps/api/app/agent_dialog_plan.py": "945de5cabee347d01148c141a6c0ef0ae67bd9cd0002fc3e5525907b4735d38c",
+    "apps/api/app/agent_paging.py": "430936d856397af6517a5e6bfd5d03418152ed6b53276838bd98555d67bb9abd",
+    "apps/api/app/agent_planner.py": "88f1b13c7eb18f3a97f6ea42b98abb6f2f24dfe254034332b8ed3363e5ef31be",
+    "apps/api/app/llm_config.py": "ce7b17227df48579758d4bbf7e9d014142cec4b4f2f9246fa0589b05451bf5f7",
+    "apps/api/app/main.py": "4d94a272bdeeb893398c42b41828fd8d3f42daa63478fa611836d554e3176d65",
+    "apps/api/app/models.py": "c50afc9e79038feb1cb925bba30efdf7987f42dfa0eea8ecd50a816ab01892f1",
+    "apps/api/app/routes.py": "816b39587442c83bcc1184db6b94c087acaee515550ff00b6bd7e288321ef91d",
+    "apps/api/app/routing.py": "a7f8bb300d3908c3d74a1c850cb12b7a6155fe3af12ebbf1d0bfc35628e7c5ad",
+    "apps/api/app/schemas.py": "a2ca080d274c29d2e8168789e3ac2fc901dbaa3b92e306121f9178c834778fba",
+    "apps/api/app/security.py": "0d808771bdb21006f079a2d0ea5badab6234a6b5d6497a9c918b7a6caadbf30d",
+    "apps/api/app/services.py": "a54c66cd3bf5445441ece873f81b72b491bf1b4bf748f21385cc2c007eecd795",
+    "apps/api/app/tickets.py": "0023429651896a294c90d99f61970c33a9712a57e4a43de60491a5c670e59e70",
+    "apps/api/app/ticket_evidence.py": "ab8c8597207bf8e672bcf808be591ae98e9f3bee83d8bf66c507913eb42e8c4a",
+    "apps/api/migrations/env.py": "073ba97113ca5b0bf1387a607a07cc870f9e1b8cf9a61e3acb8c99672151ef50",
+    "apps/api/migrations/versions/32a1d810be21_subscription_idempotency.py": "d321eba2cc99ddde074dd45703ab681127e615df9f958d897778f8a41ec87c6d",
+    "apps/api/migrations/versions/698ea745edf5_initial_catalog_and_moderation_schema.py": "065a99fe1e13e46555f463747fe44e60f5b0bc70d93fb1730696f01dcefdc197",
+    "apps/api/migrations/versions/74b8f221cd50_llm_reservations.py": "377217449fec5f7417d8345b2c844c5baf1c92fd6054b47fd372eb0dee0130ee",
+    "apps/api/migrations/versions/9fa4102d6ac1_identity_actions_delivery.py": "56f0e375fecf565a3e9b1fc2eb9e41c7f8399379f4dfd201614b318d09fbd015",
+    "apps/api/migrations/versions/a031b11c90e2_source_posters.py": "73f1d1116bae3d09925abe96e20b2ef0332782ced97de1c5edeb5f061c2c031f",
+    "apps/api/migrations/versions/b412f0257ce8_poster_rights.py": "619f622d701efd5bed2400849c1ec0ebf5106ef87b0994a82eceb3f24cd200b2",
+    "apps/api/migrations/versions/c15b9e042d73_ticket_evidence.py": "9fea6289119a20a35f326a894c103951481f5a155b90c05d67de16e0f8117d04",
+    "apps/api/migrations/versions/d7f3198a624e_ticket_end_utc_backfill.py": "fd8386d897348515d0712fae7b2a0af8e7887c9a98a143d3683c25f1693d1fdd",
+    "apps/api/static/docs/swagger-ui.css": "5ed08757e53da3e026d6cbecc61fe5d43585c9560b302d534ad56692519a273d",
+    "apps/api/static/docs/vendor.json": "6b8e8f6f1e7406bebfdc018a257a76f7a7fe59453efe67bcfe109e3629ae7ebe",
+    "apps/web/src/proxy.ts": "f85cf6c507dda0dbfd56a261b7a3b54322695d64b9c53eeb85b8bab369d8d8a9",
+    "apps/web/tests/accessibility.spec.ts": "03513ba83b3d7f7daf15c3363f05188f642232320cd72288552a7475eff4f0ae",
+    "apps/web/tests/admin-accessibility.spec.ts": "3d6e3026ba4e7b29288bf7e1695d8e6801e761854735f5b74a35dd18e131c067",
+    "apps/web/tests/components.test.tsx": "fa5dbc84243f2e764dceed80315f5234e3dcd512d7494e7b5543dfd4b51578a0",
+    "apps/web/tests/embed.spec.ts": "f9b6d9182d5b0bc44a600a1bd99d1299ad0dff334ec338ea7dbb426e7635b212",
+    "apps/web/tests/feedback-resilience.spec.ts": "3e3650f039adba01104baa880824d93fcf4925dd1223664e43c3ab0c0dc07aa1",
+    "apps/web/tests/hydration.test.tsx": "2e840dc2656247e1d8ca4baff67ab914e1c9742b42c2294982420bef6b3378be",
+    "apps/web/tests/import-file.spec.ts": "ca11caa8fce4ce761445f678d87215e03f08620f7c0d0203d795b526d46ca312",
+    "apps/web/tests/import-file.test.tsx": "98e8b24620fb5d0e2224c0bf4b8ea62851bbdb946bb1030c9dc2484757a302d8",
+    "apps/web/tests/isolated-flows.spec.ts": "edf9ef50d82eaaf087e31eb49b629df473fa8e308dae9e8a5d2c59554dbe9404",
+    "apps/web/tests/planner-form.spec.ts": "86b7be78a5f7afedbfc5ee2c7d0932aee1fc7cdf2c5be07041bb4200363841a7",
+    "apps/web/tests/product.spec.ts": "9a9f60beb818f3d7cf7f928c90ca5ed63b99bb41efe0fc9b37ed59180e275c50",
+    "apps/web/tests/regressions.spec.ts": "fedf176e9c7d589665c32a918171906b0067908c065c65340c31e5d10253e089",
+    "apps/web/tests/security.spec.ts": "638df071f55e12c2bae2168708b6bbd2d4fdb17479c97d0c7e08591a37050531",
+    "apps/web/tests/seed-isolated.py": "578890660136ac1bfffbfa8c37543c8f2ecba19dbf3761525598c3f4f43c88b4",
+    "apps/web/src/app/error.tsx": "d6572b4249a56c5b2eb19e7c8827aab66ec54898ec8b375af13bfb5e33c27d30",
+    "apps/web/src/app/globals.css": "1176009c66a8bb9bcd0fe699d1c5f2602f4c107b8053638e3e73dbabd3e27fcd",
+    "apps/web/src/app/layout.tsx": "5c687c872f09ff34d85b8492d637db201b8d9f1aec002f3c542373dbc68c5697",
+    "apps/web/src/app/not-found.tsx": "0c76b6862a79f67abdaa011008ba34f2f7c5ddc5e0a577a37a47226a4ccecfea",
+    "apps/web/src/app/page.tsx": "ac0aed595ee205ad7736f23fad592a6236c30cc07acc580e262bd14b0e362ee4",
+    "apps/web/src/app/robots.ts": "c797024efd4feaaa025b35b571603bf91e78b9cb4e83a7640c2b7148babb6993",
+    "apps/web/src/app/sitemap.ts": "7d05e828c846f231f50100a1ff638710da8c4fec008980e2e1d1097b0f6f3a92",
+    "apps/web/src/components/catalog-assistant.tsx": "e581b810296b8ad2c12364ce2d1b8df99dacaa812732f78c327b1514a230f719",
+    "apps/web/src/components/catalog.tsx": "1dfcd23a514885aac553cdfde0e6d37d4ba4e53906a227ddb0e8a69b80bc25d6",
+    "apps/web/src/components/event-detail.tsx": "71fedd3e4d3ed2ebf677341886b815c0333c718fae6b23e26a4334350dc3978a",
+    "apps/web/src/components/featured-events.tsx": "30e21d855f7e0290fa0fc50ff965326b928cd5efc4c38b23cbe1b9700d14f51d",
+    "apps/web/src/components/planner.tsx": "d4c06a5f8fe35ceaec885fa30608e83cac8de0478e7d714f2cc29a79f577551d",
+    "apps/web/src/components/ui.tsx": "73bf626fa1589954315a75373a31ba457bfe47a85ff6f76874a567f3338fbcaf",
+    "apps/web/src/lib/agent-reply.ts": "35422c48aab17642c5a87ab5aeaa41e7dd5e92bcd12357aeaca592a86e801d3d",
+    "apps/web/src/lib/api.ts": "893d2da11bfcf60b5ac7d5c974492a67594e42a03b539414d6bcebd3d35de163",
+    "apps/web/src/lib/calendar.ts": "1fd320f9cb23210a9ac63f7f904f4918eba39329b66a953eb5f325f61711525e",
+    "apps/web/src/lib/docs-html.ts": "d8991eef9e03243c2f8fb3b8003adecab9ef5aabb7c3722a21aeb7cc424ad288",
+    "apps/web/src/lib/editorial-images.json": "ff0f07a36f5e13802b69bef88bfb845bf7f6e55a93df105cf83381fe029bad3a",
+    "apps/web/src/lib/generated-api.d.ts": "6a10479ed0f991679dfde7e5a69954b6262b32b9464d45321f5f4a2ff2c10d51",
+    "apps/web/src/lib/import-file.ts": "de20f4299d69a6d670557a65bfd0181cf38b63acc569d1d4a6e6494b17a8db79",
+    "apps/web/src/lib/origin.ts": "b4ed1e176ec6c270f0ff5b3e1219ec4171cfcb575628f8fb2a32f5ba3ae70e98",
+    "apps/web/src/lib/server-api.ts": "5a45f1a62d3d5120f291821ca0566946985c31ff71b94d71d7db2f1e3775ce05",
+    "apps/web/src/app/admin/layout.tsx": "543879a75de52e1b7d3b4ccce679a6d22de4645ba5e2fcf0df420ca180c62d0d",
+    "apps/web/src/app/admin/page.tsx": "652edb749d170fdf95a5bc0844eaee440b620d685c84ddfeb79037fadec761d6",
+    "apps/web/src/app/agent/page.tsx": "ef9d49676f357778d8d4c0a9b2979e848e901e7cd67ff25551c720fd5598a3e0",
+    "apps/web/src/app/credits/page.tsx": "85b7f296d50e91c0710bc8ba45908e4bcdbedb575d3671f89bc222e5ee6d014e",
+    "apps/web/src/app/embed/page.tsx": "39a4bd656e01ca9485eef18bd40a11554e461e4fa013c2ca89ebca3568beee17",
+    "apps/web/src/app/events/page.tsx": "2c4ae579a2becd2ad7da2c1bc73db6d2e214a5fab882532d63830797c0f6507c",
+    "apps/web/src/app/feedback/page.tsx": "10d3247ebf9784b3097e872c3fd88cd1fba0c9a2de67280a8f931379452510e2",
+    "apps/web/src/app/planner/page.tsx": "6e0a9d41659ac9d129291646d3c45457029fea2d2c2f0f80adeb03f89e1b1a78",
+    "apps/web/src/app/widget/page.tsx": "94fb2782e485c3a65fd49a67f0e9e57554bfaf1700285b669d38c8e2d722c2a2",
+    "apps/web/src/app/api/[...path]/route.ts": "f9037e9342e114de6eb1ddf645598a186f3b6962d8e486f34342ec21a49f9079",
+    "apps/web/src/app/events/[id]/page.tsx": "3f737aba218b0497756800c06d73e93b5a2e3626b49df89922f794d13a53df04",
+    "scripts/configure.py": "7b993873c84dba7dd859c322385c69a290395be0bfeebb408723945b8b98ef13",
+    "scripts/generate_api_types.py": "a230c8b6b2aa297fb7620dd9de680fdd7a5b6ef7d77f0916c96688f6f3428abd",
+    "scripts/install_local_llm.py": "6e547e9ef77323b94d8e4899efa691f4a96b5ffb70f53ceb00e0cc3c768fade8",
+    "scripts/local_llm.ps1": "eaa59179b6940ac806aac0387760d6af47366ac74813158347bdacdf3c689c3e",
+    "scripts/local_processes.ps1": "2b3c015abeb0825c0dcc140d7e2b0a12c8cde86f49848598d778262fefa9c201",
+    "scripts/migrate.py": "26428d181ec2e35cb2339bc3cd7e4dc2c1e9badee44119d2f507370c72bbb907",
+    "scripts/package_release.py": "d65444526d10507caca38271113289b7c806e636afa5b375e86fe7e6e3404727",
+    "scripts/refresh_editorial_images.py": "2acd16e2f0fd0fec5618d2a8b7972facbdb0c25270a2d697b3aa6a8034c6d6ba",
+    "scripts/restore_project_data.py": "243ce986ca6bda2ec0285485ace3afc7890d6e7afecebc03236048e786dc92c9",
+    "scripts/review_source_quality.py": "4c22c14775df00bd415830c4b5aa10b7f8897058d1f2037ad7357d0cd3169ace",
+    "scripts/verify_live.py": "1c66c3f7cd5f33330b616ca0529994649f22893194e58614f61a8f2c3a82e2ea",
+    "scripts/warm_local_llm.py": "548fd1ef3f0d0da1d90b18fc828104c5edcce63d08cc417210a80cd0c385a8c6",
+    "scripts/deploy/native-backup.py": "f18ebe3c9a717d0a11e30e652a1e063862ae971ffd1efaf8e9890fbb3028ce8d",
+    "scripts/deploy/native-install.sh": "427b2a1bc4ee2209df7cba73ecf6ca3c64f006bf4e9636fb33b17af1589117e5",
+    "scripts/deploy/native-remove.sh": "c5bdb53881473d880936777895724eb280aa4d297620ca7efb7b0e1c3c1745a2",
+    "tests/__init__.py": "9e53762993954052baa39c7786dd0bd10efd3ad4fb5661ccf13fee405f2a26fe",
+    "tests/agent/test_agent.py": "fe8ef5b268bdb166b82dc502b3aa3ca44bda114f16093d0fdd8810d75b6ad29c",
+    "tests/agent/test_bot.py": "81d13fa5fc3e71fda9d66751c36a2935529fbc6c9c50668302d44c447c109b17",
+    "tests/agent/test_bot_tickets.py": "3792c7756f6d1e5f92e1153ead757a793aeabcea5dc1e26dbf1b83f9b4d0e453",
+    "tests/agent/test_fresh_audit.py": "086fbc9f0f7cca4be118afc7ac87f12603a2629c759929d7faa82d6c338efbee",
+    "tests/agent/test_openrouter.py": "9af84a982b88ab8db92d7d07a47dd5594e1d01a0b33fa527d15e4f40ddb70d88",
+    "tests/agent/test_plan_evidence.py": "9665b4d4f06cd2b13289e50a14de15cd0e9ab4c92731fc46ec08145d16dba2ee",
+    "tests/agent/test_private_context_and_empty_evidence.py": "3231d402189fbf484f14736f3fef083b07fb63f1b5409ab76cc60ea36f55f2d8",
+    "tests/agent/test_regressions.py": "ed2f22abd2fcab9a03535bbde9ac88dabef6073db9bbc8c60f685521ed472707",
+    "tests/agent/test_routing.py": "0594d0ee2f231c91cb64a09564c7115e7846578074fc311927c92c3ac804c292",
+    "tests/api/test_agent_concurrency.py": "943ca0eb5309e135ec01108952ece614e78306e8e8528e1c4c36c3bef10e10ef",
+    "tests/api/test_api.py": "1750abd371f0c46c6e707bf11a5797a6540134924583c2302fe8d86e843021ca",
+    "tests/api/test_contract.py": "4cf08165e47e38cd401ced3b73affefbe9b70f4f251d8b38ca15832808ebda8b",
+    "tests/api/test_dns_cache.py": "4df880f0ed928d352de17267e6d8741ac4988836f9d4bff03184d25a833de1a4",
+    "tests/api/test_final_delivery_config.py": "e3926f6b8cbd589972d627ffbdf7b02ec08dc7fa6025c2b55fb5bd51441cc19f",
+    "tests/api/test_finish.py": "3744291601e5a01ef31a7134f4a4408d40c160b007787f2bbdba25deba588335",
+    "tests/api/test_import_csv.py": "1ceaeb87038418298c36b3913e978acd94c5209709618f6e5b7c775c185f4176",
+    "tests/api/test_launcher.py": "86c2a663b944bcab70033aae84a36771ab0bf00a2e35ad918806f99d51193eef",
+    "tests/api/test_local_llm.py": "04730d0dd2749292dec3aebd219b4de6ed536dda6db1071dbb871022df21e1ed",
+    "tests/api/test_local_llm_installer.py": "57e15c5d374ec5d1185f23592c83ecf1b76f03182b0ae478e05aeb1597195225",
+    "tests/api/test_logging.py": "90a0ad09d2d7539fae39c2958b815808d48ec4a43b126970dd562e8a6ef4cddd",
+    "tests/api/test_migrate_compatibility.py": "1af9abdc2d0afd6e76a959e6031ee61001f77c1251ca6c420af64d05657c5be4",
+    "tests/api/test_partner_fetch.py": "bad6f68340d194c66221e2110e5920d6d6f414b5ca1547664f4e2c0493b45508",
+    "tests/api/test_postgres.py": "3a8392b8af42b5f95411c0d4c0f6cac38f31f79a9ff67478438e22809d7ffbf4",
+    "tests/api/test_release_package.py": "8e1f146ec1d11a8e0f64cf6ec5085630f8fb0d5432fbb88a5cca11623c2b27f9",
+    "tests/api/test_ticket_backfill.py": "1d15d2ef96a5562cca10e434c80475e94922bbd998de6cdf91d824dc3f8fafcb",
+    "tests/api/test_ticket_evidence.py": "d4cd804d244419c3ffdbf393477ff675da9408513479c569ec73932359f51254",
+    "tests/evals/assessments.json": "14c74da07e4ae097148ca5ff3996170fe913416248e7aa043bc636a0297d364a",
+    "tests/evals/blind-20261113.json": "89e2e53531263d4493461e0a40c5ea78330ef7be54f6985dac8f40c1dcd041c8",
+    "tests/evals/cases.json": "1eab90c9787253dcb1d1fac218d08fbf88b2466b380e5200785bdca303a8228e",
+    "tests/evals/holdout.json": "dd46ccda382a65d527c933fc4cecd28554520e228b60c8d8f1f5a1a7f3e941f7",
+    "tests/evals/run.py": "be96745f171d894a725cb843bfa9c8f27f9f023e7a7c2c118379f8bb565479c7",
+    "tests/evals/run_blind.py": "a75ca0b965100ddeed7fb28db6e84c0867b24cb1370b317fe85c1971aec15a3c",
+    "tests/evals/test_eval_runner.py": "8637e951da7ea6cb43c47461f92a92ab823fc9dc6ecf7cdba7081d0ff0cdcad9",
+    "tests/evals/__init__.py": "b688abfde431dc6ca4f7d03cd0100d1f285dc3b28277e289906eab83c2d78d24",
+    "tests/sources/test_adapters.py": "20f0736f2f2c3b418c17a12f13b9ae55eb8f59c7ef1455553cb2720d6d329621",
+    "tests/sources/test_evidence.py": "7228669beb3711973b446c3a6b1aafb57ac2e19e6d0050014209785bc4192103",
+    "tests/sources/test_kassy.py": "c838ff993bcbee3041ffd3c867b0d17182fe0d53426028c25387676130731e1b",
+    "tests/sources/test_pagination.py": "f4558f878dff45ddcbd1f3c03bfb55cfb9c8b6b1c3e752303c2ab541094e57a3",
+    "tests/sources/test_proculture.py": "d61ea7c2bee0355aa4ea63b0550bc774e9b4147355b7fcb21377cb4c998878fd",
+    "tests/sources/test_quality_review.py": "8d2799ac61b6611dcd29321f5d414d5536a7890293239f09fac486152ad3ab5a",
+    "tests/sources/test_reconciliation.py": "0b7d9388d46a1d711efccd51e53f2ae0a23231203182bb7e7374d589d9a3d2ac",
+    "tests/sources/test_sterlitamak.py": "6daaf97a33568166d83f64ca255c0e58246354d8551d416e1f244a1d4a4118b9",
+    "tests/sources/test_worker_recovery.py": "9ce90a7114566fb565e5982a07e232876cb2339b39ffce30ec8a604e7edd61bf"
+  }
+}

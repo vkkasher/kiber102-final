@@ -1,0 +1,45 @@
+{
+  "ticket_enrichment": {"enabled": true, "provider": "kassy", "interval_seconds": 3600},
+  "sources": [
+    {
+      "id": "bashopera",
+      "enabled": true,
+      "url": "https://www.bashopera.ru/affiche/noyabr-2026/",
+      "url_template": "https://www.bashopera.ru/affiche/{month}-{year}/",
+      "terms": "Публичная афиша для демонстрации. Отдельное согласование заказчиком перед промышленным сбором.",
+      "address_source": "https://www.bashopera.ru/about/contacts/",
+      "month_offsets": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "rusdram",
+      "enabled": true,
+      "url": "https://rusdram.ru/afisha.html",
+      "terms": "Публичная афиша, robots разрешает /afisha.html. Согласовать промышленный сбор с заказчиком.",
+      "address_source": "https://www.culture.ru/institutes/10431/gosudarstvennyi-akademicheskii-russkii-dramaticheskii-teatr-g-ufy"
+    },
+    {
+      "id": "timepad",
+      "enabled": false,
+      "url": "https://api.timepad.ru/v1/events?cities=Уфа&limit=100&fields=location,registration_data",
+      "terms": "Публичный GET по документации. Фактический 403 требует согласованного доступа. TIMEPAD_API_TOKEN поддержан без записи в журнал, обход ограничений запрещён."
+    },
+    {
+      "id": "proculture",
+      "enabled": false,
+      "url": "https://pro.culture.ru/api/2.5/events/?limit=100&status=accepted",
+      "terms": "Адаптер экспорта 2.5. Перед включением нужны партнёрский ключ, согласованный региональный фильтр locales и право использования данных. Частичная страница не снимает отсутствующие сеансы."
+    },
+    {
+      "id": "sterlitamak",
+      "enabled": false,
+      "demo_only": true,
+      "url": "https://rusdramteatr.ru/afisha",
+      "terms": "Только факты и активные ссылки для локального демо. Без афиш и оригинальных описаний. Для промышленного использования требуется отдельное согласование правообладателя, пользовательское соглашение пп. 2.2–2.3. SOURCE_ENABLE_STERLITAMAK_DEMO=1 включает локальный сбор явно.",
+      "policy_url": "https://rusdramteatr.ru/images/docs/PS.pdf",
+      "tariff_source": "https://rusdramteatr.ru/bilety"
+    }
+  ]
+}

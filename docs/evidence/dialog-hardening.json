@@ -1,0 +1,193 @@
+{
+  "checked_at": "2026-11-14T20:00:39.073392+00:00",
+  "owner_date": "2026-11-15",
+  "base_commit": "0b33441df3a4b26b04a92fbbf626917c2223804e",
+  "working_tree_changes_included": true,
+  "committed": false,
+  "github_pushed": false,
+  "scope": "Targeted dialogue recovery, native Telegram rich articles with event photos and three-event paging. Existing API, catalogue, subscriptions and planner retained.",
+  "checks": {
+    "pytest": {
+      "passed": 449,
+      "skipped": 5,
+      "seconds": 57.49,
+      "skip_reason": "Separate PostgreSQL URL not supplied; no database/schema change",
+      "warnings": [
+        "Existing Starlette/httpx deprecation"
+      ]
+    },
+    "new_regression_cases": 117,
+    "ruff": "passed: apps tests scripts",
+    "pip_check": "passed",
+    "openapi_types": "generated and --check passed",
+    "typescript": "npm --prefix apps/web run typecheck passed",
+    "offline_contracts": {
+      "main": 60,
+      "internal": 10,
+      "passed": 70,
+      "independent_external_benchmark": false
+    },
+    "real_catalog_copy": {
+      "chained_requests": 13,
+      "passed": 13,
+      "paid_calls": 0,
+      "production_event_writes": 0
+    },
+    "matrix": {
+      "distinct_checks": 383,
+      "calendar_checks": 371,
+      "format_checks": 12,
+      "rich_article_validation": true,
+      "passed": true
+    },
+    "live_api": {
+      "health": {
+        "status": "ok",
+        "database": "ok",
+        "timezone": "Asia/Yekaterinburg",
+        "llm_configured": true,
+        "notification_transport": "disabled"
+      },
+      "query_result_limit_schema": {
+        "type": "integer",
+        "maximum": 5.0,
+        "minimum": 1.0,
+        "title": "Result Limit",
+        "default": 5
+      },
+      "agent_page_http": 200
+    },
+    "telegram": {
+      "bot": "@kiber102rfbot",
+      "account": "test_account_1",
+      "transport": "Telegram Research with existing exact local bot grant",
+      "before_final_pagination_scenario": [
+        {
+          "query": "В Уфе завтра",
+          "confirmed_replies": 1
+        },
+        {
+          "query": "Мне 18 лет",
+          "confirmed_replies": 1
+        },
+        {
+          "query": "В Уфе с ребёнком 8 лет в понедельник до 5000 рублей на двоих",
+          "confirmed_replies": 1
+        },
+        {
+          "query": "В Уфе завтра",
+          "confirmed_replies": 1
+        },
+        {
+          "query": "В Уфе с ребёнком 8 лет в субботу до 1000 рублей на двоих",
+          "confirmed_replies": 1
+        },
+        {
+          "query": "В Уфе",
+          "confirmed_replies": 1
+        }
+      ],
+      "actual_provider_modes": [
+        {
+          "query": "В Уфе завтра",
+          "mode": "llm",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 2262.05
+        },
+        {
+          "query": "Мне 18 лет",
+          "mode": "llm",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 2236.93
+        },
+        {
+          "query": "В Уфе с ребёнком 8 лет в понедельник до 5000 рублей на двоих",
+          "mode": "llm",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 1250.07
+        },
+        {
+          "query": "В Уфе завтра",
+          "mode": "llm",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 1219.42
+        },
+        {
+          "query": "В Уфе с ребёнком 8 лет в субботу до 1000 рублей на двоих",
+          "mode": "llm",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 1809.42
+        },
+        {
+          "query": "В Уфе",
+          "mode": "llm",
+          "model": "deepseek/deepseek-v4.1-flash-1017",
+          "latency_ms": 1088.59
+        }
+      ],
+      "final_article": {
+        "confirmed_replies": 1,
+        "native_rich_message": true,
+        "first_page_controls": [
+          "1/18",
+          "→"
+        ],
+        "total_pages_at_capture": 18,
+        "verified_events_per_page": 3
+      },
+      "screenshots": [
+        {
+          "device": "desktop",
+          "path": "docs/evidence/screenshots/bot-dialog-desktop.png",
+          "sha256": "b86a4b9edf26e4031b42c1f08886b84ae1c0ae66c6d139ac82413b1d5065f7de",
+          "actual_owned_telegram_web": true,
+          "manually_reviewed": true,
+          "photo_after_title_visible": true,
+          "navigation_visible": "← 5/18 →",
+          "real_phone_tested": false,
+          "callback_origin_not_attributed": true
+        },
+        {
+          "device": "iphone_14_plus",
+          "path": "docs/evidence/screenshots/bot-dialog-iphone_14_plus.png",
+          "sha256": "2172ce420190b691b01e3ff71a774fa9331a550af15dc6f8faa57623e38c4f96",
+          "actual_owned_telegram_web": true,
+          "manually_reviewed": true,
+          "photo_after_title_visible": true,
+          "navigation_visible": "← 5/18 →",
+          "real_phone_tested": false,
+          "callback_origin_not_attributed": true
+        }
+      ],
+      "visual_first_capture": "Desktop history and mobile photo were still loading; repeated read-only capture after waiting, then reviewed rendered photos and controls.",
+      "automated_live_opaque_callback_clicks": 0,
+      "isolated_callback_handler_and_edit_tests": "passed",
+      "notification_delivery_tested": false
+    }
+  },
+  "deployment": {
+    "updated_at": "20261114T195852Z",
+    "updated_files": [
+      "apps/api/app/agent.py",
+      "apps/bot/main.py",
+      "apps/bot/service.py",
+      "apps/dialogue.py"
+    ],
+    "backup": "/opt/kiber102/backups/dialog-code-20261114T195852Z",
+    "api": "active",
+    "bot": "active",
+    "github_push": false,
+    "sha256": {
+      "apps/api/app/agent.py": "fa3ac697a20f404825bffea393f7741c7acd23242fa2da1a2d9b40ee603c7924",
+      "apps/bot/main.py": "12851e9b554aebd4cc479ad854936d0edf11791cfa97248575834ec595d0fe46",
+      "apps/bot/service.py": "39040cc217739a502e8e0b49ff238a3629dc58b83ba0bf3ea347231db5e8317a",
+      "apps/dialogue.py": "c0d693f9f47c140bf30d5b69a82ffebb52aa60d8a27b8a9fd3b3bf3b852f3fbe"
+    }
+  },
+  "limits": [
+    "Five PostgreSQL tests skipped in this local run; prior PostgreSQL evidence is historical.",
+    "No independent external model benchmark or real iOS/Android client acceptance.",
+    "Screenshots demonstrate current rendering, not attribution of callback actions.",
+    "Source GitHub publication and handoff archive refresh are deferred at owner request."
+  ]
+}

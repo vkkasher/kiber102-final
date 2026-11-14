@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-14T16:07:55.340634+00:00",
+  "scope": "Local final delivery preparation; no server deployment or GitHub publication.",
+  "checks": {
+    "ruff": "passed",
+    "python": {
+      "passed": 238,
+      "skipped": 4,
+      "skip_reason": "PostgreSQL test URL not supplied",
+      "warning": "Starlette httpx deprecation"
+    },
+    "openapi_types": "current",
+    "web_build": "passed",
+    "typescript": "passed",
+    "eslint": "passed",
+    "node_tests": 5,
+    "vitest_tests": 7,
+    "browser": {
+      "passed": 14,
+      "url": "http://127.0.0.1:3001",
+      "scope": "production build, public accessibility and regressions"
+    },
+    "source_review": {
+      "cards_matched": 50,
+      "cards_checked": 50,
+      "fields_matched": 500,
+      "human_verified": false
+    },
+    "internal_contracts": {
+      "main": "60/60",
+      "holdout": "10/10",
+      "external_holdout": false,
+      "model": "offline fallback"
+    },
+    "standalone": {
+      "health": 200,
+      "openapi": 200,
+      "css": 200,
+      "font": 200,
+      "venue_image": 200
+    },
+    "compose": "YAML parsed, five services and persistent volumes checked; cold startup not executed",
+    "source_package_tests": "4 passed; private restore roundtrip verified",
+    "demo": {
+      "status": "recorded",
+      "seconds": 304.08,
+      "duration_verified": true,
+      "visual_review": "7 extracted frames inspected",
+      "model": "deepseek/deepseek-v4.1-flash-1017"
+    }
+  },
+  "preservation": {
+    "event_rows_unchanged": true,
+    "catalog_status_counts": {
+      "draft": 3,
+      "published": 75
+    },
+    "env_bytes_unchanged": true
+  },
+  "pending": [
+    "Independent external evaluation and human source labels",
+    "Cold Docker startup timing",
+    "Production domain/TLS/server acceptance",
+    "Approved industrial source use and font web-license evidence",
+    "Live notification delivery"
+  ]
+}

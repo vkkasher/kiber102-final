@@ -1,0 +1,15 @@
+node_modules
+.next*
+.git
+.turbo
+.cache
+coverage
+*.log
+.env*
+tests
+test-results
+playwright-report
+*.tsbuildinfo
+AGENTS.md
+.taste-skill
+.playwright-cli

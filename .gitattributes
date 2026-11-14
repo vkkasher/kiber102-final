@@ -1,0 +1,8 @@
+*.sh text eol=lf
+.env -text -diff
+# Preserve source evidence byte-for-byte for SHA256 verification.
+docs/evidence/sources/*.raw binary
+data/*.gz binary
+*.webm binary
+# Keep the upstream license text unchanged.
+apps/api/static/docs/swagger-ui-bundle.js.LICENSE.txt -whitespace

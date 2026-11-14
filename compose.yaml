@@ -1,0 +1,84 @@
+services:
+  postgres:
+    restart: unless-stopped
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: kiber102
+      POSTGRES_USER: kiber102
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U kiber102 -d kiber102"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 3s
+  api:
+    restart: unless-stopped
+    image: kiber102-backend:latest
+    build: .
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://kiber102:${POSTGRES_PASSWORD}@postgres:5432/kiber102
+    ports: ["127.0.0.1:8000:8000"]
+    depends_on:
+      postgres: {condition: service_healthy}
+    volumes:
+      - source_evidence:/app/.local
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/v1/health', timeout=3)"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+      start_period: 5s
+  web:
+    restart: unless-stopped
+    build:
+      context: ./apps/web
+      args:
+        WEB_PUBLIC_URL: ${WEB_PUBLIC_URL:-http://localhost:3000}
+    environment:
+      API_INTERNAL_URL: http://api:8000
+      NEXT_TELEMETRY_DISABLED: '1'
+      TRUSTED_PROXY_SECRET: ${TRUSTED_PROXY_SECRET:?Set TRUSTED_PROXY_SECRET in .env}
+      WEB_PUBLIC_URL: ${WEB_PUBLIC_URL:-http://localhost:3000}
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on:
+      api: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://localhost:3000').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+      start_period: 5s
+  worker:
+    restart: unless-stopped
+    image: kiber102-backend:latest
+    build: .
+    command: [python, -m, apps.worker.main]
+    env_file: .env
+    environment:
+      API_URL: http://api:8000
+    depends_on:
+      api: {condition: service_healthy}
+    volumes:
+      - source_evidence:/app/.local
+  bot:
+    restart: unless-stopped
+    image: kiber102-backend:latest
+    build: .
+    command: [python, -m, apps.bot.main]
+    env_file: .env
+    environment:
+      API_URL: http://api:8000
+      API_INTERNAL_URL: http://api:8000
+      BOT_STANDBY: "true"
+    depends_on:
+      api: {condition: service_healthy}
+    volumes:
+      - bot_state:/app/.local
+volumes:
+  postgres_data:
+  source_evidence:
+  bot_state:

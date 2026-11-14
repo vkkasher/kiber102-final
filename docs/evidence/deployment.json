@@ -1,0 +1,108 @@
+{
+  "checked_at": "2026-11-14T16:40:13.568928+00:00",
+  "url": "https://kiber102.vkkasher.ru",
+  "checks": {
+    "units": {
+      "kiber102-api.service": "active",
+      "kiber102-web.service": "active",
+      "kiber102-bot.service": "active",
+      "kiber102-worker.service": "active",
+      "kiber102-proxy.service": "active"
+    },
+    "pages": {
+      "/": 200,
+      "/events": 200,
+      "/agent": 200,
+      "/planner": 200,
+      "/embed": 200,
+      "/widget": 200,
+      "/admin": 200,
+      "/api/docs": 200,
+      "/api/openapi.json": 200,
+      "/api/v1/health": 200
+    },
+    "canonical_correct": true,
+    "public_events": 73,
+    "event_page": 200,
+    "fallback": {
+      "status": 200,
+      "mode": "fallback",
+      "events": 2
+    },
+    "planner": {
+      "status": 200,
+      "feasible": true,
+      "events": 2,
+      "price_total_max": 6400
+    },
+    "health": {
+      "status": "ok",
+      "database": "ok",
+      "timezone": "Asia/Yekaterinburg",
+      "llm_configured": true,
+      "notification_transport": "disabled"
+    },
+    "readiness_20": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "https_verified": true,
+    "root_redirect_correct": true,
+    "telegram": {
+      "authenticated": true,
+      "username": "kiber102rfbot",
+      "polling_mode": true,
+      "messages_sent": 0
+    },
+    "backup_restore": {
+      "archive": "kiber102-20261114T163642Z.tar.gz",
+      "integrity": {
+        "catalog.db": "ok",
+        "bot.sqlite": "ok"
+      },
+      "environment_matches": true
+    },
+    "catalog_rows": 78,
+    "memory": "444084224",
+    "bot_restarts": "0",
+    "neighbor_services": {
+      "checked": 5,
+      "all_active": true,
+      "all_pids_unchanged": true
+    }
+  },
+  "passed": true,
+  "browser": {
+    "verified": true,
+    "flows": [
+      "catalog",
+      "deepseek_query",
+      "family_planner",
+      "swagger"
+    ],
+    "bot_messages_sent": 0
+  },
+  "limitations": [
+    "rusdram and sterlitamak collection returned ConnectError; existing catalogue retained",
+    "notifications disabled",
+    "temporary SQLite deployment; PostgreSQL migration and Docker cold-start not tested"
+  ]
+}

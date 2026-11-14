@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Башкирский государственный академический театр оперы и балета" />
+<meta name="description" content="Башкирский государственный академический театр оперы и балета" />
+<link href="/bitrix/templates/responsive/vendor/slick/slick.css?14918015921729" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/responsive/vendor/mmenu/jquery.mmenu.all.css?149411376061588" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/responsive/vendor/mmenu/hamburgers.css?14941132803717" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/responsive/vendor/fancybox/jquery.fancybox.min.css?150570711213894" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script src="/bitrix/templates/responsive/vendor/jquery/jquery-1.12.4.min.js?149180159297163"></script>
+<script src="/bitrix/templates/responsive/vendor/slick/slick.min.js?149180159241953"></script>
+<script src="/bitrix/templates/responsive/vendor/mmenu/jquery.mmenu.all.min.js?149411808061627"></script>
+<script src="/bitrix/templates/responsive/vendor/fancybox/jquery.fancybox.min.js?150570711252657"></script>
+<script src="/bitrix/templates/responsive/vendor/mask/jquery.maskedinput.js?15385626084324"></script>
+<script src="/bitrix/templates/responsive/vendor/jquery.cookie.js?13985824343121"></script>
+<script>var _ba = _ba || []; _ba.push(["aid", "1f3f9f37a26556ad6f013323fd112bf7"]); _ba.push(["host", "www.bashopera.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+
+	<meta property="og:title" content="Ближайшие спектакли"/>
+	<meta property="og:url" content="/affiche/dekabr-2026/"/>
+	<meta property="og:image" content=""/>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Ближайшие спектакли</title>
+	
+						
+				
+	<script src="/bitrix/templates/responsive/js/bvi/js/js.cookie.min.js"></script>
+	<script src='/bitrix/templates/responsive/js/bvi/js/responsivevoice.min.js?ver=1.5.0'></script>
+	<script src="/bitrix/templates/responsive/js/bvi/js/bvi.js"></script>
+	<link rel="stylesheet" href="/bitrix/templates/responsive/js/bvi/css/bvi.css?r5" type="text/css"> 
+
+	<script src="/bitrix/templates/responsive/js/site.min.js?r10"></script>
+	<script src="/bitrix/templates/responsive/js/core.min.js?r13"></script>
+
+	<script src="https://ufa.kassir.ru/start-frame.js"></script>
+
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="https://bashopera.ru/favicon.jpg" type="image/jpg">
+
+	<link rel="stylesheet" href="/bitrix/templates/responsive/css/style_old.css?r16" type="text/css" media="screen"> 
+	<link rel="stylesheet" href="/bitrix/templates/responsive/css/style.css?r23" type="text/css" media="screen"> 
+	
+	<script type="text/javascript" src="/bitrix/templates/responsive/js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="/bitrix/templates/responsive/js/jquery.autocolumnlist.min.js"></script>
+		<script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+	<script type="text/javascript">
+		VK.init({apiId: 4809802, onlyWidgets: true});
+	</script>
+
+		
+	<link type="text/css" rel="stylesheet" href="//cdn.kassy.ru/widget/wrap_widget.css?ver=1" />
+	<script src="//cdn.kassy.ru/widget/wrap_widget.js?ver=1"></script>
+
+	<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=n6QcOHtuWojCOJU52o16hsqKkiHGGImF21brP2NxP*bdDxadK*nuCLLo8EsIR//pTdH682SIWN1gJnlOLZkvcmsLStVGdSkY3kPZ93wr60cvM29oCORhIW6X87Ba2EfOmyvXNOd1471qozDiKri5aQ8TPAnN4KgeHBOZqxPAP*c-&pixel_id=1000096954';</script>
+
+	<script charset="UTF-8" src="//cdn.sendpulse.com/js/push/94ba904a3c9b015b12f8fce5bcde98e0_0.js" async></script>
+</head>                
+<body>
+
+	
+	<div id="panel"></div>
+
+	<style>
+		.b-svo a { background: #bd9975; }
+	</style>
+
+	<div class="b-svo">
+		<a href="/visitors/uchastnikam-svo.php">
+			<img src="/bitrix/templates/responsive/img/branch.svg">
+			<div class="title">Участникам СВО и их семьям</div>
+		</a>
+	</div>
+
+	<div class="b-head">
+		<div class="b-header">
+			<div class="container">
+				<div class="items">
+					<div class="item logo">
+						<a href="/">
+							<img src="/bitrix/templates/responsive/img/logo.svg">
+						</a>
+					</div>
+					<button id="menu-icon" class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+					<div class="menu">
+						
+<ul class="items">
+
+	
+		
+		<li class="m-parent m-active">
+			<a href="/affiche/">
+				<span>Афиша</span>
+			</a>
+
+			 
+	
+		</li>
+
+		
+			
+	
+								<li>
+				<a href="/about/">
+					<span>Театр</span>
+				</a>
+				<div class="subpanel">
+					<div class="wrap">
+						<div class="inner">
+							<ul>
+		
+		<li class="m-parent">
+			<a href="/artists/">
+				<span>Артисты и Дирекция</span>
+			</a>
+
+				
+				
+					
+						<li><a href="/artists/opera/">Опера</a></li>
+
+					
+						<li><a href="/artists/ballet/">Балет</a></li>
+
+					
+						<li><a href="/artists/chorus/">Хор</a></li>
+
+					
+						<li><a href="/artists/orchestra/">Оркестр</a></li>
+
+					
+						<li><a href="/artists/detskaya-opernaya-studiya/">Детская оперная студия</a></li>
+
+					
+						<li><a href="/artists/khor-malchikov-i-yunoshey/">Хор мальчиков и юношей</a></li>
+
+					
+						<li><a href="/artists/management/">Художественное руководство и дирекция</a></li>
+
+					
+						<li><a href="/artists/guest/">Приглашенные солисты</a></li>
+
+					
+						<li><a href="/artists/workshops/">Постановочные цеха</a></li>
+
+					
+				 
+
+			 
+	
+		</li>
+
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/news/">
+				<span>Новости</span>
+			</a>
+
+				
+				
+					
+						<li><a href="/news/events/">События</a></li>
+
+					
+						<li><a href="/news/press/">Пресса</a></li>
+
+					
+				 
+
+			 
+	
+		</li>
+
+									</ul>
+			</div>
+			<div class="inner">
+				<ul>
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/repertoire/">
+				<span>Репертуар</span>
+			</a>
+
+				
+				
+					
+						<li><a href="/repertoire/opera/">Опера</a></li>
+
+					
+						<li><a href="/repertoire/ballet/">Балет</a></li>
+
+					
+						<li><a href="/repertoire/operetta/">Оперетта</a></li>
+
+					
+						<li><a href="/repertoire/comedy/">Музыкальная комедия</a></li>
+
+					
+						<li><a href="/repertoire/children/">Спектакль для детей</a></li>
+
+					
+				 
+
+			 
+	
+		</li>
+
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/about/">
+				<span>О театре</span>
+			</a>
+
+				
+				
+					
+						<li><a href="/about/index.php">История театра</a></li>
+
+					
+						<li><a href="/about/schemes/">Схемы залов</a></li>
+
+					
+						<li><a href="/about/vacancies/">Вакансии</a></li>
+
+					
+						<li><a href="/about/contacts/">Контакты</a></li>
+
+					
+				 
+
+			 
+	
+		</li>
+
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/repertoire/concert/14117/">
+				<span>Аудиопрогулка</span>
+			</a>
+
+			 
+	
+		</li>
+
+									</ul>
+			</div>
+			<div class="inner">
+				<ul>
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/partners/">
+				<span>Партнерам</span>
+			</a>
+
+				
+				
+					
+						<li><a href="/partners/partnership/">Сотрудничество</a></li>
+
+					
+						<li><a href="/partners/details/">Реквизиты театра</a></li>
+
+					
+						<li><a href="/partners/offer/">Организация гастролей</a></li>
+
+					
+						<li><a href="/partners/technical/">Технические параметры оборудования</a></li>
+
+					
+						<li><a href="/partners/documents/">Документы и отчеты</a></li>
+
+					
+						<li><a href="/partners/procurement/">Закупки</a></li>
+
+					
+						<li><a href="/partners/rent/">Аренда</a></li>
+
+					
+						<li><a href="/partners/anticorruptional/">Антикоррупционная деятельность</a></li>
+
+					
+				 
+
+			 
+	
+		</li>
+
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/laboratory/">
+				<span>Лаборатория современной Башкирской оперы</span>
+			</a>
+
+			 
+	
+		</li>
+
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/severnye-amury/">
+				<span>Северные амуры</span>
+			</a>
+
+			 
+	
+		</li>
+
+		
+												</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+	
+		
+		<li class="m-parent">
+			<a href="/visitors/">
+				<span>Посетителям</span>
+			</a>
+
+				
+				
+					<ul class="submenu">
+		
+						
+							<li><a href="/visitors/index.php">Правила посещения театра</a></li>
+						
+						
+							<li><a href="/visitors/rules.php">Правила продажи и возврата билетов</a></li>
+						
+						
+							<li><a href="/visitors/available-environment.php">Льготы и скидки</a></li>
+						
+						
+							<li><a href="/visitors/uchastnikam-svo.php">Участникам СВО и их семьям</a></li>
+						
+						
+							<li><a href="/visitors/quality.php">Независимая оценка качества услуг</a></li>
+						
+						
+							<li><a href="/visitors/gift-certificates.php">Подарочные сертификаты</a></li>
+						
+						
+							<li><a href="/visitors/pushkinskaya-karta.php">Пушкинская карта</a></li>
+						
+						
+							<li><a href="/visitors/voprosy.php">Часто задаваемые вопросы</a></li>
+						
+								
+					</ul>
+			
+				 
+
+			 
+	
+		</li>
+
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="https://media.bashopera.ru">
+				<span>Media</span>
+			</a>
+
+			 
+	
+		</li>
+
+		
+			
+	
+		
+		<li class="m-parent">
+			<a href="/academy/">
+				<span>Академия</span>
+			</a>
+
+				
+				
+					<ul class="submenu">
+		
+						
+							<li><a href="http://abdrazakov-academy.ru/">Академия Абдразакова</a></li>
+						
+						
+							<li><a href="/academy/index.php">Об Академии</a></li>
+						
+						
+							<li><a href="/academy/information/">Сведения об образовательной организации</a></li>
+						
+						
+							<li><a href="/academy/contacts/">Контакты</a></li>
+						
+						
+							<li><a href="/academy/news/">Новости Академии</a></li>
+						
+								
+					</ul>
+			
+				 
+
+			 
+	
+		</li>
+
+		
+			
+	
+</ul>					</div>
+				</div>
+			</div>
+		</div>
+
+		
+			<div class="b-bg">
+								<div class="content">
+					<div class="container">
+						<div class="breadcrumbs"><ul><li><a href="/">Главная</a></li><li><a href="/affiche/">Афиша</a></li><li><a href="/affiche/89-y-teatralnyy-sezon-2026-2027/">89-й театральный сезон (2026-2027)</a></li><li><a href="/affiche/dekabr-2026/">Декабрь 2026</a></li></ul></div>						<div class="title">
+							Афиша						</div>
+					</div>
+				</div>
+			</div>
+			
+			</div>
+	
+			
+				
+	
+<div class="b-article">
+<div class="container">
+<div class="wrapper">
+<div class="sidebar"></div>
+<div class="content" id="article-content">
+
+	
+		<h1>
+			<span>Декабрь 2026</span>
+			<a href="/affiche/">Ближайшие спектакли</a>		</h1>
+
+	
+	<div class="b-affiche">
+
+				
+		
+					<div class="b-submenu" style="margin: 0;">
+			<ul>
+									<li><a href="#" class="m-disable" id="fm-11">Декабрь</a></li>
+									<li><a href="#" class="m-disable" id="fm-0">Январь</a></li>
+							</ul>
+			</div>
+		
+					<div class="b-submenu">
+			<ul>
+									<li><a href="#" class="m-disable" id="fs-2">Опера</a></li>
+									<li><a href="#" class="m-disable" id="fs-7">Балет</a></li>
+									<li><a href="#" class="m-disable" id="fs-5">Спектакль для детей</a></li>
+									<li><a href="#" class="m-disable" id="fs-6">Концерт</a></li>
+									<li><a href="#" class="m-disable" id="fs-3">Оперетта</a></li>
+							</ul>
+			</div>
+		
+		<div class="items">
+			
+										
+													<div class="item title">
+					Декабрь				</div>
+							
+			
+			<div class="item content fm-11 fs-0 fs-2" id="bx_3218110189_15891">
+				<div class="col dates">
+											<div class="date"><strong>1 декабря</strong></div>
+						<div class="weekday">вторник</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/opera/14148/">Садко</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Николай Римский-Корсаков</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/opera/14148/15891/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15892">
+				<div class="col dates">
+											<div class="date"><strong>2 декабря</strong></div>
+						<div class="weekday">среда</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15892/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15893">
+				<div class="col dates">
+											<div class="date"><strong>3 декабря</strong></div>
+						<div class="weekday">четверг</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15893/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-5" id="bx_3218110189_15894">
+				<div class="col dates">
+											<div class="date"><strong>5 декабря</strong></div>
+						<div class="weekday">суббота</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/children/12860/">Кошкин дом</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Павел Вальдгардт</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/235/?template=blank">Малый зал</a>, 12:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/children/12860/15894/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-2" id="bx_3218110189_15895">
+				<div class="col dates m-hidden">
+											<div class="date"><strong>5 декабря</strong></div>
+						<div class="weekday">суббота</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/opera/14050/">Евгений Онегин</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 18:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/opera/14050/15895/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-5" id="bx_3218110189_15897">
+				<div class="col dates">
+											<div class="date"><strong>6 декабря</strong></div>
+						<div class="weekday">воскресенье</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/children/12860/">Кошкин дом</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Павел Вальдгардт</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/235/?template=blank">Малый зал</a>, 12:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/children/12860/15897/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-2" id="bx_3218110189_15896">
+				<div class="col dates m-hidden">
+											<div class="date"><strong>6 декабря</strong></div>
+						<div class="weekday">воскресенье</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/opera/14050/">Евгений Онегин</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 18:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/opera/14050/15896/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-6" id="bx_3218110189_15922">
+				<div class="col dates">
+											<div class="date"><strong>9 декабря</strong></div>
+						<div class="weekday">среда</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/concert/15921/">Любовь. Опера. Театр</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Концерт солистов оперной труппы</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/concert/15921/15922/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15898">
+				<div class="col dates">
+											<div class="date"><strong>10 декабря</strong></div>
+						<div class="weekday">четверг</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15898/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15899">
+				<div class="col dates">
+											<div class="date"><strong>11 декабря</strong></div>
+						<div class="weekday">пятница</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15899/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15900">
+				<div class="col dates">
+											<div class="date"><strong>12 декабря</strong></div>
+						<div class="weekday">суббота</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 12:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15900/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15901">
+				<div class="col dates m-hidden">
+											<div class="date"><strong>12 декабря</strong></div>
+						<div class="weekday">суббота</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 18:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15901/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-2" id="bx_3218110189_15902">
+				<div class="col dates">
+											<div class="date"><strong>15 декабря</strong></div>
+						<div class="weekday">вторник</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/opera/4837/">Кармен</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Жорж Бизе</li>
+																																							<li>16+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/opera/4837/15902/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-2" id="bx_3218110189_15903">
+				<div class="col dates">
+											<div class="date"><strong>16 декабря</strong></div>
+						<div class="weekday">среда</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/opera/4837/">Кармен</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Жорж Бизе</li>
+																																							<li>16+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/opera/4837/15903/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-3" id="bx_3218110189_15904">
+				<div class="col dates">
+											<div class="date"><strong>17 декабря</strong></div>
+						<div class="weekday">четверг</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/operetta/780/">Муж за дверью. Званый вечер с итальянцами</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Жак Оффенбах</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/235/?template=blank">Малый зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/operetta/780/15904/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15905">
+				<div class="col dates">
+											<div class="date"><strong>19 декабря</strong></div>
+						<div class="weekday">суббота</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 18:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15905/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-5" id="bx_3218110189_15906">
+				<div class="col dates">
+											<div class="date"><strong>20 декабря</strong></div>
+						<div class="weekday">воскресенье</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/children/11932/">Летучий корабль</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Максим Дунаевский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 12:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/children/11932/15906/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-5" id="bx_3218110189_15907">
+				<div class="col dates m-hidden">
+											<div class="date"><strong>20 декабря</strong></div>
+						<div class="weekday">воскресенье</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/children/11932/">Летучий корабль</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Максим Дунаевский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 15:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/children/11932/15907/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15908">
+				<div class="col dates">
+											<div class="date"><strong>22 декабря</strong></div>
+						<div class="weekday">вторник</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15908/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15909">
+				<div class="col dates">
+											<div class="date"><strong>23 декабря</strong></div>
+						<div class="weekday">среда</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15909/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15910">
+				<div class="col dates">
+											<div class="date"><strong>24 декабря</strong></div>
+						<div class="weekday">четверг</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15910/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-6" id="bx_3218110189_15926">
+				<div class="col dates">
+											<div class="date"><strong>25 декабря</strong></div>
+						<div class="weekday">пятница</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/concert/15925/">Рождество</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Праздничный концерт</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/235/?template=blank">Малый зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+																												<a href="/repertoire/concert/15925/15926/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-6" id="bx_3218110189_15923">
+				<div class="col dates">
+											<div class="date"><strong>26 декабря</strong></div>
+						<div class="weekday">суббота</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/concert/14615/">Новый год в BashOpera</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Праздничный концерт</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 18:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+																												<a href="/repertoire/concert/14615/15923/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15911">
+				<div class="col dates">
+											<div class="date"><strong>27 декабря</strong></div>
+						<div class="weekday">воскресенье</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 12:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15911/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15912">
+				<div class="col dates m-hidden">
+											<div class="date"><strong>27 декабря</strong></div>
+						<div class="weekday">воскресенье</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 18:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15912/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-6" id="bx_3218110189_15924">
+				<div class="col dates">
+											<div class="date"><strong>29 декабря</strong></div>
+						<div class="weekday">вторник</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/concert/14615/">Новый год в BashOpera</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Праздничный концерт</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+																												<a href="/repertoire/concert/14615/15924/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15913">
+				<div class="col dates">
+											<div class="date"><strong>30 декабря</strong></div>
+						<div class="weekday">среда</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 12:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15913/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15914">
+				<div class="col dates m-hidden">
+											<div class="date"><strong>30 декабря</strong></div>
+						<div class="weekday">среда</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 19:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15914/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+									
+			
+			<div class="item content fm-11 fs-0 fs-7" id="bx_3218110189_15915">
+				<div class="col dates">
+											<div class="date"><strong>31 декабря</strong></div>
+						<div class="weekday">четверг</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/ballet/289/">Щелкунчик</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Пётр Чайковский</li>
+																																							<li>6+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 12:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+										
+										<img src="/bitrix/templates/responsive/img/pushkin.svg" class="pushkin" title="Доступно по Пушкинской карте">
+																												<a href="/repertoire/ballet/289/15915/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+								
+													<div class="item title">
+					Январь				</div>
+							
+			
+			<div class="item content fm-0 fs-0 fs-6" id="bx_3218110189_15950">
+				<div class="col dates">
+											<div class="date"><strong>8 января</strong></div>
+						<div class="weekday">пятница</div>
+															</div>
+				<div class="col names">
+					<div class="name"><a href="/repertoire/concert/14615/">Новый год в BashOpera</a></div>
+					<div class="tags">
+						<ul class="b-tags">
+																																							<li class="composer">Праздничный концерт</li>
+																																							<li>12+</li>
+																					</ul>
+					</div>
+														</div>
+				<div class="col staff">
+									</div>
+				<div class="col actions">
+					<div class="hall"><strong><a class="a-hall about-place" href="/tickets/halls/234/?template=blank">Большой зал</a>, 18:00</strong></div>
+					<div class="price">
+											</div>
+					<div class="buy">
+																						
+																		
+																												<a href="/repertoire/concert/14615/15950/" onclick="yaCounter37201245.reachGoal('kassy-btn');" class="b-byu-btn">
+											Билеты
+											<img src="/bitrix/templates/responsive/img/ticket.svg">
+										</a>
+																												</div>
+									</div>
+			</div>
+
+		
+				</div>
+
+	</div>
+
+</div>
+</div>
+</div>
+</div>
+
+		
+
+
+
+
+<div class="b-partners">
+	<div class="container">
+		<div class="top">
+			<div class="title">Партнеры</div>
+		</div>
+		<div class="items">
+
+											
+											
+													<a href="https://bashneft.ru" target="_blank" class="item" id="bx_651765591_15221">
+						<img src="/upload/thumbs/8ff/8ff859498aeb7a7d3ef3493c7b500dbf.png">
+					</a>
+								
+											
+											
+													<span class="item" id="bx_651765591_15890">
+						<img src="/upload/thumbs/e1f/e1f4646e55c89e9f955e6895c8083d7c.jpg">
+					</span>
+								
+											
+											
+													<span class="item" id="bx_651765591_15853">
+						<img src="/upload/thumbs/44e/44e20fe28ecf6e7ac96a903ac4f5d0a3.png">
+					</span>
+								
+											
+											
+													<span class="item" id="bx_651765591_15653">
+						<img src="/upload/thumbs/d00/d00cad0089792f9a2b0a6fb810a1dee0.png">
+					</span>
+								
+											
+											
+													<span class="item" id="bx_651765591_15787">
+						<img src="/upload/thumbs/8f5/8f5e2e2df3518cba896e188db55076ac.png">
+					</span>
+								
+			
+		</div>
+	</div>
+</div>
+<div class="b-footer">
+	<div class="content">
+		<div class="container">
+			<div class="items">
+				
+<div class="item">
+<div class="wrap">
+
+
+	<div class="inner">
+
+		<div class="header"><a href="/affiche/">Афиша</a></div>
+
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/artists/">Артисты и Дирекция</a></div>
+
+		
+			<ul>
+			
+				<li><a href="/artists/opera/">Опера</a></li>
+
+			
+				<li><a href="/artists/ballet/">Балет</a></li>
+
+			
+				<li><a href="/artists/chorus/">Хор</a></li>
+
+			
+				<li><a href="/artists/orchestra/">Оркестр</a></li>
+
+			
+				<li><a href="/artists/detskaya-opernaya-studiya/">Детская оперная студия</a></li>
+
+			
+				<li><a href="/artists/khor-malchikov-i-yunoshey/">Хор мальчиков и юношей</a></li>
+
+			
+				<li><a href="/artists/management/">Художественное руководство и дирекция</a></li>
+
+			
+				<li><a href="/artists/guest/">Приглашенные солисты</a></li>
+
+			
+				<li><a href="/artists/workshops/">Постановочные цеха</a></li>
+
+			
+			</ul>
+		
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/repertoire/">Репертуар</a></div>
+
+		
+			<ul>
+			
+				<li><a href="/repertoire/opera/">Опера</a></li>
+
+			
+				<li><a href="/repertoire/ballet/">Балет</a></li>
+
+			
+				<li><a href="/repertoire/operetta/">Оперетта</a></li>
+
+			
+				<li><a href="/repertoire/comedy/">Музыкальная комедия</a></li>
+
+			
+				<li><a href="/repertoire/children/">Спектакль для детей</a></li>
+
+			
+			</ul>
+		
+		 
+		
+	</div>
+
+			</div>	
+		</div>
+		<div class="item">
+		<div class="wrap">
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/about/">О театре</a></div>
+
+		
+			<ul>
+			
+				<li><a href="/about/index.php">История театра</a></li>
+
+			
+				<li><a href="/about/schemes/">Схемы залов</a></li>
+
+			
+				<li><a href="/about/vacancies/">Вакансии</a></li>
+
+			
+				<li><a href="/about/contacts/">Контакты</a></li>
+
+			
+			</ul>
+		
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/news/">Новости</a></div>
+
+		
+			<ul>
+			
+				<li><a href="/news/events/">События</a></li>
+
+			
+				<li><a href="/news/press/">Пресса</a></li>
+
+			
+			</ul>
+		
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/partners/">Партнерам</a></div>
+
+		
+			<ul>
+			
+				<li><a href="/partners/partnership/">Сотрудничество</a></li>
+
+			
+				<li><a href="/partners/details/">Реквизиты театра</a></li>
+
+			
+				<li><a href="/partners/offer/">Организация гастролей</a></li>
+
+			
+				<li><a href="/partners/technical/">Технические параметры оборудования</a></li>
+
+			
+				<li><a href="/partners/documents/">Документы и отчеты</a></li>
+
+			
+				<li><a href="/partners/procurement/">Закупки</a></li>
+
+			
+				<li><a href="/partners/rent/">Аренда</a></li>
+
+			
+				<li><a href="/partners/anticorruptional/">Антикоррупционная деятельность</a></li>
+
+			
+			</ul>
+		
+		 
+		
+	</div>
+
+			</div>	
+		</div>
+		<div class="item">
+		<div class="wrap">
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/laboratory/">Лаборатория современной Башкирской оперы</a></div>
+
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/severnye-amury/">Северные амуры</a></div>
+
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/visitors/">Посетителям</a></div>
+
+		
+			<ul>
+			
+				<li><a href="/visitors/index.php">Правила посещения театра</a></li>
+
+			
+				<li><a href="/visitors/rules.php">Правила продажи и возврата билетов</a></li>
+
+			
+				<li><a href="/visitors/available-environment.php">Льготы и скидки</a></li>
+
+			
+				<li><a href="/visitors/uchastnikam-svo.php">Участникам СВО и их семьям</a></li>
+
+			
+				<li><a href="/visitors/quality.php">Независимая оценка качества услуг</a></li>
+
+			
+				<li><a href="/visitors/gift-certificates.php">Подарочные сертификаты</a></li>
+
+			
+				<li><a href="/visitors/pushkinskaya-karta.php">Пушкинская карта</a></li>
+
+			
+				<li><a href="/visitors/voprosy.php">Часто задаваемые вопросы</a></li>
+
+			
+			</ul>
+		
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="https://media.bashopera.ru">Media</a></div>
+
+		 
+		
+	</div>
+
+		
+
+	<div class="inner">
+
+		<div class="header"><a href="/academy/">Академия</a></div>
+
+		
+			<ul>
+			
+				<li><a href="http://abdrazakov-academy.ru/">Академия Абдразакова</a></li>
+
+			
+				<li><a href="/academy/index.php">Об Академии</a></li>
+
+			
+				<li><a href="/academy/information/">Сведения об образовательной организации</a></li>
+
+			
+				<li><a href="/academy/contacts/">Контакты</a></li>
+
+			
+				<li><a href="/academy/news/">Новости Академии</a></li>
+
+			
+			</ul>
+		
+		 
+		
+	</div>
+
+		
+
+</div>	
+</div>				<div class="item">
+					<div class="wrap">
+						<div class="inner">
+							<div class="social">
+								<a href="https://vk.com/bashopera" target="_blank" class="m-vk"><img src="/bitrix/templates/responsive/img/vk.svg"></a>
+<a href="https://www.youtube.com/channel/UCfW4myn8NvUYA2gZM4EXpQw" target="_blank" class="m-yt"><img src="/bitrix/templates/responsive/img/yt.svg"></a>							</div>
+							<div class="phones">
+								<div class="title">Заказ билетов</div>
+<!--div class="phone"><a href="tel:+73472575788">+7 (347) 257-57-88</a></div-->
+<div class="phone"><a href="tel:+73472727712">+7 (347) 272-77-12</a></div>
+<div class="email"><a href="mailto:ticket@bashopera.ru">ticket@bashopera.ru</a></div>
+<div class="title">Пресс-служба</div>
+<div class="phone"><a href="tel:+73472727080">+7 (347) 272-70-80</a></div>
+<div class="email"><a href="mailto:pr@bashopera.ru">pr@bashopera.ru</a></div>
+<div class="title">Приемная</div>
+<div class="phone"><a href="tel:+73472721012">+7 (347) 272-10-12</a></div>
+<div class="email"><a href="mailto:bashopera@ufanet.ru">bashopera@ufanet.ru</a></div>							</div>
+							<div class="votes">
+								<div class="vote"><a href="https://forms.gle/FRPMwmJ1SR58kkR3A" target="_blank">Оставить отзыв о посещении театра</a></div>
+<div class="vote"><a href="/visitors/rules.php" target="_blank">Правила предоставления услуги «Продажа билетов через интернет»</a></div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container">
+			<div class="items">
+				<div class="left">
+					
+©2026 Башкирский государственный театр оперы и балета<br>
+<a href="#" class="bvi-panel-open">
+	<i class="bvi-glyphicon bvi-glyphicon-eye-open"></i>
+	Версия для слабовидящих
+</a> 
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter37201245 = new Ya.Metrika({
+					id:37201245,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					webvisor:true,
+					trackHash:true,
+					ecommerce:"dataLayer"
+				});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<!-- /Yandex.Metrika counter -->				</div>
+				<div class="center">
+					<form action="/search/" method="post" class="search">
+						<input type="text" name="q" value="" placeholder="Поиск по сайту">
+						<button type="submit"></button>
+					</form>
+				</div>
+				<div class="right">
+					<span class="dev"><a href="https://site-ufa.ru" target="_blank" title="Создание сайта — Architect, Уфа">Создание сайта</a><br>Architect</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<nav id="menu" style="display:none;">
+	<ul>
+
+		
+			<li class="mm-selected">
+									<a href="/affiche/">Афиша</a>
+				
+			 
+
+			</li>
+
+		
+			<li>
+									<span>Артисты и Дирекция</span>
+				
+							
+				<ul>
+
+					
+					<li>
+													<a href="/artists/opera/">Опера</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/ballet/">Балет</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/chorus/">Хор</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/orchestra/">Оркестр</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/detskaya-opernaya-studiya/">Детская оперная студия</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/khor-malchikov-i-yunoshey/">Хор мальчиков и юношей</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/management/">Художественное руководство и дирекция</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/guest/">Приглашенные солисты</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/artists/workshops/">Постановочные цеха</a>
+						
+						 
+
+					</li>
+
+								
+				</ul>
+
+			 
+
+			</li>
+
+		
+			<li>
+									<span>Репертуар</span>
+				
+							
+				<ul>
+
+					
+					<li>
+													<a href="/repertoire/opera/">Опера</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/repertoire/ballet/">Балет</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/repertoire/operetta/">Оперетта</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/repertoire/comedy/">Музыкальная комедия</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/repertoire/children/">Спектакль для детей</a>
+						
+						 
+
+					</li>
+
+								
+				</ul>
+
+			 
+
+			</li>
+
+		
+			<li>
+									<span>О театре</span>
+				
+							
+				<ul>
+
+					
+					<li>
+													<a href="/about/index.php">История театра</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/about/schemes/">Схемы залов</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/about/vacancies/">Вакансии</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/about/contacts/">Контакты</a>
+						
+						 
+
+					</li>
+
+								
+				</ul>
+
+			 
+
+			</li>
+
+		
+			<li>
+									<span>Новости</span>
+				
+							
+				<ul>
+
+					
+					<li>
+													<a href="/news/events/">События</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/news/press/">Пресса</a>
+						
+						 
+
+					</li>
+
+								
+				</ul>
+
+			 
+
+			</li>
+
+		
+			<li>
+									<span>Партнерам</span>
+				
+							
+				<ul>
+
+					
+					<li>
+													<a href="/partners/partnership/">Сотрудничество</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/partners/details/">Реквизиты театра</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/partners/offer/">Организация гастролей</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/partners/technical/">Технические параметры оборудования</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/partners/documents/">Документы и отчеты</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/partners/procurement/">Закупки</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/partners/rent/">Аренда</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/partners/anticorruptional/">Антикоррупционная деятельность</a>
+						
+						 
+
+					</li>
+
+								
+				</ul>
+
+			 
+
+			</li>
+
+		
+			<li>
+									<a href="/laboratory/">Лаборатория современной Башкирской оперы</a>
+				
+			 
+
+			</li>
+
+		
+			<li>
+									<span>Посетителям</span>
+				
+							
+				<ul>
+
+					
+					<li>
+													<a href="/visitors/index.php">Правила посещения театра</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/visitors/rules.php">Правила продажи и возврата билетов</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/visitors/available-environment.php">Льготы и скидки</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/visitors/uchastnikam-svo.php">Участникам СВО и их семьям</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/visitors/quality.php">Независимая оценка качества услуг</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/visitors/gift-certificates.php">Подарочные сертификаты</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/visitors/pushkinskaya-karta.php">Пушкинская карта</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/visitors/voprosy.php">Часто задаваемые вопросы</a>
+						
+						 
+
+					</li>
+
+								
+				</ul>
+
+			 
+
+			</li>
+
+		
+			<li>
+									<a href="https://media.bashopera.ru">Media</a>
+				
+			 
+
+			</li>
+
+		
+			<li>
+									<span>Академия</span>
+				
+							
+				<ul>
+
+					
+					<li>
+													<a href="http://abdrazakov-academy.ru/">Академия Абдразакова</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/academy/index.php">Об Академии</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/academy/information/">Сведения об образовательной организации</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/academy/contacts/">Контакты</a>
+						
+						 
+
+					</li>
+
+				
+					<li>
+													<a href="/academy/news/">Новости Академии</a>
+						
+						 
+
+					</li>
+
+								
+				</ul>
+
+			 
+
+			</li>
+
+		
+			<li>
+									<a href="/severnye-amury/">Северные амуры</a>
+				
+			 
+
+			</li>
+
+		
+			<li>
+									<a href="/repertoire/concert/14117/">Аудиопрогулка</a>
+				
+			 
+
+			</li>
+
+		
+	</ul>
+	</nav>
+
+
+<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?162",t.onload=function(){VK.Retargeting.Init("VK-RTRG-221639-8NZv9"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-221639-8NZv9" style="position:fixed; left:-999px;" alt=""/></noscript>
+
+<script async src="https://culturaltracking.ru/static/js/spxl.js?pixelId=2009" data-pixel-id="2009"></script>
+
+<!-- EIPSK Widget -->
+<script type="text/javascript" src="https://pro.culture.ru/scripts/widgets/api.js?6450"></script> 
+<script type="text/javascript">
+	EIPSK.Widgets.ModalDialog('ynkq4vqwa76c5swe');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-11-14T18:41:29.620412+00:00",
+  "repository": "https://github.com/vkkasher/kiber102-final",
+  "visibility": "private",
+  "project_secrets_included": true,
+  "owner_explicit_authorization": true,
+  "personal_account_credentials_included": false,
+  "snapshots": {
+    "production": {
+      "archive_sha256": "fb29911b13fe4b7aacbb781f938dfc404f9b5b3658a0f02394d3eb7b78ee0574",
+      "archive_bytes": 30130250,
+      "restore": "passed",
+      "integrity": "ok",
+      "counts_match": true,
+      "original_env_bytes_match": true,
+      "bot_states": 2,
+      "saved_messages": 16,
+      "cleanup": {
+        "removed_messages": 4,
+        "changed_states": 1
+      }
+    },
+    "local": {
+      "archive_sha256": "a968b4c98597e3edd8d6863d2efa2c0493d830070100a42a254c8b1d13cc19af",
+      "archive_bytes": 15934571,
+      "restore": "passed",
+      "integrity": "ok",
+      "counts_match": true,
+      "original_env_bytes_match": true,
+      "bot_states": 2,
+      "saved_messages": 14,
+      "cleanup": {
+        "removed_messages": 0,
+        "changed_states": 0
+      }
+    }
+  },
+  "validation": {
+    "ruff": "passed",
+    "openapi_typescript_contracts": "current",
+    "release_package_regressions": "4 passed",
+    "python_suite": {
+      "passed": 312,
+      "skipped": 5,
+      "reason_skipped": "PostgreSQL tests require an isolated configured database",
+      "warnings": 1
+    },
+    "public_source_package": {
+      "files": 229,
+      "private_data_included": false,
+      "handoff_excluded": true
+    },
+    "production_services": [
+      "api",
+      "web",
+      "bot",
+      "worker",
+      "proxy"
+    ],
+    "production_services_state": "active",
+    "production_health": "ok",
+    "staged_env_and_archive_bytes_match": true
+  }
+}

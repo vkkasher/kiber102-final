@@ -1,0 +1,98 @@
+{
+  "prepared_at": "2026-11-14T20:24:30.371084+00:00",
+  "kind": "clean_final_source_snapshot",
+  "repository": "https://github.com/vkkasher/kiber102-final",
+  "visibility": "private",
+  "commit_message": "Cicada 3301",
+  "scope": "levels 1-4",
+  "history": "single final snapshot by owner decision; intermediate history not included",
+  "contents": [
+    "source",
+    "migrations",
+    "OpenAPI and API examples",
+    "deployment and operations instructions",
+    "unit and integration tests",
+    "evaluation runner and cases",
+    "dated evidence",
+    "backup demonstration video",
+    "sanitized real catalogue database"
+  ],
+  "excluded": [
+    "working .env and *.env files",
+    "private handoff archives",
+    "bot state",
+    "user records",
+    "dependencies and build caches",
+    "AI continuation instructions"
+  ],
+  "validation": {
+    "python": {
+      "passed": 449,
+      "skipped": 5,
+      "skip_reason": "isolated PostgreSQL not configured",
+      "warnings": 1
+    },
+    "ruff": "passed",
+    "python_dependency_consistency": "passed",
+    "frontend_node_tests": 5,
+    "frontend_vitest_tests": 9,
+    "typescript": "passed",
+    "eslint": "passed",
+    "openapi_typescript_contracts": "current",
+    "production_build": "passed using isolated NEXT_BUILD_DIR to avoid locked local standalone directory",
+    "browser_public_accessibility": {
+      "passed": 9,
+      "target": "https://kiber102.vkkasher.ru",
+      "widths": [
+        360,
+        390,
+        768,
+        1280
+      ],
+      "coverage": [
+        "12 public/admin-login/docs routes at each width",
+        "mobile keyboard navigation",
+        "reduced motion and visible keyboard focus",
+        "iframe without cookies and with isolated host styles",
+        "keyboard-operated read-only Swagger request",
+        "Swagger using only local assets"
+      ]
+    },
+    "secret_scan": {
+      "files_checked": 240,
+      "known_secret_values_checked": 6,
+      "known_secret_hits": [],
+      "credential_pattern_hits": [],
+      "compressed_database_scanned_after_decompression": true
+    },
+    "documentation_links": {
+      "checked": 110,
+      "missing": []
+    },
+    "sanitized_database": "PRAGMA integrity_check ok, foreign_key_check passed; non-catalogue tables empty",
+    "clean_repository_python": {
+      "passed": 449,
+      "skipped": 5,
+      "warnings": 1,
+      "seconds": 105.88,
+      "working_env_present": false,
+      "private_data_present": false
+    }
+  },
+  "limitations": [
+    "This publication does not rotate previously issued credentials or remove existing clones",
+    "Independent external acceptance metrics remain pending as documented in acceptance.md",
+    "Current bot UI changes are newer than the backup video",
+    "Historical JSON evidence retains original dates and old commit identifiers; these are not commits in the new repository"
+  ],
+  "catalogue_snapshot": {
+    "manifest": "data/manifest.json",
+    "events": 78,
+    "sources": 3,
+    "event_sources": 148,
+    "ticket_evidence": 52,
+    "raw_source_records": 3116,
+    "user_data_tables": "empty",
+    "configuration": "excluded"
+  }
+}

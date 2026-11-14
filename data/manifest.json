@@ -1,0 +1,64 @@
+{
+  "prepared_at_utc": "2026-11-14T20:18:27.727253+00:00",
+  "kind": "real_catalogue_review_snapshot",
+  "source": "private production backup prepared 2026-11-14 UTC",
+  "latest_source_record_at": "2026-11-14 18:16:18.407979",
+  "schema_migration": [
+    "d7f3198a624e"
+  ],
+  "archive": {
+    "file": "catalog.sqlite3.gz",
+    "bytes": 19704713,
+    "sha256": "abf5c3381e1d69aced80bde6b147d38e6e12ef65b8ce1d04ea918ee9e061e009"
+  },
+  "database": {
+    "file": "catalog.sqlite3",
+    "bytes": 134205440,
+    "sha256": "2083348209378f0cf6d79e19f922a90a4cfce5647276254c850f537799787781",
+    "integrity_check": "ok",
+    "foreign_key_check": "passed"
+  },
+  "preserved_tables": [
+    "alembic_version",
+    "event_sources",
+    "event_ticket_evidence",
+    "events",
+    "provider_identities",
+    "raw_source_records",
+    "sources"
+  ],
+  "table_counts": {
+    "agent_actions": 0,
+    "agent_dialogs": 0,
+    "agent_traces": 0,
+    "alembic_version": 1,
+    "audit_log": 0,
+    "cost_usage": 0,
+    "event_sources": 148,
+    "event_ticket_evidence": 52,
+    "events": 78,
+    "feedback": 0,
+    "llm_quotas": 0,
+    "notification_outbox": 0,
+    "provider_identities": 78,
+    "raw_source_records": 3116,
+    "sources": 3,
+    "subscriptions": 0
+  },
+  "event_status_counts": {
+    "draft": 5,
+    "published": 73
+  },
+  "privacy": {
+    "fresh_database_created": true,
+    "user_data_tables_empty": true,
+    "bot_state_included": false,
+    "configuration_files_included": false,
+    "working_credentials_included": false
+  },
+  "limitations": [
+    "Dated catalogue snapshot, not a live availability guarantee",
+    "Draft and sold-out rows are preserved as facts; public filtering is enforced by the application",
+    "Historical raw-source records are preserved; review snapshot is not a PostgreSQL migration"
+  ]
+}

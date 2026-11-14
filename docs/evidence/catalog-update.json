@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-14T17:15:47Z",
+  "public_origin": "https://kiber102.vkkasher.ru",
+  "scope": "Session-specific artwork, explicit ticket withdrawal, event-detail cleanup and Telegram entry links",
+  "checks": {
+    "python_full_suite": {"passed": 250, "skipped": 4, "skip_reason": "Separate PostgreSQL test URL not supplied"},
+    "python_after_feedback_index_alignment": {"passed": 30},
+    "ruff": "passed",
+    "openapi_types": "current",
+    "fresh_sqlite_migration_upgrade": "c15b9e042d73",
+    "alembic_check": "No new upgrade operations detected",
+    "typescript": "passed",
+    "eslint": "passed",
+    "node_tests": 5,
+    "vitest_tests": 8,
+    "production_build_on_server": "passed",
+    "browser_metadata_and_source_links": {"passed": 2},
+    "browser_responsive_accessibility": {
+      "passed": 8,
+      "widths": [360, 1280],
+      "pages": ["Palata event detail", "Vesy event detail", "/agent", "/credits"],
+      "axe_tags": ["wcag2a", "wcag2aa", "wcag21aa"],
+      "violations": 0,
+      "horizontal_overflow": false
+    },
+    "impeccable_mechanical_detector": [],
+    "isolated_project_services": "api, web, bot, worker and proxy active",
+    "neighbor_project_services": "active; not restarted by this update"
+  },
+  "source_pass": {
+    "checked_at": "2026-11-14T17:10:41.981174+00:00",
+    "session_pages_checked": 99,
+    "matched_existing_events": 52,
+    "page_errors": 2,
+    "recent_snapshots_reparsed_after_explicit_no_seats_notice_support": 52,
+    "withdrawn_event_ids": ["5605cad9-df9c-4f3c-8b65-9037a362876a", "9b25b716-66d5-4245-8e33-ceb4f961a5a1"],
+    "withdrawn_titles": ["ДЖЕК", "Восемь любящих женщин"],
+    "public_events_after_withdrawal": 71,
+    "public_events_with_kassy_images": 50,
+    "worker_interval_seconds": 3600
+  },
+  "limitations": [
+    "Counts describe this inspection and change as sources update.",
+    "Two failed source pages preserved previous observations.",
+    "No suitable Vesy image was found in inspected official and ticket sources.",
+    "No Telegram messages were sent during these checks.",
+    "No independent human acceptance, production PostgreSQL migration or full external-provider benchmark is claimed."
+  ]
+}

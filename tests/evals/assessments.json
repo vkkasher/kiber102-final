@@ -1,0 +1,44 @@
+{
+  "provenance": "Manual internal labels written against the requests and synthetic fixture contract, not model predictions. Not independent external assessment.",
+  "constraints": {
+    "m01": {"city":"Уфа", "age":8, "price_max":800, "group_size":2, "category":"спектакль", "date_from":"2099-01-03", "date_to":"2099-01-03"},
+    "m04": {"city":"Уфа", "group_size":3, "price_max":1000, "category":"спектакль", "date_from":"2099-01-03"},
+    "m05": {"city":"Уфа", "age":5, "date_from":"2099-01-03"},
+    "m06": {"city":"Уфа", "age":12, "category":"концерт", "date_from":"2099-01-03"},
+    "m07": {"city":"Стерлитамак", "category":"концерт", "start_after":"18:00", "end_before":"20:00", "price_max":1500, "group_size":2, "date_from":"2099-01-03"},
+    "m08": {"city":"Уфа", "category":"концерт", "end_before":"20:00", "date_from":"2099-01-03"},
+    "m09": {"city":"Уфа", "category":"спектакль", "duration_max":30, "date_from":"2099-01-03"},
+    "m10": {"city":"Уфа", "category":"спектакль", "duration_max":120, "price_max":500, "date_from":"2099-01-03"},
+    "m11": {"city":"Уфа", "category":"спектакль", "language":"русский", "price_max":800, "group_size":2, "date_from":"2099-01-03"},
+    "m12": {"city":"Уфа", "age":6, "price_max":0, "date_from":"2099-01-03"},
+    "m13": {"city":"Уфа", "category":"спектакль", "start_after":"13:00", "end_before":"16:00", "date_from":"2099-01-03"},
+    "m14": {"city":"Уфа", "category":"спектакль", "price_max":1000, "group_size":2, "start_after":"15:00", "date_from":"2099-01-03"},
+    "m15": {"city":"Уфа", "language":"башкирский", "age":7, "price_max":250, "group_size":1, "date_from":"2099-01-03"},
+    "h01": {"city":"Уфа", "category":"спектакль", "age":8, "price_max":900, "group_size":2, "date_from":"2099-01-03"},
+    "h07": {"city":"Уфа", "category":"спектакль", "start_after":"13:00", "end_before":"15:30", "date_from":"2099-01-03"},
+    "h08": {"city":"Уфа", "category":"выставка", "age":2, "price_max":0, "date_from":"$TOMORROW"},
+    "h10": {"city":"Стерлитамак", "category":"концерт", "q":"джаз", "price_max":699, "date_from":"2099-01-03"}
+  },
+  "honest_refusals": {
+    "n01": ["нет подтверждённых"], "n02": ["не могу подтвердить бюджет"],
+    "n03": ["нет подтверждённых"], "n04": ["категории"],
+    "n05": ["названием"], "m02": ["бюджета"], "m06": ["возраст"],
+    "m08": ["окончание"], "m09": ["длительность"],
+    "r01": ["названием"], "r02": ["названием"], "r03": ["названием"],
+    "h06": ["не могу подтвердить бюджет"], "h09": ["нет подтверждённых"], "h10": ["бюджета"]
+  },
+  "primary_tools": {
+    "s01": {"name":"search_events", "arguments":{"city":"Уфа", "category":"спектакль"}},
+    "s02": {"name":"search_events", "arguments":{"city":"Уфа", "category":"концерт"}},
+    "s03": {"name":"search_events", "arguments":{"city":"Уфа", "category":"выставка"}},
+    "s04": {"name":"search_events", "arguments":{"city":"Стерлитамак", "category":"концерт"}},
+    "s05": {"name":"search_events", "arguments":{"city":"Салават", "category":"спектакль"}},
+    "m01": {"name":"search_events", "arguments":{"city":"Уфа", "age":8, "price_max":800, "group_size":2}},
+    "m07": {"name":"search_events", "arguments":{"city":"Стерлитамак", "start_after":"18:00", "end_before":"20:00"}},
+    "c01": {"name":"search_events", "arguments":{"city":"Уфа", "price_max":0}},
+    "c02": {"name":"search_events", "arguments":{"city":"Уфа", "age":8, "sort":"price"}},
+    "h01": {"name":"search_events", "arguments":{"city":"Уфа", "age":8, "price_max":900}},
+    "h03": {"name":"search_events", "arguments":{"city":"Уфа", "exclude_ids":["ufa-theatre-a", "ufa-theatre-b"]}},
+    "h10": {"name":"search_events", "arguments":{"city":"Стерлитамак", "q":"джаз", "price_max":699}}
+  }
+}

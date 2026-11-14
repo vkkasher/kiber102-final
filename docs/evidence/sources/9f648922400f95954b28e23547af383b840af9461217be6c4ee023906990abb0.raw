@@ -1,0 +1,582 @@
+
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Афиша - Государственный русский драматический театр г. Стерлитамак</title>
+	<link href="/afisha?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="Афиша - Государственный русский драматический театр г. Стерлитамак">
+	<link href="/afisha?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Афиша - Государственный русский драматический театр г. Стерлитамак">
+	<link href="/media/system/images/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+	<link href="/media/vendor/joomla-custom-elements/css/joomla-alert.min.css?0.4.1" rel="stylesheet">
+	<link href="/media/com_rsform/css/front.css?b1abcc" rel="stylesheet">
+
+    <link href="/media/templates/site/jd_templates/css/cssreset.css?" rel="stylesheet" />
+    <link href="/media/templates/site/jd_templates/css/owl.carousel.css?20261113144026" rel="stylesheet" />
+    <link href="/media/templates/site/jd_templates/css/style.css?20261113144026" rel="stylesheet" />
+	<script type="application/json" class="joomla-script-options new">{"joomla.jtext":{"RLTA_BUTTON_SCROLL_LEFT":"Scroll buttons to the left","RLTA_BUTTON_SCROLL_RIGHT":"Scroll buttons to the right","ERROR":"Ошибка","MESSAGE":"Сообщение","NOTICE":"Внимание","WARNING":"Предупреждение","SUCCESS":"Success","JCLOSE":"Закрыть","JOK":"Ок","JOPEN":"Открыть"},"system.paths":{"root":"","rootFull":"https:\/\/rusdramteatr.ru\/","base":"","baseFull":"https:\/\/rusdramteatr.ru\/"},"csrf.token":"21c2445c70ce449ec5a1e1a157ff4f15","system.keepalive":{"interval":3600000,"uri":"\/component\/ajax\/?format=json"}}</script>
+	<script src="/media/system/js/core.min.js?a3d8f8"></script>
+	<script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?504da4"></script>
+	<script src="/media/system/js/keepalive.min.js?08e025" type="module"></script>
+	<script src="/media/mod_menu/js/menu.min.js?b1abcc" type="module"></script>
+	<script src="/media/system/js/messages.min.js?9a4811" type="module"></script>
+	<script src="https://rusdramteatr.ru/modules/mod_news_pro_gk5/interface/scripts/engine.jquery.js"></script>
+	<script src="/media/com_rsform/js/script.js?b1abcc"></script>
+	<script>rltaSettings = {"switchToAccordions":true,"switchBreakPoint":576,"buttonScrollSpeed":5,"addHashToUrls":true,"rememberActive":false,"wrapButtons":false}</script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://rusdramteatr.ru/#/schema/BreadcrumbList/125","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://rusdramteatr.ru/","name":"Главная"}},{"@type":"ListItem","position":2,"item":{"@id":"https://rusdramteatr.ru/afisha","name":"Афиша"}}]}</script>
+	<script>RSFormProUtils.addEvent(window, 'load', function(){
+	RSFormPro.setHTML5Validation('3', false, {"parent":"","field":"rsform-error"}, 0);  
+});</script>
+
+    
+    <script src="/media/templates/site/jd_templates/js/jquery.min.js"></script> 
+
+ 
+<link rel="stylesheet" href="/media/templates/site/jd_templates/css/v_normal.css?20261113144026" rel="stylesheet" />
+
+
+<!-- ПРОКУЛЬТУРА -->
+<script type="text/javascript" src="https://pro.culture.ru/scripts/widgets/api.js?5889"></script>
+
+</head>
+
+<body class="site  wrapper-static view- no-layout no-task">
+    <div id="system-message-container" aria-live="polite"></div>
+
+
+
+<link type="text/css" rel="stylesheet" href="//cdn.kassy.ru/widget/wrap_widget.css?ver=3" />
+<script src="//cdn.kassy.ru/widget/wrap_widget.js?ver=3"></script>
+
+<header id="header" class="header container-header full-width">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.topmenu');
+    const menu = document.querySelector('.mod-menu');
+
+    menuToggle.addEventListener('click', function() {
+        menu.classList.toggle('active');
+    });
+});
+        
+    </script>
+    
+    <script>
+    
+    window.addEventListener('scroll', function() {
+    const header = document.getElementById('header');
+    const logo = document.getElementById('logo');
+
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition > 100) {
+        header.classList.add('shrink');
+    } else {
+        header.classList.remove('shrink');
+    }
+});
+</script>
+    
+
+
+                
+        
+        <div class="header_top">
+
+                                    <div class="moduletable logo">
+        
+<div id="mod-custom113" class="mod-custom custom">
+    <p><a href="/"><img src="/images/style/logo-w.png" alt="Театр г. Стерлитамак" /></a></p></div>
+</div>
+<nav class="moduletable menu" aria-labelledby="mod-1">
+            <h3 class="topmenu" id="mod-1">☰</h3>        <ul class="mod-menu mod-list nav ">
+<li class="nav-item item-132 current active"><a href="/afisha" aria-current="page">Афиша</a></li><li class="nav-item item-133 deeper parent"><a href="/repertuar" >Репертуар</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-172"><a href="/repertuar/repertuar-osnovnoy" >Основной репертуар</a></li><li class="nav-item item-173"><a href="/repertuar/detskij-repertuar" >Детский репертуар</a></li><li class="nav-item item-183"><a href="/repertuar/gastrolnye-spektakli" >Гастрольные спектакли</a></li><li class="nav-item item-174"><a href="/repertuar/arkhiv" >Архив</a></li></ul></li><li class="nav-item item-117"><a href="/novosti" >Новости</a></li><li class="nav-item item-131 default"><a href="/" class="link_logo"><img src="/images/style/logo-w.png" alt="" width="1166" height="1723" loading="lazy"><span class="image-title">Главная</span></a></li><li class="nav-item item-134 deeper parent"><a href="/teatr/o-teatre" >Театр</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-171"><a href="/teatr/o-teatre" >О театре</a></li><li class="nav-item item-170"><a href="/teatr/dokumenty" >Документы</a></li><li class="nav-item item-128"><a href="/teatr/kontakty" >Контакты</a></li><li class="nav-item item-175"><a href="/teatr/partnjory" >Партнёры</a></li><li class="nav-item item-176"><a href="/teatr/poleznye-ssylki" >Полезные ссылки</a></li><li class="nav-item item-189"><a href="/teatr/god-edinstva-narodov-rossii" >Год единства народов России</a></li></ul></li><li class="nav-item item-129 deeper parent"><a href="/lyudi-teatra/artisty" >Люди театра</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-137"><a href="/lyudi-teatra/administratsiya" >Администрация</a></li><li class="nav-item item-130"><a href="/lyudi-teatra/artisty" >Артисты</a></li><li class="nav-item item-180"><a href="/lyudi-teatra/administratsiya-2" >Художественно-постановочная часть</a></li></ul></li><li class="nav-item item-169 deeper parent"><a href="/bilety" >Билеты</a><ul class="mod-menu__sub list-unstyled small"><li class="nav-item item-178"><a href="/bilety/lgoty-i-skidki" >Льготы и скидки</a></li><li class="nav-item item-179"><a href="/bilety/pushkinskaya-karta" >Пушкинская карта</a></li><li class="nav-item item-177"><a href="https://sterlitamak.kassy.ru/shows/teatr/2-1954/" target="_blank" rel="noopener noreferrer">Подарочный сертификат</a></li><li class="nav-item item-181"><a href="/bilety/podderzhka-uchastnikov-svo" >Поддержка участникам СВО и их семьям</a></li></ul></li><li class="nav-item item-167"><a href="/?vi=1" >Версия для слабовидящих</a></li><li class="nav-item item-168"><a href="/?vi=0" >Основная версия</a></li></ul>
+</nav>
+
+                  
+            
+                <div class="header_sc">
+            
+                                    <div class="moduletable soc">
+        
+<div id="mod-custom147" class="mod-custom custom">
+    <p><a href="https://vk.com/rusdramteatrstr" target="_blank" rel="noopener" class="vk">vk</a> <a href="https://t.me/rusdramteatrstr" target="_blank" rel="noopener" class="tg">tg</a></p></div>
+</div>
+
+                                
+                
+                <div class="header-version">
+                                                
+                <a href="https://rusdramteatr.ru/afisha?vi=1" class="version">Версия для <br>слабовидящих</a>
+                <a href="https://rusdramteatr.ru/afisha?vi=0" class="version">Основная <br>версия</a>    
+                </div>
+                     
+              
+            
+        
+                        
+        </div>        
+    </header>
+    
+    
+    
+    
+                    <div>
+                <div class="moduletable navigation afisha">
+        <nav class="mod-breadcrumbs__wrapper" aria-label="Навигация [Только на странице афиши]">
+    <ol class="mod-breadcrumbs breadcrumb px-3 py-2">
+                    <li class="mod-breadcrumbs__divider float-start">
+                <span class="divider icon-location icon-fw" aria-hidden="true"></span>
+            </li>
+        
+        <li class="mod-breadcrumbs__item breadcrumb-item"><a href="/" class="pathway"><span>Главная</span></a></li><li class="mod-breadcrumbs__item breadcrumb-item active"><span>Афиша</span></li>    </ol>
+    </nav>
+</div>
+<div class="moduletable head afisha">
+            <h1 >Афиша</h1>        
+<div id="mod-custom137" class="mod-custom custom">
+    </div>
+</div>
+
+            </div>
+            <main>
+                    <div class="com-content-category-blog blog">
+    
+        
+    
+    
+                        <div class="alert alert-info">
+                <span class="icon-info-circle" aria-hidden="true"></span><span class="visually-hidden"></span>
+                                </div>
+            
+    
+    
+    
+                </div>
+        
+                
+                <div class="moduletable page_afisha">
+            <h2 class="head">Ноябрь</h2>        	<div class="nspMain page_afisha" id="nsp-nsp-135" data-config="">
+		
+					<div class="nspArts bottom" style="width:100%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol300" style="padding:0;clear:both;">
+								<a href="/afisha/makbet-14-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/Makbet-09.jpg#joomlaImage://local-images/repertuar/Makbet-09.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/makbet">Макбет</a></h2>
+<p>трагедия</p>
+<h5>16+</h5>
+<p>Прекрасный и великий Шекспир на нашей сцене!&nbsp;</p>
+<p>2 ч. 50 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25365">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">14 ноября, СБ 18:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/tsarevna-lyagushka-15-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/Carevna-03.jpg#joomlaImage://local-images/repertuar/Carevna-03.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/detskij-repertuar/tsarevna-lyagushka">Царевна - Лягушка</a></h2>
+<p>по мотивам русских народных сказок</p>
+<h5>0+</h5>
+<p><span style="text-decoration: underline;">Для детей</span></p>
+<p>Любимая сказка о милосердии, доброте, настоящей любви и дружбе!</p>
+<p>1 ч.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25366">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">15 ноября, ВС 12:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/uzhin-s-durakom-15-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/ugin-c-durakom-07.jpg#joomlaImage://local-images/repertuar/ugin-c-durakom-07.jpg?width=1301&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/uzhin-s-durakom">Ужин с дураком</a></h2>
+<p>Комедия</p>
+<h5>16+</h5>
+<p>Искромётная комедия на все времена.</p>
+<p>2ч. 30 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25367">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">15 ноября, ВС 18:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/gorgony-17-11-2026-g-meleuz" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/2977.%20Gorgony%20-156.jpg#joomlaImage://local-images/repertuar/2977. Gorgony -156.jpg?width=1300&height=867" alt="Горгоны"  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/gorgony">Горгоны</a></h2>
+<p>Артистическая комедия</p>
+<h5>16+</h5>
+<h6><span style="text-decoration: underline;">Гастроли в г. Мелеуз</span></h6>
+<p>Кажется, сама судьба связала героинь этой пьесы невидимой нитью и разорвать её практически невозможно!</p>
+<p>1 ч 30 мин</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25357">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">17 ноября, ВТ 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/groza-18-11-2026-kumertau" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/groza-01.jpg#joomlaImage://local-images/repertuar/groza-01.jpg?width=1301&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/groza">Гроза</a></h2>
+<p>драма</p>
+<h5>16+</h5>
+<h6><span style="text-decoration: underline;">Гастроли в г. Кумертау</span></h6>
+<p>Спектакль - Номинант национальной театральной премии&nbsp;«‎ЗОЛОТАЯ МАСКА»!</p>
+<p>2ч. 30 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25488">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">18 ноября, СР 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/vesy-18-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/71eb0f73-1941-43ea-9551-7098eac0ac82.jpg#joomlaImage://local-images/repertuar/71eb0f73-1941-43ea-9551-7098eac0ac82.jpg?width=1240&height=760" alt="ясновидящая"  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/dram-ploshchadka">Весы</a></h2>
+<p>Автор пьесы Евгений Гришковец</p>
+<h6><span style="text-decoration: underline;">Проект&nbsp;«‎ДРАМ.ПЛОЩАДКА»</span></h6>
+<h5>16+</h5>
+<p>О мужчинах, объединённых общим волнением накануне рождения своих детей</p>
+<p>&nbsp;</p>
+<p>2 ч. с обсуждением</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25033">Билетов нет</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">18 ноября, СР 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/maskarad-21-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/4.jpg#joomlaImage://local-images/repertuar/4.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/maskarad">Маскарад</a></h2>
+<p>драма в двух действиях с антрактом</p>
+<h5>16+</h5>
+<h4><span style="text-decoration: underline;">Премьера!</span></h4>
+<p>Маскарад – это роскошный праздник, где среди изысканных нарядов скрываются пороки и слабости.</p>
+<p>2 ч 10 мин</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25368">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">21 ноября, СБ 18:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/mukha-tsokotukha-22-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/Muxa-07.jpg#joomlaImage://local-images/repertuar/Muxa-07.jpg?width=1300&height=865" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/detskij-repertuar/mukha-tsokotukha">Муха - Цокотуха</a></h2>
+<p>музыкальная сказка</p>
+<h5>0+</h5>
+<p><span style="text-decoration: underline;">Для детей</span></p>
+<p>Весёлая, музыкальная сказка о приключениях умницы Мухи и её друзей!</p>
+<p>&nbsp;</p>
+<p>1ч.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25369">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">22 ноября, ВС 12:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/ruslan-i-lyudmila-22-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/Ruslan_i_Ludmila_01.jpg#joomlaImage://local-images/repertuar/Ruslan_i_Ludmila_01.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/ruslan-i-lyudmila">Руслан и Людмила</a></h2>
+<p>романтическая фантазия</p>
+<h5>6+</h5>
+<p>Мистическая, фантазийная, смелая интерпретация поэмы великого Пушкина!</p>
+<p>2ч.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25370">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">22 ноября, ВС 18:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/mir-operett-24-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/mir_operett_01.jpg#joomlaImage://local-images/repertuar/mir_operett_01.jpg?width=1005&height=670" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/gastrolnye-spektakli/mir-operett">Мир оперетт</a></h2>
+<p>концерт</p>
+<h5>12+</h5>
+<h6><span style="text-decoration: underline;">Башкирский государственный академический театр оперы и балета</span></h6>
+<p>В этот вечер отличное настроение подарят зрителям полные драматизма сцены и искрящийся юмор</p>
+<p>1ч.</p>
+<p><a href="https://widget-bashopera.muzaticket.ru/sites/beta/event?skey=13314cc6a3f931d8b0009628ac57efc2&amp;id=128858">Билеты</a></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">24 ноября, ВТ 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/kak-vazhno-byt-serjoznym-28-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/kak_vagno_bit-06.jpg#joomlaImage://local-images/repertuar/kak_vagno_bit-06.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/kak-vazhno-byt-serjoznym">Как важно быть серьёзным</a></h2>
+<p>комедия</p>
+<h5>16+</h5>
+<p>Все случайности не случайны. Искромётная комедия о любви, лжи и безупречных манерах.</p>
+<p>2ч. 30 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25371">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">28 ноября, СБ 18:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/letuchij-korabl-29-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/LK_07.jpg#joomlaImage://local-images/repertuar/LK_07.jpg?width=1300&height=800" alt="Летучий корабль"  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/detskij-repertuar/letuchij-korabl">Летучий корабль</a></h2>
+<p>музыкальная сказка</p>
+<h5>0+</h5>
+<p><span style="text-decoration: underline;">Для детей</span></p>
+<p>Зрелищный, музыкальный спектакль сохранит очарование одноименного мультфильма, а добрые песни на музыку Максима Дунаевского и стихи Юрия Энтина подарят волшебное настроение!</p>
+<p>1ч. 10 мин</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25372">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">29 ноября, ВС 12:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/eto-vsjo-ona-29-11-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/Eto_vse_ona_04.jpg#joomlaImage://local-images/repertuar/Eto_vse_ona_04.jpg?width=1300&height=800" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/eto-vsjo-ona">Это всё она</a></h2>
+<p>драма, спектакль малой формы</p>
+<h5>16+</h5>
+<p>Современная драма о сложных взаимоотношениях матери и сына.</p>
+<p>1ч. 30 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25373">Билетов нет</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">29 ноября, ВС 19:00</p>							</div>
+												</div>
+																</div>
+
+									</div>
+			</div>
+		
+		
+			</div>
+</div>
+<div class="moduletable page_afisha">
+            <h2 class="head">Декабрь</h2>        	<div class="nspMain page_afisha" id="nsp-nsp-136" data-config="">
+		
+					<div class="nspArts bottom" style="width:100%;">
+								<div class="nspArtScroll1">
+					<div class="nspArtScroll2 nspPages1">
+																	<div class="nspArtPage active nspCol1">
+																				<div class="nspArt nspCol300" style="padding:0;clear:both;">
+								<a href="/afisha/gandi-molchal-po-subbotam-01-12-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/Gandi-molchal-08.jpg#joomlaImage://local-images/repertuar/Gandi-molchal-08.jpg?width=1301&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/gandi-molchal-po-subbotam">Ганди молчал по субботам</a></h2>
+<p>история одного развода</p>
+<h5>18+</h5>
+<p>Спектакль отличают тонкий психологизм, нетривиальность сюжета и пронзительность интонации.&nbsp;</p>
+<p>1ч. 10 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25518">Билетов нет</button></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">01 декабря, ВТ 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/my-khotim-chtoby-v-etom-mire-bylo-bolshe-schastlivykh-zhenshchin" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/my%20hotim%20ctob%20v%20etom%20mire%20bylo%20bolse%20scastlivyh%20zensin_1300H800.jpg#joomlaImage://local-images/repertuar/my hotim ctob v etom mire bylo bolse scastlivyh zensin_1300H800.jpg?width=2449&height=1507" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/my-khotim-chtoby-v-etom-mire-bylo-bolshe-schastlivykh-zhenshchin">Мы хотим, чтобы в этом мире было больше счастливых женщин</a></h2>
+<p>Поэтический спектакль-концерт</p>
+<h5>16+</h5>
+<h4><span style="text-decoration: underline;">Премьера!</span></h4>
+<p>Это не классический литературный вечер,а искренний разговор о любви, о мужчинах и о жизни.</p>
+<p>1 ч 15 мин</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25519">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">04 декабря, ПТ 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/nedorosl-05-12-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/nedorosl-06.jpg#joomlaImage://local-images/repertuar/nedorosl-06.jpg?width=1305&height=867" alt="Недоросль"  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/nedorosl">Недоросль</a></h2>
+<p>сатирическая комедия</p>
+<h5>12+</h5>
+<p>Старый как мир сюжет расскажем современно, остро, смешно и с большой любовью!</p>
+<p>2ч. 40 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25520">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">05 декабря, СБ 18:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/koshkin-dom-06-12-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/koshkin-dom-05.jpg#joomlaImage://local-images/repertuar/koshkin-dom-05.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/detskij-repertuar/koshkin-dom">Кошкин дом</a></h2>
+<p>музыкальная сказка</p>
+<h5>0+</h5>
+<p><span style="text-decoration: underline;">Для детей</span></p>
+<p>Музыкальная, зрелищная сказка о приключениях красавицы – кошки и её друзей подарит вам самые радостные и яркие эмоции!</p>
+<p>1ч.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25520">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">06 декабря, ВС 12:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/gorgony-06-12-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/gorgony867.jpg#joomlaImage://local-images/repertuar/gorgony867.jpg?width=1300&height=867" alt="Горгоны"  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/gorgony">Горгоны</a></h2>
+<p>Артистическая комедия</p>
+<h5>16+</h5>
+<h4><span style="text-decoration: underline;">Премьера!</span></h4>
+<p>Кажется, сама судьба связала героинь этой пьесы невидимой нитью и разорвать её практически невозможно!</p>
+<p>1 ч 30 мин</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25522">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">06 декабря, ВС 18:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/groza-10-12-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/groza-01.jpg#joomlaImage://local-images/repertuar/groza-01.jpg?width=1301&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/groza">Гроза</a></h2>
+<p>драма</p>
+<h5>16+</h5>
+<p>Спектакль - Номинант национальной театральной премии&nbsp;«‎ЗОЛОТАЯ МАСКА»!</p>
+<p>2ч. 30 мин.</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25523">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">10 декабря, ЧТ 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/leto-chelovecheskoe-11-12-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/LC1300h8672.jpg#joomlaImage://local-images/repertuar/LC1300h8672.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/leto-chelovecheskoe">Лето человеческое</a></h2>
+<p>интеллектуальная драма&nbsp;</p>
+<h5>16+</h5>
+<p>Есть ли в мире что-то сильнее родительской любви? Она начинается с первым биением сердца ребенка и никогда не заканчивается. Спектакль «Лето человеческое» напомнит, как важно говорить о любви тем, кто дал нам счастье жить.</p>
+<p>1ч. 30 мин..</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25524">Билеты</button></p>
+<p>&nbsp;<img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">11 декабря, ПТ 19:00</p>							</div>
+																															<div class="nspArt nspCol300" style="padding:0;">
+								<a href="/afisha/maskarad-12-12-2026" class="nspImageWrapper tleft fleft"  style="margin:0;" target="_self"><img  class="nspImage" src="/images/repertuar/4.jpg#joomlaImage://local-images/repertuar/4.jpg?width=1300&height=867" alt=""  style="width:1000px;height:667px;" /></a><p class="nspText tleft fleft"><h2><a href="/repertuar/maskarad">Маскарад</a></h2>
+<p>драма в двух действиях с антрактом</p>
+<h5>16+</h5>
+<h4><span style="text-decoration: underline;">Премьера!</span></h4>
+<p>Маскарад – это роскошный праздник, где среди изысканных нарядов скрываются пороки и слабости.</p>
+<p>2 ч 10 мин</p>
+<p><button class="button-buy" data-kassy-agent_id="rusdramteatr.ru" data-kassy-db="sterlitamak" data-kassy-event_id="25525">Билеты</button></p>
+<p><img src="/images/style/pk_card.png" alt="pk card" width="113" height="100" /></p>
+</p><p class="nspInfo nspInfo1 tleft fnone">12 декабря, СБ 18:00</p>							</div>
+												</div>
+																</div>
+
+									</div>
+			</div>
+		
+		
+			</div>
+</div>
+<div class="moduletable navigation afisha">
+        <nav class="mod-breadcrumbs__wrapper" aria-label="Навигация [Только на странице афиши] ВНИЗУ">
+    <ol class="mod-breadcrumbs breadcrumb px-3 py-2">
+                    <li class="mod-breadcrumbs__divider float-start">
+                <span class="divider icon-location icon-fw" aria-hidden="true"></span>
+            </li>
+        
+        <li class="mod-breadcrumbs__item breadcrumb-item"><a href="/" class="pathway"><span>Главная</span></a></li><li class="mod-breadcrumbs__item breadcrumb-item active"><span>Афиша</span></li>    </ol>
+    </nav>
+</div>
+                
+        
+        
+        
+    </main>
+            
+    <footer>
+        <div class="footer-top">
+                   
+                <div class="moduletable podpiska">
+        <div class="rsformpodpiska">
+	<form method="post"  id="userForm" class="formResponsive" action="https://rusdramteatr.ru/afisha"><h2>Подпишитесь и будьте в курсе событий</h2>
+
+<!-- Do not remove this ID, it is used to identify the page so that the pagination script can work correctly -->
+<fieldset class="formContainer formHorizontal" id="rsform_3_page_0">
+	<div class="formRow">
+		<div class="formSpan12">
+			<div class="rsform-block rsform-block-fname">
+				<label class="formControlLabel" for="fname"></label>
+				<div class="formControls">
+					<div class="formBody">
+						<input type="text" value="" size="20" placeholder="Имя" name="form[fname]" id="fname" class="rsform-input-box" aria-required="true" />
+						<span class="formValidation"><span id="component23" class="formNoError"></span></span>
+						<p class="formDescription"></p>
+					</div>
+				</div>
+			</div>
+			<div class="rsform-block rsform-block-femail">
+				<label class="formControlLabel" for="femail"></label>
+				<div class="formControls">
+					<div class="formBody">
+						<input type="text" value="" size="20" placeholder="E-mail" name="form[femail]" id="femail" class="rsform-input-box" aria-required="true" />
+						<span class="formValidation"><span id="component24" class="formNoError"></span></span>
+						<p class="formDescription"></p>
+					</div>
+				</div>
+			</div>
+			<div class="rsform-block rsform-block-fenter">
+				<label class="formControlLabel"></label>
+				<div class="formControls">
+					<div class="formBody">
+						<button type="submit" name="form[fenter]" id="fenter" class="rsform-submit-button" >Подписаться</button>
+						<span class="formValidation"></span>
+						<p class="formDescription"></p>
+					</div>
+				</div>
+			</div>
+			<div class="rsform-block rsform-block-ftext">
+					<p>Нажимая на кнопку «Отправить», я даю согласие на <a href="/images/docs/PK.pdf" target="_blank">обработку персональных данных</a></p>
+			</div>
+		</div>
+	</div>
+</fieldset><input type="hidden" name="form[formId]" value="3"/><input type="hidden" name="21c2445c70ce449ec5a1e1a157ff4f15" value="1"></form></div></div>
+<div class="moduletable n-menu">
+            <h3 >Посетителям</h3>        
+<div id="mod-custom152" class="mod-custom custom">
+    <p><a href="/?option=com_content&amp;view=article&amp;id=41:pravila-poseshcheniya-teatra&amp;catid=14:posetitelyam">Правила посещения театра</a></p>
+<p><a href="/bilety/lgoty-i-skidki">Льготы и скидки</a></p>
+<p><a href="/bilety/pushkinskaya-karta">Пушкинская карта</a></p>
+<p><a href="https://sterlitamak.kassy.ru/shows/teatr/2-1954/" target="_blank" rel="noopener">Подарочный сертификат</a></p>
+<p><a href="/teatr/poleznye-ssylki">Полезные ссылки</a></p>
+<p><a href="https://forms.mkrf.ru/e/2579/xTPLeBU7/?ap_orgcode=047948" target="_blank" rel="nofollow noopener">Оценка удовлетворенности граждан</a></p>
+<p><a href="/afisha/protivodejstvie-korruptsii">Противодействие коррупции</a></p></div>
+</div>
+<div class="moduletable f-contact">
+        
+<div id="mod-custom121" class="mod-custom custom">
+    <p>Государственный русский драматический <br />театр г. Стерлитамак</p>
+<p>453124, РБ, Стерлитамак, <br />ул. Худайбердина, 18</p>
+<p><a href="tel:+73473255567">8 (3473) 25-55-67</a>, <a href="/+79170455567">+7 (917) 045-55-67</a></p>
+<p><strong>Режим работы кассы:</strong></p>
+<ul>
+<li>пн с 12:00 до 20:00</li>
+<li>вт с 12:00 до 20:00</li>
+<li>ср с 12:00 до 20:00</li>
+<li>чт с 12:00 до 20:00</li>
+<li>пт с 12:00 до 20:00</li>
+<li>сб с 12:00 до 20:00</li>
+<li>вс с 10:00 до 20:00</li>
+</ul>
+<p><strong>Без перерыва и выходных</strong></p>
+<p>Театр в соц. сетях:</p>
+<p><a href="https://t.me/rusdramteatrstr" target="_blank" rel="noopener" class="tg">tg</a> <a href="https://vk.com/rusdramteatrstr" target="_blank" rel="noopener" class="vk">vk</a></p></div>
+</div>
+
+           
+                </div>
+        <div class="footer-bottom">
+        <div>
+            © 2026, ГБУКиИ РБ Государственный русский драматический театр г. Стерлитамак<br>
+            <a href="/images/docs/PK.pdf" target="_blank">Политика конфиденциальности </a>
+            <a href="/images/docs/PS.pdf" target="_blank">Пользовательское соглашение </a>
+            
+        </div>
+        <div>Разработка сайта:<br>
+        <a href="https://sistematik.ru" target="_blank">Sistematik.Ru</a></div>
+        </div>
+            
+    </footer>
+    
+    <div id="toTop"></div>
+    <script src="/media/templates/site/jd_templates/js/toTop.js"></script>
+    
+    <noindex>
+<div class="cookie" id="cookie-agreement" style="display:none;">
+    <div class="container">
+        <p>Наш сайт использует файлы cookie для улучшения работы.</p>
+        <p>Продолжая им пользоваться, вы соглашаетесь на обработку персональных данных в соответствии с <a href="/images/docs/PK.pdf">политикой конфиденциальности</a>.</p>
+        <a href="#" id="cookie-agreement-button">Принять</a>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    if (document.cookie.indexOf('cookie_agreement=true') == -1) {
+        $('#cookie-agreement').show();
+    }
+});
+$('#cookie-agreement-button').click(function() {
+    document.cookie = 'cookie_agreement=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+    $('#cookie-agreement').hide();
+    return false;
+});
+</script>
+</noindex>
+
+<script>
+$(document).ready(function(){
+  $('.nspInfo').each(function(){
+    var title = $(this);
+    // Объединяем оба replace в цепочку
+    title.html(
+      title.text()
+        .replace(/(^\w+)/g, '<span>$1</span>') // Сначала оборачиваем первое слово
+        .replace(/,/g, '<br>') // Затем заменяем все запятые на <br>
+    );
+  });
+});   
+</script>
+
+<script>
+$(document).ready(function(){
+  $('.item-pagegl time').each(function(){
+    var title = $(this);
+    title.html(
+      title.text()
+        // Заменяем каждое слово на <span>слово</span>
+        .replace(/(\w+)/g, '<span>$1</span>')
+        // Затем заменяем запятые на <br>
+        .replace(/,/g, '<br>')
+    );
+  });
+});
+</script>
+
+<script>
+jQuery(function($){
+   $("#ffphone").mask("+7(999)999-99-99");
+   $("#ffphone2").mask("+7(999)999-99-99");
+   });
+</script>
+
+<script type="text/javascript" src='/media/templates/site/jd_templates/js/jquery.min_slider.js'></script>
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/owl.carousel.min.js"></script>
+
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/slider-carousel-actors.js"></script>
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/slider-carousel-video.js"></script>
+<script type="text/javascript" src="/media/templates/site/jd_templates/js/jquery.maskedinput.min.js"></script>
+
+<!-- ПРОКУЛЬТУРА -->
+<script type="text/javascript" src="https://pro.culture.ru/scripts/widgets/api.js?5889"></script>
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92836869, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/92836869" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+</body>
+
+</html>

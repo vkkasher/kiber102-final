@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "author_role": "finish_agent_bot delegated internal QA",
+    "created_at": "2026-11-13T11:38:58.375672+00:00",
+    "content_sha256": "4591ecfa974f244d91256f176d3c01705592956fc7b9dffb27a0e73583cc5e00",
+    "frozen_before_fresh_implementation_inspection": true,
+    "external_jury": false,
+    "prior_author_context": "Author previously implemented this agent; newly written frozen regression requests, not independent or untouched external holdout. Oracles must not change after first execution."
+  },
+  "cases": [
+    {
+      "id": "blind01",
+      "kind": "family",
+      "message": "В Уфе 10.07.2098 два взрослых с двумя детьми 4 и 9 лет, до 1800 рублей на всех",
+      "oracle": {
+        "filters": {
+          "city": "Уфа",
+          "date_from": "2098-07-10",
+          "date_to": "2098-07-10",
+          "age": 4,
+          "group_size": 4,
+          "price_max": 1800
+        },
+        "event_ids": [
+          "blind-free"
+        ],
+        "question": false
+      }
+    },
+    {
+      "id": "blind02",
+      "kind": "cross_month",
+      "message": "Уфа: с 30 июня по 2 июля 2098 года, выставки",
+      "oracle": {
+        "filters": {
+          "city": "Уфа",
+          "category": "выставка",
+          "date_from": "2098-06-30",
+          "date_to": "2098-07-02"
+        },
+        "event_ids": [
+          "blind-june",
+          "blind-july"
+        ],
+        "question": false
+      }
+    },
+    {
+      "id": "blind03",
+      "kind": "bare_title",
+      "message": "синяя птица в Уфе 10.07.2098",
+      "oracle": {
+        "filters": {
+          "city": "Уфа",
+          "q": "синяя птица",
+          "date_from": "2098-07-10"
+        },
+        "event_ids": [
+          "blind-cheap"
+        ],
+        "question": false
+      }
+    },
+    {
+      "id": "blind04",
+      "kind": "reset_price",
+      "message": "Без ограничений по бюджету, все цены",
+      "state": {
+        "filters": {
+          "city": "Уфа",
+          "category": "концерт",
+          "date_from": "2098-07-10",
+          "date_to": "2098-07-10",
+          "price_max": 0
+        }
+      },
+      "oracle": {
+        "filters": {
+          "city": "Уфа",
+          "category": "концерт",
+          "price_max": null
+        },
+        "event_ids": [
+          "blind-expensive"
+        ],
+        "question": false
+      }
+    },
+    {
+      "id": "blind05",
+      "kind": "off_topic",
+      "message": "Сколько будет 17 умножить на 23?",
+      "state": {
+        "filters": {
+          "city": "Уфа",
+          "date_from": "2098-07-10",
+          "date_to": "2098-07-10"
+        }
+      },
+      "oracle": {
+        "event_ids": [],
+        "validation": "refused_off_topic",
+        "filters": {
+          "city": "Уфа",
+          "date_from": "2098-07-10"
+        },
+        "question": false
+      }
+    },
+    {
+      "id": "blind06",
+      "kind": "scaled_price",
+      "message": "В Уфе 10.07.2098 бюджет 1,5 тыс рублей на двоих",
+      "oracle": {
+        "filters": {
+          "city": "Уфа",
+          "date_from": "2098-07-10",
+          "price_max": 1500,
+          "group_size": 2
+        },
+        "event_ids": [
+          "blind-free",
+          "blind-cheap",
+          "blind-second"
+        ],
+        "question": false
+      }
+    },
+    {
+      "id": "blind07",
+      "kind": "cancelled_detail",
+      "message": "Отменили ли событие ID blind-cancelled? Покажи карточку.",
+      "state": {
+        "filters": {
+          "city": "Уфа"
+        }
+      },
+      "oracle": {
+        "event_ids": [
+          "blind-cancelled"
+        ],
+        "event_statuses": {
+          "blind-cancelled": "cancelled"
+        },
+        "text_contains": "отмен",
+        "primary_tool": "get_event",
+        "question": false
+      }
+    },
+    {
+      "id": "blind08",
+      "kind": "explicit_feedback",
+      "message": "Сообщить об ошибке в событии ID blind-cheap: неверно указан адрес.",
+      "state": {
+        "filters": {
+          "city": "Уфа"
+        },
+        "last_ids": [
+          "blind-expensive"
+        ]
+      },
+      "oracle": {
+        "event_ids": [],
+        "pending_tool": "save_feedback",
+        "pending_arguments": {
+          "event_id": "blind-cheap"
+        },
+        "writes": 0,
+        "question": false
+      }
+    },
+    {
+      "id": "blind09",
+      "kind": "hour_words",
+      "message": "Концерт в Уфе 10.07.2098 после 18 часов, закончить до 22 часов",
+      "oracle": {
+        "filters": {
+          "city": "Уфа",
+          "category": "концерт",
+          "date_from": "2098-07-10",
+          "start_after": "18:00",
+          "end_before": "22:00"
+        },
+        "event_ids": [
+          "blind-expensive"
+        ],
+        "question": false
+      }
+    },
+    {
+      "id": "blind10",
+      "kind": "infeasible_plan",
+      "endpoint": "/api/v1/agent/plan",
+      "payload": {
+        "city": "Уфа",
+        "date": "2098-07-10",
+        "window_start": "10:00",
+        "window_end": "22:00",
+        "budget": 700,
+        "adults": 2,
+        "interests": [
+          "спектакль"
+        ],
+        "max_travel_minutes": 0
+      },
+      "oracle": {
+        "event_ids": [],
+        "feasible": false,
+        "minimal_change": {
+          "field": "budget",
+          "value": 1400,
+          "delta": 700
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "blind-free",
+      "title": "TEST_DATA Тихая выставка",
+      "category": "выставка",
+      "date_start": "2098-07-10T11:00:00+05:00",
+      "date_end": "2098-07-10T12:00:00+05:00",
+      "price_min": 0,
+      "price_max": 0,
+      "age_limit": 0
+    },
+    {
+      "id": "blind-cheap",
+      "title": "TEST_DATA Синяя птица",
+      "category": "спектакль",
+      "date_start": "2098-07-10T14:00:00+05:00",
+      "date_end": "2098-07-10T15:00:00+05:00",
+      "price_min": 300,
+      "price_max": 400,
+      "age_limit": 6
+    },
+    {
+      "id": "blind-second",
+      "title": "TEST_DATA Лесная история",
+      "category": "спектакль",
+      "date_start": "2098-07-10T16:00:00+05:00",
+      "date_end": "2098-07-10T17:00:00+05:00",
+      "price_min": 250,
+      "price_max": 300,
+      "age_limit": 6
+    },
+    {
+      "id": "blind-expensive",
+      "title": "TEST_DATA Вечерняя музыка",
+      "category": "концерт",
+      "date_start": "2098-07-10T19:00:00+05:00",
+      "date_end": "2098-07-10T21:00:00+05:00",
+      "price_min": 1000,
+      "price_max": 1200,
+      "age_limit": 16
+    },
+    {
+      "id": "blind-june",
+      "title": "TEST_DATA Июньская экспозиция",
+      "category": "выставка",
+      "date_start": "2098-06-30T11:00:00+05:00",
+      "date_end": "2098-06-30T12:00:00+05:00",
+      "price_min": 0,
+      "price_max": 0,
+      "age_limit": 0
+    },
+    {
+      "id": "blind-july",
+      "title": "TEST_DATA Июльская экспозиция",
+      "category": "выставка",
+      "date_start": "2098-07-02T11:00:00+05:00",
+      "date_end": "2098-07-02T12:00:00+05:00",
+      "price_min": 0,
+      "price_max": 0,
+      "age_limit": 0
+    },
+    {
+      "id": "blind-cancelled",
+      "title": "TEST_DATA Отменённый сеанс",
+      "category": "спектакль",
+      "date_start": "2098-07-10T12:00:00+05:00",
+      "date_end": "2098-07-10T13:00:00+05:00",
+      "price_min": 0,
+      "price_max": 0,
+      "age_limit": 0,
+      "status": "cancelled"
+    }
+  ]
+}

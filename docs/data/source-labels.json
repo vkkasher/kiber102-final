@@ -1,0 +1,999 @@
+{
+  "review_type": "agent_reviewed",
+  "human_verified": false,
+  "reviewed_on": "2026-11-13",
+  "sampling": "Целевая выборка будущих сеансов трёх официальных источников. Факты отдельно переписаны после чтения исходных страниц. Не является внешней человеческой разметкой.",
+  "sources": {
+    "bashopera_december": {
+      "adapter": "bashopera",
+      "url": "https://www.bashopera.ru/affiche/dekabr-2026/",
+      "raw_sha256": "1f133a96dc2745057636399257b3d38fbaff1a24842db144efc10440a2102749",
+      "context": "Официальная афиша Декабрь 2026. Последний сеанс 8 января продолжает сезон в 2027 году. Цены и длительность на выбранной странице не указаны."
+    },
+    "sterlitamak": {
+      "adapter": "sterlitamak",
+      "url": "https://rusdramteatr.ru/afisha",
+      "raw_sha256": "9f648922400f95954b28e23547af383b840af9461217be6c4ee023906990abb0",
+      "documents": {
+        "https://rusdramteatr.ru/bilety": "8afa28180d339a06283a53542d69ba116f841f234d1ed6c2555ffb036a0a6ea7"
+      },
+      "context": "Только фактические сведения. Цены являются опубликованными тарифами по названию спектакля. Они не подтверждают наличие мест конкретного сеанса. Два выездных сеанса и один сеанс без явного года в URL исключены."
+    },
+    "rusdram": {
+      "adapter": "rusdram",
+      "url": "https://rusdram.ru/afisha.html",
+      "raw_sha256": "9c235c607b119893e28e3992a65aa21ac670516cf0e1fa14a5fe287b99dd33df",
+      "context": "Дата из data-date, часы и возраст из видимой карточки. JSON-LD сверяется отдельно. Цена и длительность не указаны."
+    }
+  },
+  "cards": [
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 0
+      },
+      "expected": {
+        "title": "Садко",
+        "date_start": "2026-12-01T19:00:00+05:00",
+        "age_limit": 12,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 1
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-02T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 2
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-03T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 3
+      },
+      "expected": {
+        "title": "Кошкин дом",
+        "date_start": "2026-12-05T12:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Малый зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 4
+      },
+      "expected": {
+        "title": "Евгений Онегин",
+        "date_start": "2026-12-05T18:00:00+05:00",
+        "age_limit": 12,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 5
+      },
+      "expected": {
+        "title": "Кошкин дом",
+        "date_start": "2026-12-06T12:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Малый зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 6
+      },
+      "expected": {
+        "title": "Евгений Онегин",
+        "date_start": "2026-12-06T18:00:00+05:00",
+        "age_limit": 12,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 7
+      },
+      "expected": {
+        "title": "Любовь. Опера. Театр",
+        "date_start": "2026-12-09T19:00:00+05:00",
+        "age_limit": 12,
+        "category": "концерт",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 8
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-10T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 9
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-11T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 10
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-12T12:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 11
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-12T18:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 12
+      },
+      "expected": {
+        "title": "Кармен",
+        "date_start": "2026-12-15T19:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 13
+      },
+      "expected": {
+        "title": "Кармен",
+        "date_start": "2026-12-16T19:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 14
+      },
+      "expected": {
+        "title": "Муж за дверью. Званый вечер с итальянцами",
+        "date_start": "2026-12-17T19:00:00+05:00",
+        "age_limit": 12,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Малый зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 15
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-19T18:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 16
+      },
+      "expected": {
+        "title": "Летучий корабль",
+        "date_start": "2026-12-20T12:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 17
+      },
+      "expected": {
+        "title": "Летучий корабль",
+        "date_start": "2026-12-20T15:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 18
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-22T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 19
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-23T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 20
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-24T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 21
+      },
+      "expected": {
+        "title": "Рождество",
+        "date_start": "2026-12-25T19:00:00+05:00",
+        "age_limit": 12,
+        "category": "концерт",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Малый зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 22
+      },
+      "expected": {
+        "title": "Новый год в BashOpera",
+        "date_start": "2026-12-26T18:00:00+05:00",
+        "age_limit": 12,
+        "category": "концерт",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 23
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-27T12:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 24
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-27T18:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 25
+      },
+      "expected": {
+        "title": "Новый год в BashOpera",
+        "date_start": "2026-12-29T19:00:00+05:00",
+        "age_limit": 12,
+        "category": "концерт",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 26
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-30T12:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 27
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-30T19:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 28
+      },
+      "expected": {
+        "title": "Щелкунчик",
+        "date_start": "2026-12-31T12:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "bashopera_december",
+      "locator": {
+        "selector": ".item.content",
+        "index": 29
+      },
+      "expected": {
+        "title": "Новый год в BashOpera",
+        "date_start": "2027-01-08T18:00:00+05:00",
+        "age_limit": 12,
+        "category": "концерт",
+        "city": "Уфа",
+        "venue": "Башкирский театр оперы и балета, Большой зал",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 0,
+        "tariff_heading_title": "Макбет"
+      },
+      "expected": {
+        "title": "Макбет",
+        "date_start": "2026-11-14T18:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 500,
+        "price_max": 1000,
+        "is_free": false,
+        "duration_min": 170
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 1,
+        "tariff_heading_title": "Царевна - Лягушка"
+      },
+      "expected": {
+        "title": "Царевна - Лягушка",
+        "date_start": "2026-11-15T12:00:00+05:00",
+        "age_limit": 0,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 350,
+        "price_max": 600,
+        "is_free": false,
+        "duration_min": 60
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 2,
+        "tariff_heading_title": "Ужин с дураком"
+      },
+      "expected": {
+        "title": "Ужин с дураком",
+        "date_start": "2026-11-15T18:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 500,
+        "price_max": 1200,
+        "is_free": false,
+        "duration_min": 150
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 5,
+        "tariff_heading_title": "Весы"
+      },
+      "expected": {
+        "title": "Весы",
+        "date_start": "2026-11-18T19:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": 120
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 6,
+        "tariff_heading_title": "Маскарад"
+      },
+      "expected": {
+        "title": "Маскарад",
+        "date_start": "2026-11-21T18:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 600,
+        "price_max": 2000,
+        "is_free": false,
+        "duration_min": 130
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 7,
+        "tariff_heading_title": "Муха - Цокотуха"
+      },
+      "expected": {
+        "title": "Муха - Цокотуха",
+        "date_start": "2026-11-22T12:00:00+05:00",
+        "age_limit": 0,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 350,
+        "price_max": 600,
+        "is_free": false,
+        "duration_min": 60
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 8,
+        "tariff_heading_title": "Руслан и Людмила"
+      },
+      "expected": {
+        "title": "Руслан и Людмила",
+        "date_start": "2026-11-22T18:00:00+05:00",
+        "age_limit": 6,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 500,
+        "price_max": 1000,
+        "is_free": false,
+        "duration_min": 120
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 9,
+        "tariff_heading_title": "Мир оперетт"
+      },
+      "expected": {
+        "title": "Мир оперетт",
+        "date_start": "2026-11-24T19:00:00+05:00",
+        "age_limit": 12,
+        "category": "концерт",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": 60
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 10,
+        "tariff_heading_title": "Как важно быть серьёзным"
+      },
+      "expected": {
+        "title": "Как важно быть серьёзным",
+        "date_start": "2026-11-28T18:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 500,
+        "price_max": 1200,
+        "is_free": false,
+        "duration_min": 150
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 11,
+        "tariff_heading_title": "Летучий корабль"
+      },
+      "expected": {
+        "title": "Летучий корабль",
+        "date_start": "2026-11-29T12:00:00+05:00",
+        "age_limit": 0,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 450,
+        "price_max": 650,
+        "is_free": false,
+        "duration_min": 70
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 12,
+        "tariff_heading_title": "Это всё она"
+      },
+      "expected": {
+        "title": "Это всё она",
+        "date_start": "2026-11-29T19:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 700,
+        "price_max": 1500,
+        "is_free": false,
+        "duration_min": 90
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 13,
+        "tariff_heading_title": "Ганди молчал по субботам"
+      },
+      "expected": {
+        "title": "Ганди молчал по субботам",
+        "date_start": "2026-12-01T19:00:00+05:00",
+        "age_limit": 18,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 2000,
+        "price_max": 2000,
+        "is_free": false,
+        "duration_min": 70
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 15,
+        "tariff_heading_title": "Недоросль"
+      },
+      "expected": {
+        "title": "Недоросль",
+        "date_start": "2026-12-05T18:00:00+05:00",
+        "age_limit": 12,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 500,
+        "price_max": 1000,
+        "is_free": false,
+        "duration_min": 160
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 16,
+        "tariff_heading_title": "Кошкин дом"
+      },
+      "expected": {
+        "title": "Кошкин дом",
+        "date_start": "2026-12-06T12:00:00+05:00",
+        "age_limit": 0,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 350,
+        "price_max": 600,
+        "is_free": false,
+        "duration_min": 60
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 17,
+        "tariff_heading_title": "Горгоны"
+      },
+      "expected": {
+        "title": "Горгоны",
+        "date_start": "2026-12-06T18:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 500,
+        "price_max": 1500,
+        "is_free": false,
+        "duration_min": 90
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 18,
+        "tariff_heading_title": "Гроза"
+      },
+      "expected": {
+        "title": "Гроза",
+        "date_start": "2026-12-10T19:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 500,
+        "price_max": 1500,
+        "is_free": false,
+        "duration_min": 150
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 19,
+        "tariff_heading_title": "Лето человеческое"
+      },
+      "expected": {
+        "title": "Лето человеческое",
+        "date_start": "2026-12-11T19:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 800,
+        "price_max": 1200,
+        "is_free": false,
+        "duration_min": 90
+      }
+    },
+    {
+      "source": "sterlitamak",
+      "locator": {
+        "selector": ".nspArt",
+        "index": 20,
+        "tariff_heading_title": "Маскарад"
+      },
+      "expected": {
+        "title": "Маскарад",
+        "date_start": "2026-12-12T18:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Стерлитамак",
+        "venue": "Государственный русский драматический театр г. Стерлитамак",
+        "price_min": 600,
+        "price_max": 2000,
+        "is_free": false,
+        "duration_min": 130
+      }
+    },
+    {
+      "source": "rusdram",
+      "locator": {
+        "selector": "article.show[data-date]",
+        "index": 1
+      },
+      "expected": {
+        "title": "ДВОЕ",
+        "date_start": "2026-11-14T18:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Русский драматический театр РБ",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    },
+    {
+      "source": "rusdram",
+      "locator": {
+        "selector": "article.show[data-date]",
+        "index": 2
+      },
+      "expected": {
+        "title": "ПРИЧАЛ",
+        "date_start": "2026-11-15T14:00:00+05:00",
+        "age_limit": 16,
+        "category": "спектакль",
+        "city": "Уфа",
+        "venue": "Русский драматический театр РБ",
+        "price_min": null,
+        "price_max": null,
+        "is_free": false,
+        "duration_min": null
+      }
+    }
+  ]
+}
